@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="800" height="300" role="img" aria-label="Florida FR44 Auto Insurance article illustration">
+  <rect width="800" height="300" fill="#f7f8fb"/>
+  <g><rect x="60" y="147" width="46" height="113" rx="10" fill="#101f3c" opacity="0.25" /><rect x="190" y="216" width="46" height="44" rx="10" fill="#101f3c" opacity="0.37" /><rect x="320" y="166" width="46" height="94" rx="10" fill="#101f3c" opacity="0.49" /><rect x="450" y="159" width="46" height="101" rx="10" fill="#101f3c" opacity="0.61" /><rect x="580" y="147" width="46" height="113" rx="10" fill="#101f3c" opacity="0.73" /></g>
+  <circle cx="700" cy="60" r="70" fill="#101f3c" opacity="0.15"/>
+  <path d="M0 250 Q 400 210 800 250 L800 300 L0 300 Z" fill="#101f3c" opacity="0.12"/>
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="34" height="34" rx="8" fill="#101f3c"/>
+    <path d="M8 17 L15 24 L26 10" stroke="#101f3c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

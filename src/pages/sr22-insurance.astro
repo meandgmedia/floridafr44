@@ -1,0 +1,90 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+---
+<BaseLayout
+  title="SR22 Insurance in Florida"
+  description="Learn the difference between SR22 and FR44 insurance, Florida's requirements, and who needs each type of filing. Get a free quote today."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'SR22 Insurance', href: '/sr22-insurance/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container page-hero">
+      <span class="eyebrow">SR22 Guide</span>
+      <h1>SR22 insurance in Florida</h1>
+      <p class="lead">SR22 and FR44 both prove financial responsibility to the state, but they aren't interchangeable. Here's what Florida drivers need to know about each.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container article-layout">
+      <article class="article-body">
+        <h2>What is SR22 insurance?</h2>
+        <p>An SR22 is a certificate your insurance company files with the FLHSMV confirming you carry at least Florida's minimum required liability coverage. It's most often required after violations like driving without insurance, certain moving violations, or license reinstatement following a suspension unrelated to DUI.</p>
+
+        <h2>SR22 vs. FR44: what's the difference?</h2>
+        <table>
+          <thead><tr><th>Factor</th><th>SR22</th><th>FR44</th></tr></thead>
+          <tbody>
+            <tr><td>Required liability limits</td><td>Florida's standard minimums</td><td>Higher than standard minimums</td></tr>
+            <tr><td>Common trigger</td><td>Uninsured driving, license reinstatement, certain violations</td><td>DUI/DWI conviction</td></tr>
+            <tr><td>Typical filing period</td><td>Varies by case, often 3 years</td><td>Typically 3 years, no lapses</td></tr>
+            <tr><td>Cost impact</td><td>Moderate increase</td><td>Larger increase due to higher limits + risk profile</td></tr>
+          </tbody>
+        </table>
+        <p>In short: FR44 is reserved for DUI-related cases and requires more coverage than SR22. If your notice from the court or FLHSMV specifically says "FR44," standard SR22 coverage limits won't satisfy the requirement — see our <a href="/fr44-insurance/">full FR44 guide</a> for details.</p>
+
+        <h2>Who needs SR22 insurance in Florida?</h2>
+        <ul>
+          <li>Drivers reinstating a license after certain suspensions</li>
+          <li>Drivers cited for driving without insurance</li>
+          <li>Drivers with certain repeat moving violations</li>
+          <li>Drivers ordered by a Florida court to file proof of financial responsibility</li>
+        </ul>
+
+        <h2>How to get SR22 coverage</h2>
+        <p>Not every insurer offers SR22 filings, and pricing can vary significantly between carriers. We compare multiple Florida-licensed insurers to help you find SR22 coverage that fits your budget, and we file the certificate electronically once your policy is active.</p>
+
+        <div class="internal-links">
+          <h2>Related resources</h2>
+          <ul>
+            <li><a href="/fr44-insurance/">FR44 Insurance — Complete Guide</a></li>
+            <li><a href="/florida-auto-insurance/">Florida Auto Insurance Coverage Types</a></li>
+            <li><a href="/guides/fr44-vs-sr22/">FR44 vs. SR22: A Full Comparison</a></li>
+            <li><a href="/faq/">Full FAQ Library</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <aside class="article-aside">
+        <div class="card aside-card">
+          <h3>Need an SR22 filing?</h3>
+          <p>Get a fast quote and we'll handle the paperwork with the state.</p>
+          <a href="/quote/" class="btn btn-primary btn-block">Get a Free Quote</a>
+          <a href="sms:+17722260875" class="btn btn-outline btn-block" style="margin-top:0.6rem;">Text Us</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .page-hero { max-width: 760px; }
+  .lead { font-size: 1.08rem; }
+  .article-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  .article-body h2 { margin-top: 2.2rem; }
+  .internal-links { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+  .article-aside { position: sticky; top: calc(var(--header-h) + 1.5rem); }
+  .aside-card h3 { font-size: 1.05rem; }
+  .aside-card p { font-size: 0.9rem; }
+
+  @media (max-width: 980px) {
+    .article-layout { grid-template-columns: 1fr; }
+    .article-aside { position: static; }
+  }
+</style>

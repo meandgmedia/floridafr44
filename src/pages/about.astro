@@ -1,0 +1,82 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="About Us"
+  description="Florida FR44 Auto Insurance helps Florida drivers get back on the road with fast, friendly, affordable FR44 and SR22 insurance — statewide, with texting preferred."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'About', href: '/about/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container about-hero">
+      <span class="eyebrow">Our Mission</span>
+      <h1>Helping Florida drivers get back on the road</h1>
+      <p class="lead">
+        Needing FR44 or SR22 coverage can feel overwhelming — confusing terms, high stakes, and a deadline from the state. We started {site.name} to make the process simple, fast, and judgment-free for drivers across Florida.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid-2 about-content">
+      <div>
+        <h2>Why we do this</h2>
+        <p>
+          A single conviction shouldn't mean weeks of confusion about insurance. Our mission is straightforward: help Florida drivers understand exactly what coverage they need, compare it across multiple carriers, and get back to legal, on-the-road status as quickly as possible.
+        </p>
+        <p>
+          We specialize in FR44 and SR22 filings because we've seen how much stress a vague explanation or a slow response can add to an already difficult situation. Clear answers and fast communication are the foundation of how we work.
+        </p>
+      </div>
+      <div>
+        <h2>How we work</h2>
+        <p>
+          We compare rates across multiple Florida-licensed carriers so you're not stuck with a single quote. We explain FR44 and SR22 requirements in plain language, not insurance jargon. And because most of our customers tell us they'd rather text than call, we built our process around fast, friendly text communication — with phone and email always available too.
+        </p>
+        <p>
+          Whether you're in Miami, Orlando, Tampa, Jacksonville, or a small town in between, we serve drivers across the entire state of Florida the same way: quickly, honestly, and without pressure.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">What We Stand For</span>
+        <h2>Our commitment to every Florida driver</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="card">
+          <h3>Friendly service</h3>
+          <p>No judgment, no lectures — just help getting the coverage you need.</p>
+        </div>
+        <div class="card">
+          <h3>Fast communication</h3>
+          <p>We know deadlines matter. We aim to respond quickly, especially by text.</p>
+        </div>
+        <div class="card">
+          <h3>Statewide coverage</h3>
+          <p>We serve drivers in every corner of Florida, from big metros to small towns.</p>
+        </div>
+        <div class="card">
+          <h3>Straight answers</h3>
+          <p>We explain FR44 and SR22 requirements in plain English, not insurance-speak.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner heading="Let's find your best rate" subtext="Get a free quote in minutes, or text us and we'll take it from there." />
+</BaseLayout>
+
+<style>
+  .about-hero { max-width: 760px; }
+  .lead { font-size: 1.08rem; }
+  .about-content { align-items: start; }
+</style>

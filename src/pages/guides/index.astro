@@ -1,0 +1,50 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import GuideCard from '@components/GuideCard.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+import { getCollection } from 'astro:content';
+
+const guides = (await getCollection('guides')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+<BaseLayout
+  title="Florida Insurance Guides"
+  description="In-depth, long-form guides on FR44 insurance, SR22 insurance, and Florida driving requirements — everything you need in one place."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Guides', href: '/guides/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container">
+      <span class="eyebrow">In-Depth Guides</span>
+      <h1>Florida FR44 &amp; insurance guides</h1>
+      <p class="lead">Long-form, comprehensive guides covering everything from FR44 basics to license reinstatement and rate calculations.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div class="grid grid-3">
+        {guides.map((guide) => (
+          <GuideCard
+            href={`/guides/${guide.slug}/`}
+            title={guide.data.title}
+            description={guide.data.description}
+            image={guide.data.image}
+            imageAlt={guide.data.imageAlt}
+            readTime={guide.data.readTime}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .lead { max-width: 620px; font-size: 1.05rem; }
+</style>

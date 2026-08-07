@@ -1,0 +1,40 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="Disclaimer"
+  description="Disclaimer for Florida FR44 Auto Insurance regarding the informational content on this website."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Disclaimer', href: '/disclaimer/' }]} />
+  </div>
+  <section class="section-tight">
+    <div class="container legal-content">
+      <h1>Disclaimer</h1>
+      <p class="updated">Last updated: January 2026</p>
+
+      <h2>Not legal or financial advice</h2>
+      <p>The content on this website, including blog posts, guides, and FAQ pages, is provided for general informational purposes only. It is not intended as legal, financial, or professional advice, and should not be relied upon as such. Insurance laws, requirements, and rates change frequently.</p>
+
+      <h2>Independent agency</h2>
+      <p>{site.name} is an independent insurance agency. We are not an insurance carrier and do not underwrite policies. We compare options across multiple Florida-licensed carriers to help you find coverage, but final policy terms, pricing, and approval are determined by the issuing carrier.</p>
+
+      <h2>Confirm your specific requirements</h2>
+      <p>FR44 and SR22 requirements, filing periods, and coverage limits can vary based on your individual case. Always confirm your specific requirements with the applicable Florida court or the Florida Department of Highway Safety and Motor Vehicles (FLHSMV).</p>
+
+      <h2>No guarantee of outcomes</h2>
+      <p>While we work to provide accurate, up-to-date information, we make no guarantees regarding the completeness or accuracy of content on this site, or regarding specific insurance rates, approval, or outcomes.</p>
+
+      <h2>Contact us</h2>
+      <p>If you have questions about this disclaimer, contact us at <a href={`mailto:${site.email}`}>{site.email}</a>.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-content { max-width: 760px; }
+  .updated { color: var(--color-gray-500); font-size: 0.88rem; margin-bottom: 2rem; }
+  .legal-content h2 { margin-top: 2rem; }
+</style>

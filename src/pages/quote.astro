@@ -1,0 +1,177 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="Get a Free FR44 &amp; Auto Insurance Quote"
+  description="Request a free Florida FR44, SR22, or auto insurance quote. Fast answers, multiple carriers compared, and friendly service. Texting preferred."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Get a Free Quote', href: '/quote/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container quote-hero">
+      <span class="eyebrow">Free, No-Obligation Quote</span>
+      <h1>Get your free Florida insurance quote</h1>
+      <p class="lead">
+        Tell us a little about yourself and your vehicle, and we'll compare rates across multiple Florida-licensed carriers to find coverage that fits — FR44, SR22, or standard auto insurance.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container quote-grid">
+      <div class="quote-benefits">
+        <h2>Why request a quote with us?</h2>
+        <ul class="benefit-list">
+          <li>
+            <strong>Fast turnaround.</strong>
+            <span>Most quotes are ready within minutes during business hours.</span>
+          </li>
+          <li>
+            <strong>Multiple carriers compared.</strong>
+            <span>We check several Florida-licensed insurers so you don't have to shop around yourself.</span>
+          </li>
+          <li>
+            <strong>No pressure, no spam.</strong>
+            <span>We'll walk you through your options in plain English — you decide what's next.</span>
+          </li>
+          <li>
+            <strong>FR44 and SR22 experience.</strong>
+            <span>We specialize in high-risk filings and know Florida's requirements inside and out.</span>
+          </li>
+          <li>
+            <strong>Statewide service.</strong>
+            <span>Miami to Pensacola, we quote drivers anywhere in Florida.</span>
+          </li>
+        </ul>
+
+        <div class="quote-text-cta">
+          <h3>Prefer to skip the form?</h3>
+          <p>Text your name and city to <a href={site.smsHref}>{site.phone}</a> and we'll get started right away. Texting is the fastest way to reach us.</p>
+          <a href={site.smsHref} class="btn btn-outline btn-block">Text Us Instead</a>
+        </div>
+      </div>
+
+      <div class="quote-form-wrap card">
+        <h2>Request your free quote</h2>
+        <p class="form-note">Fields marked <span aria-hidden="true">*</span><span class="visually-hidden">required</span> are required.</p>
+
+        <!-- BEGIN WEB3FORMS PLACEHOLDER -->
+        <!--
+          Replace this form's action/hidden fields with your Web3Forms
+          access key to make it functional:
+          https://web3forms.com/
+
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+
+          Recommended additions once connected:
+          - "subject" hidden field (e.g. "New Quote Request")
+          - "redirect" hidden field to a /quote/thank-you/ page
+          - honeypot field named "botcheck" for spam protection
+        -->
+        <form class="quote-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY" />
+          <input type="hidden" name="subject" value="New Quote Request — Florida FR44 Auto Insurance" />
+          <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <label for="q-name">Full name <span aria-hidden="true">*</span></label>
+            <input id="q-name" name="name" type="text" required autocomplete="name" />
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-row">
+              <label for="q-phone">Phone number <span aria-hidden="true">*</span></label>
+              <input id="q-phone" name="phone" type="tel" required autocomplete="tel" />
+            </div>
+            <div class="form-row">
+              <label for="q-email">Email address <span aria-hidden="true">*</span></label>
+              <input id="q-email" name="email" type="email" required autocomplete="email" />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="q-city">City / ZIP code</label>
+            <input id="q-city" name="city_zip" type="text" autocomplete="postal-code" />
+          </div>
+
+          <div class="form-row">
+            <label for="q-coverage">Coverage needed <span aria-hidden="true">*</span></label>
+            <select id="q-coverage" name="coverage_type" required>
+              <option value="">Select an option</option>
+              <option value="FR44">FR44 Insurance</option>
+              <option value="SR22">SR22 Insurance</option>
+              <option value="Standard Auto">Standard Auto Insurance</option>
+              <option value="Not Sure">Not sure — need guidance</option>
+            </select>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-row">
+              <label for="q-vehicle">Vehicle year / make / model</label>
+              <input id="q-vehicle" name="vehicle" type="text" placeholder="e.g. 2019 Toyota Camry" />
+            </div>
+            <div class="form-row">
+              <label for="q-contact-method">Preferred contact method</label>
+              <select id="q-contact-method" name="preferred_contact">
+                <option value="Text">Text</option>
+                <option value="Call">Call</option>
+                <option value="Email">Email</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="q-notes">Anything else we should know?</label>
+            <textarea id="q-notes" name="notes" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Get My Free Quote</button>
+          <p class="form-disclaimer">By submitting, you agree to be contacted about your quote by phone, text, or email. Message and data rates may apply.</p>
+        </form>
+        <!-- END WEB3FORMS PLACEHOLDER -->
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .quote-hero { max-width: 720px; }
+  .lead { font-size: 1.08rem; }
+  .quote-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 3rem; align-items: start; }
+  .benefit-list { list-style: none; padding: 0; margin: 1.5rem 0; display: flex; flex-direction: column; gap: 1rem; }
+  .benefit-list li { display: flex; flex-direction: column; gap: 0.15rem; }
+  .benefit-list strong { color: var(--color-ink); font-family: var(--font-display); }
+  .benefit-list span { color: var(--color-gray-600); font-size: 0.92rem; }
+
+  .quote-text-cta {
+    background: var(--color-blue-tint); border-radius: var(--radius-md);
+    padding: 1.5rem; margin-top: 1.5rem;
+  }
+  .quote-text-cta h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+  .quote-text-cta p { font-size: 0.9rem; margin-bottom: 1rem; }
+
+  .quote-form-wrap { padding: 2rem; }
+  .form-note { font-size: 0.8rem; color: var(--color-gray-500); margin-bottom: 1.25rem; }
+  .quote-form { display: flex; flex-direction: column; gap: 1.1rem; }
+  .form-row { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
+  label { font-size: 0.88rem; font-weight: 600; color: var(--color-gray-700); }
+  input, select, textarea {
+    font-family: var(--font-body); font-size: 0.96rem;
+    padding: 0.7rem 0.85rem; border-radius: var(--radius-sm);
+    border: 1.5px solid var(--color-gray-300); background: #fff; color: var(--color-ink);
+  }
+  input:focus, select:focus, textarea:focus { border-color: var(--color-blue); outline: none; }
+  .form-disclaimer { font-size: 0.76rem; color: var(--color-gray-500); text-align: center; }
+
+  @media (max-width: 900px) {
+    .quote-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .form-row-2 { grid-template-columns: 1fr; }
+  }
+</style>

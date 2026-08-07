@@ -1,0 +1,118 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import FaqAccordion from '@components/FaqAccordion.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+
+const categories = [
+  {
+    name: 'General Insurance Questions',
+    items: [
+      { question: 'Do you serve all of Florida?', answer: 'Yes. We work with drivers statewide — from Miami, Orlando, and Tampa to smaller cities and towns across the Panhandle and Space Coast.' },
+      { question: 'How do I get a quote?', answer: 'Fill out our online quote form, call us, or text us your basic information. Most quotes are ready within minutes during business hours.' },
+      { question: 'Is texting really faster than calling?', answer: 'For most customers, yes. We prioritize text messages and can often respond faster than a phone queue, especially during busy hours.' },
+      { question: 'Do you charge a fee for quotes?', answer: 'No. Quotes are always free and come with no obligation to purchase.' },
+      { question: 'What information do I need to get a quote?', answer: "Typically your name, contact information, vehicle details, and driving history. If you have a court or FLHSMV notice, having it handy speeds things up." },
+      { question: 'Can I get coverage the same day?', answer: 'In many cases, yes — once you select a carrier and complete payment, your policy and any required FR44/SR22 filing can often be issued the same day.' },
+    ],
+  },
+  {
+    name: 'FR44 Insurance',
+    items: [
+      { question: 'What is FR44 insurance?', answer: 'FR44 is a certificate of financial responsibility Florida requires after certain DUI-related convictions, confirming you carry higher-than-standard liability limits.' },
+      { question: 'How long do I need FR44 coverage?', answer: 'Typically three years with no lapse in coverage, though your specific requirement should be confirmed against your court or FLHSMV notice.' },
+      { question: 'Who needs FR44 insurance?', answer: 'Drivers with a DUI/DWI conviction or certain related violations are most commonly required to carry FR44 coverage.' },
+      { question: 'Does every insurance company offer FR44 filings?', answer: 'No — only some carriers write FR44 policies, which is why comparing multiple insurers matters.' },
+      { question: 'What happens if my FR44 policy lapses?', answer: 'Your insurer must report the lapse to the state, which can lead to license suspension and may restart your required filing period.' },
+      { question: 'Can I remove FR44 early?', answer: 'Generally no — the filing period is set by the court or FLHSMV and must be completed without interruption.' },
+      { question: 'Will my rate go down after the FR44 period ends?', answer: 'Often yes, since required coverage limits typically decrease and the conviction becomes more distant, though your full driving record still factors into pricing.' },
+    ],
+  },
+  {
+    name: 'SR22 Insurance',
+    items: [
+      { question: 'What is SR22 insurance?', answer: "SR22 is a certificate your insurer files confirming you carry at least Florida's minimum required liability coverage." },
+      { question: 'How is SR22 different from FR44?', answer: 'SR22 requires standard minimum liability limits, while FR44 requires higher limits and is typically tied to DUI convictions.' },
+      { question: 'Who needs SR22 in Florida?', answer: 'Drivers reinstating a license after certain suspensions, driving without insurance, or ordered by a court to file proof of coverage.' },
+      { question: 'How long does SR22 last?', answer: 'It varies by case, but three years without a lapse is common. Confirm your exact period with the court or FLHSMV.' },
+    ],
+  },
+  {
+    name: 'Billing, Policies & Payments',
+    items: [
+      { question: 'What happens if my policy lapses?', answer: "A lapse can trigger a state notification, potential license suspension, and higher future rates. If you have FR44/SR22, it can also restart your filing period." },
+      { question: 'Can I switch insurance companies mid-term?', answer: 'Yes, as long as your new policy and any required filing start before your old policy ends, to avoid a coverage gap.' },
+      { question: 'Do you accept monthly payments?', answer: 'Most carriers we work with offer monthly payment plans, though paying in full sometimes unlocks a discount.' },
+      { question: 'What documents do I need when I sign up?', answer: "Typically a driver's license, vehicle information (VIN, year/make/model), and any court or FLHSMV notice specifying your requirement." },
+      { question: 'Can I add another driver to my policy?', answer: 'In most cases, yes. Let us know at signup or anytime after, and we can help update your policy.' },
+      { question: 'What if I move to a different Florida city?', answer: 'Update your address with your carrier as soon as possible — your rate and required filings are tied to your policy details.' },
+    ],
+  },
+  {
+    name: 'Coverage & Cost',
+    items: [
+      { question: 'What is the minimum auto insurance required in Florida?', answer: 'Florida requires Personal Injury Protection (PIP) and Property Damage Liability (PDL) coverage at minimum for most drivers.' },
+      { question: 'Why is my FR44 or SR22 rate higher than a regular policy?', answer: 'Required coverage limits are higher, and the driving history behind the requirement is factored into risk pricing by insurers.' },
+      { question: 'How can I lower my premium?', answer: 'Compare multiple carriers, ask about available discounts, maintain continuous coverage, and keep a clean record going forward.' },
+      { question: 'Does my vehicle affect my rate?', answer: "Yes. A vehicle's value, safety rating, and repair costs all factor into your premium." },
+      { question: 'Is comprehensive and collision coverage required?', answer: "Not by the state, but lenders and lessors often require it if you're financing or leasing your vehicle." },
+      { question: 'Do I need uninsured motorist coverage?', answer: "It's optional but recommended, since Florida has a notable share of uninsured drivers on the road." },
+    ],
+  },
+  {
+    name: 'Working With Us',
+    items: [
+      { question: 'Are you an insurance carrier?', answer: 'No — we are an independent agency that compares policies from multiple Florida-licensed carriers to help you find the right fit.' },
+      { question: 'Will you spam me with calls after I request a quote?', answer: "No. We'll reach out about your quote using your preferred contact method and won't share your information for unrelated marketing." },
+      { question: 'Can you help if my license is currently suspended?', answer: "Yes — many customers reach out to us specifically to get the coverage needed to reinstate their license." },
+      { question: 'Do you offer support in Spanish?', answer: "Contact us and let us know your preferred language — we'll do our best to accommodate or connect you with appropriate resources." },
+      { question: 'How do I contact you fastest?', answer: 'Text us — most customers get the quickest response that way. Phone and email are also available during business hours.' },
+    ],
+  },
+];
+
+const allItems = categories.flatMap((c) => c.items);
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: allItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+};
+---
+<BaseLayout
+  title="Frequently Asked Questions"
+  description="Answers to 30+ common questions about FR44 insurance, SR22 insurance, Florida auto coverage, billing, and working with our agency."
+  schema={faqSchema}
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'FAQ', href: '/faq/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container">
+      <span class="eyebrow">Help Center</span>
+      <h1>Frequently asked questions</h1>
+      <p class="lead">Browse answers by category, or text us at <a href="sms:+17722260875">772-226-0875</a> if you don't see what you're looking for.</p>
+    </div>
+  </section>
+
+  {categories.map((cat) => (
+    <section class="section-tight faq-category">
+      <div class="container">
+        <h2>{cat.name}</h2>
+        <FaqAccordion items={cat.items} emitSchema={false} />
+      </div>
+    </section>
+  ))}
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .lead { max-width: 620px; font-size: 1.05rem; }
+  .faq-category:nth-of-type(even) { background: var(--color-paper); }
+  .faq-category h2 { margin-bottom: 1.25rem; }
+</style>

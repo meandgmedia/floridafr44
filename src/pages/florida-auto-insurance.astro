@@ -1,0 +1,111 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import FaqAccordion from '@components/FaqAccordion.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+
+const faqs = [
+  {
+    question: 'What auto insurance is legally required in Florida?',
+    answer: 'Florida requires drivers to carry Personal Injury Protection (PIP) and Property Damage Liability (PDL) at minimum. Bodily injury liability is not universally required for all drivers but is strongly recommended and required after certain violations, including FR44 and SR22 cases.',
+  },
+  {
+    question: 'Does Florida require uninsured motorist coverage?',
+    answer: "It's not required by default, but insurers must offer it and many drivers choose to add it given Florida's relatively high rate of uninsured drivers.",
+  },
+  {
+    question: 'What discounts are available on Florida auto insurance?',
+    answer: 'Common discounts include multi-policy bundling, good driver, paid-in-full, defensive driving course completion, and low-mileage discounts. Availability varies by carrier.',
+  },
+];
+---
+<BaseLayout
+  title="Florida Auto Insurance Coverage Guide"
+  description="A clear breakdown of Florida auto insurance coverage types: liability, comprehensive, collision, uninsured motorist, PIP, property damage, and available discounts."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Florida Auto Insurance', href: '/florida-auto-insurance/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container page-hero">
+      <span class="eyebrow">Coverage Guide</span>
+      <h1>Understanding Florida auto insurance coverage</h1>
+      <p class="lead">Florida's insurance rules differ from many other states. Here's a clear breakdown of the coverage types you'll encounter when shopping for a policy.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container article-layout">
+      <article class="article-body">
+        <h2>Liability coverage</h2>
+        <p>Liability coverage pays for injuries or property damage you cause to others in an at-fault accident. It's split into bodily injury liability and property damage liability, and required limits can increase under FR44 or SR22 filings.</p>
+
+        <h2>Personal Injury Protection (PIP)</h2>
+        <p>Florida is a no-fault state, meaning PIP is required for all drivers. PIP covers a portion of your own medical expenses and lost wages after an accident, regardless of who caused it.</p>
+
+        <h2>Property Damage Liability (PDL)</h2>
+        <p>PDL is Florida's other mandatory coverage. It pays for damage you cause to someone else's vehicle or property in an at-fault accident.</p>
+
+        <h2>Comprehensive coverage</h2>
+        <p>Comprehensive coverage pays for damage to your own vehicle from non-collision events — theft, vandalism, fire, flooding, or hitting an animal. It's optional unless required by a lender or lease.</p>
+
+        <h2>Collision coverage</h2>
+        <p>Collision coverage pays for damage to your own vehicle after an accident, regardless of fault. Like comprehensive, it's optional but often required if you're financing or leasing your vehicle.</p>
+
+        <h2>Uninsured/Underinsured Motorist coverage</h2>
+        <p>This coverage protects you if you're hit by a driver with no insurance or insufficient coverage to pay for your damages. Insurers in Florida must offer it, and many drivers choose to add it given the number of uninsured drivers on Florida roads.</p>
+
+        <h2>Common discounts</h2>
+        <ul>
+          <li>Multi-policy (bundling home/renters and auto)</li>
+          <li>Good driver / claims-free history</li>
+          <li>Defensive driving course completion</li>
+          <li>Paid-in-full or autopay discounts</li>
+          <li>Low annual mileage</li>
+        </ul>
+        <p>Discount availability and amounts vary by carrier, which is one more reason comparing multiple insurers pays off.</p>
+
+        <h2>FAQ</h2>
+        <FaqAccordion items={faqs} />
+
+        <div class="internal-links">
+          <h2>Related resources</h2>
+          <ul>
+            <li><a href="/fr44-insurance/">FR44 Insurance — Complete Guide</a></li>
+            <li><a href="/sr22-insurance/">SR22 Insurance in Florida</a></li>
+            <li><a href="/guides/florida-insurance-requirements-explained/">Florida Insurance Requirements Explained</a></li>
+            <li><a href="/faq/">Full FAQ Library</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <aside class="article-aside">
+        <div class="card aside-card">
+          <h3>Compare Florida auto rates</h3>
+          <p>We check multiple carriers to help you find the right coverage at the right price.</p>
+          <a href="/quote/" class="btn btn-primary btn-block">Get a Free Quote</a>
+          <a href="sms:+17722260875" class="btn btn-outline btn-block" style="margin-top:0.6rem;">Text Us</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .page-hero { max-width: 760px; }
+  .lead { font-size: 1.08rem; }
+  .article-layout { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; align-items: start; }
+  .article-body h2 { margin-top: 2.2rem; }
+  .internal-links { margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+  .article-aside { position: sticky; top: calc(var(--header-h) + 1.5rem); }
+  .aside-card h3 { font-size: 1.05rem; }
+  .aside-card p { font-size: 0.9rem; }
+
+  @media (max-width: 980px) {
+    .article-layout { grid-template-columns: 1fr; }
+    .article-aside { position: static; }
+  }
+</style>

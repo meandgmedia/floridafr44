@@ -1,0 +1,105 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+import { getCollection } from 'astro:content';
+import { articleSchema } from '@data/schema';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const relatedPosts = (await getCollection('blog', ({ data, slug }) => !data.draft && slug !== post.slug))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const schema = articleSchema({
+  title: post.data.title,
+  description: post.data.description,
+  image: post.data.image,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: post.data.updatedDate?.toISOString(),
+  slug: `/blog/${post.slug}/`,
+  author: post.data.author,
+});
+---
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  ogImage={post.data.image}
+  ogType="article"
+  schema={schema}
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Blog', href: '/blog/' }, { label: post.data.title, href: `/blog/${post.slug}/` }]} />
+  </div>
+
+  <article class="section-tight">
+    <div class="container post-header">
+      <span class="badge">{post.data.category}</span>
+      <h1>{post.data.title}</h1>
+      <p class="post-meta">
+        By {post.data.author} &middot; {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+      </p>
+    </div>
+
+    <div class="container post-image">
+      <img src={post.data.image} alt={post.data.imageAlt} width="1200" height="500" />
+    </div>
+
+    <div class="container post-layout">
+      <div class="post-content">
+        <Content />
+
+        <div class="post-cta-inline card">
+          <h3>Ready for a fast FR44 or SR22 quote?</h3>
+          <p>We compare multiple Florida carriers to help you find affordable coverage.</p>
+          <div class="inline-actions">
+            <a href="/quote/" class="btn btn-primary">Get a Free Quote</a>
+            <a href="sms:+17722260875" class="btn btn-outline">Text Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <section class="section-tight section-alt">
+    <div class="container">
+      <h2>More from the blog</h2>
+      <div class="grid grid-3">
+        {relatedPosts.map((p) => (
+          <a href={`/blog/${p.slug}/`} class="related-card card">
+            <span class="badge">{p.data.category}</span>
+            <h3>{p.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .post-header { max-width: 760px; }
+  .post-meta { color: var(--color-gray-500); font-size: 0.88rem; margin-top: 0.5rem; }
+  .post-image { margin-top: 1.5rem; }
+  .post-image img { border-radius: var(--radius-lg); width: 100%; object-fit: cover; aspect-ratio: 1200/500; }
+  .post-layout { margin-top: 2.5rem; display: flex; justify-content: center; }
+  .post-content { max-width: 720px; width: 100%; }
+  .post-content :global(h2) { margin-top: 2.2rem; }
+  .post-content :global(h3) { margin-top: 1.6rem; }
+  .post-content :global(a) { text-decoration: underline; text-underline-offset: 2px; }
+  .post-cta-inline { margin-top: 2.5rem; text-align: center; }
+  .post-cta-inline h3 { margin-bottom: 0.4rem; }
+  .inline-actions { display: flex; gap: 0.75rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap; }
+  .related-card { color: inherit; display: flex; flex-direction: column; gap: 0.6rem; }
+  .related-card h3 { font-size: 1rem; margin: 0; }
+</style>

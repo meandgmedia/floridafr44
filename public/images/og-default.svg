@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#101f3c"/>
+  <circle cx="1020" cy="120" r="180" fill="#2755d6" opacity="0.18"/>
+  <path d="M0 520 Q 600 460 1200 520 L1200 630 L0 630 Z" fill="#e0342c" opacity="0.14"/>
+  <text x="90" y="300" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Florida FR44</text>
+  <text x="90" y="375" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#e0342c">Auto Insurance</text>
+  <text x="90" y="440" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#c7d3ea">Fast Quotes. Affordable Rates. Statewide Coverage.</text>
+</svg>

@@ -1,0 +1,76 @@
+---
+// Signature visual: a "rate comparison" bar chart representing the core
+// value proposition — we check multiple carriers and surface the best rate.
+const bars = [
+  { label: 'Carrier A', value: 62, highlight: false },
+  { label: 'Carrier B', value: 78, highlight: false },
+  { label: 'Carrier C', value: 45, highlight: true },
+  { label: 'Carrier D', value: 70, highlight: false },
+];
+const maxVal = 90;
+---
+<div class="compare-graphic" role="img" aria-label="Illustration comparing insurance rates across four carriers, with the lowest rate highlighted">
+  <div class="compare-card">
+    <div class="compare-head">
+      <span class="dot"></span>
+      <span class="compare-title">Comparing Florida carriers…</span>
+    </div>
+    <div class="bars">
+      {bars.map((bar, i) => (
+        <div class="bar-row" style={`--delay:${i * 0.12}s`}>
+          <span class="bar-label">{bar.label}</span>
+          <div class="bar-track">
+            <div class={`bar-fill ${bar.highlight ? 'is-best' : ''}`} style={`--w:${(bar.value / maxVal) * 100}%`}></div>
+          </div>
+          {bar.highlight && <span class="best-tag">Best rate</span>}
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
+
+<style>
+  .compare-graphic {
+    background: var(--color-navy-2);
+    border-radius: var(--radius-lg);
+    padding: 1.75rem;
+    box-shadow: var(--shadow-lg);
+  }
+  .compare-card { display: flex; flex-direction: column; gap: 1.1rem; }
+  .compare-head { display: flex; align-items: center; gap: 0.6rem; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: #33d17a; box-shadow: 0 0 0 4px rgba(51,209,122,0.18); }
+  .compare-title { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.04em; color: rgba(255,255,255,0.7); }
+
+  .bars { display: flex; flex-direction: column; gap: 0.85rem; }
+  .bar-row { display: grid; grid-template-columns: 84px 1fr auto; align-items: center; gap: 0.75rem; }
+  .bar-label { font-size: 0.78rem; color: rgba(255,255,255,0.62); font-weight: 600; }
+  .bar-track { background: rgba(255,255,255,0.08); border-radius: var(--radius-full); height: 12px; overflow: hidden; }
+  .bar-fill {
+    height: 100%;
+    width: 0;
+    border-radius: var(--radius-full);
+    background: linear-gradient(90deg, #4c7bf0, #2755d6);
+    animation: grow 1s ease forwards;
+    animation-delay: var(--delay);
+  }
+  .bar-fill.is-best { background: linear-gradient(90deg, #ff6a61, var(--color-accent)); }
+  .best-tag {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    background: rgba(224,52,44,0.18);
+    color: #ff9a94;
+    padding: 0.2em 0.55em;
+    border-radius: var(--radius-full);
+    white-space: nowrap;
+  }
+
+  @keyframes grow {
+    from { width: 0; }
+    to { width: var(--w); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bar-fill { animation: none; width: var(--w); }
+  }
+</style>

@@ -1,0 +1,312 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import CtaBanner from '@components/CtaBanner.astro';
+import FaqAccordion from '@components/FaqAccordion.astro';
+import CompareGraphic from '@components/CompareGraphic.astro';
+import PostCard from '@components/PostCard.astro';
+import { site, floridaCities, carriers } from '@data/site';
+import { organizationSchema, websiteSchema, localBusinessSchema } from '@data/schema';
+import { getCollection } from 'astro:content';
+
+const latestPosts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+
+const faqs = [
+  {
+    question: 'What is FR44 insurance in Florida?',
+    answer:
+      "FR44 insurance is proof of financial responsibility Florida requires after certain DUI or serious traffic convictions. It requires higher liability limits than standard policies, and your insurer files the FR44 form electronically with the state on your behalf.",
+  },
+  {
+    question: 'How fast can I get a quote?',
+    answer:
+      'Most drivers get quotes within minutes. Fill out our quote form or text us your basic info and we start comparing carriers right away.',
+  },
+  {
+    question: 'Do you serve all of Florida?',
+    answer:
+      'Yes. We work with drivers statewide, from Miami and Tampa to the Panhandle and everywhere in between, entirely online, by phone, or by text.',
+  },
+  {
+    question: 'Is texting really the fastest way to reach you?',
+    answer:
+      "Yes — most of our customers prefer to text rather than call, and we typically respond to texts faster than phone messages. Send us your name and the coverage you need and we'll take it from there.",
+  },
+];
+
+const citySample = floridaCities.slice(0, 14);
+---
+<BaseLayout
+  title="Florida FR44 Insurance Quotes Made Easy"
+  description="Get a fast, affordable FR44 or SR22 insurance quote in Florida. We compare multiple carriers to find your best rate. Statewide coverage, friendly service, texting preferred."
+  schema={[organizationSchema(), websiteSchema(), localBusinessSchema()]}
+>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Florida FR44 &amp; SR22 Specialists</span>
+        <h1>Florida FR44 Insurance Quotes Made Easy</h1>
+        <p class="hero-sub">
+          Affordable coverage, compared across multiple Florida carriers, delivered fast. Whether you need FR44, SR22, or standard auto coverage, we do the shopping so you don't have to — statewide, from Pensacola to the Keys.
+        </p>
+        <div class="hero-actions">
+          <a href="/quote/" class="btn btn-primary">Get a Free Quote</a>
+          <a href={site.smsHref} class="btn btn-outline">Text Us</a>
+        </div>
+        <p class="hero-note">Text is the fastest way to reach us &middot; {site.phone}</p>
+        <ul class="hero-points">
+          <li>Compare multiple carriers</li>
+          <li>Fast, no-pressure quotes</li>
+          <li>Statewide Florida coverage</li>
+        </ul>
+      </div>
+      <div class="hero-visual">
+        <CompareGraphic />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2>Insurance shopping, minus the runaround</h2>
+        <p>We built our process around what Florida drivers actually want: a fast answer, a fair price, and a human who responds when you text.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="card feature-card">
+          <div class="icon-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Fast Quotes</h3>
+          <p>Get real numbers in minutes, not days. No lengthy forms, no runaround.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="icon-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20V10M12 20V4M20 20v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Affordable Rates</h3>
+          <p>We shop your policy across multiple carriers to find competitive FR44 and SR22 pricing.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="icon-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M3 9h18" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Compare Carriers</h3>
+          <p>We check leading Florida-licensed insurers side by side so you don't have to.</p>
+        </div>
+        <div class="card feature-card">
+          <div class="icon-badge">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h16v12H7l-3 3V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Texting Preferred</h3>
+          <p>Reach a real person fast. Most customers say texting beats waiting on hold.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How FR44 Works -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="grid grid-2 how-grid">
+        <div>
+          <span class="eyebrow">How It Works</span>
+          <h2>How FR44 insurance works in Florida</h2>
+          <p>FR44 is a certificate your insurer files electronically with the Florida Department of Highway Safety and Motor Vehicles (FLHSMV) confirming you carry higher-than-standard liability coverage. Here's the process from start to finish.</p>
+          <a href="/fr44-insurance/" class="btn btn-outline" style="margin-top:1rem;">Read the Full FR44 Guide</a>
+        </div>
+        <ol class="steps">
+          <li>
+            <span class="step-num">1</span>
+            <div>
+              <h3>Tell us your situation</h3>
+              <p>Share your driving history and the state's requirement (usually from the court or FLHSMV).</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div>
+              <h3>We compare carriers</h3>
+              <p>We check rates across multiple Florida-licensed insurers who write FR44 policies.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div>
+              <h3>You choose your policy</h3>
+              <p>We walk you through the options in plain English — no jargon, no pressure.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">4</span>
+            <div>
+              <h3>We file your FR44</h3>
+              <p>Your carrier submits the FR44 certificate to the state electronically on your behalf.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who Needs FR44 -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Who Needs It</span>
+        <h2>Who needs FR44 insurance?</h2>
+        <p>Florida typically requires an FR44 after certain serious driving convictions. You may need FR44 coverage if you have:</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>A DUI or DWI conviction</h3>
+          <p>Florida courts commonly order FR44 filings after a first or repeat DUI conviction.</p>
+        </div>
+        <div class="card">
+          <h3>Driving with no insurance</h3>
+          <p>Certain uninsured-driving violations can trigger an FR44 (rather than the lower-limit SR22) requirement.</p>
+        </div>
+        <div class="card">
+          <h3>Repeat serious violations</h3>
+          <p>A pattern of serious offenses can lead a court or the FLHSMV to require FR44 proof of coverage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serving All Florida -->
+  <section class="section section-navy">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow" style="color:#8fb0ff;">Statewide Coverage</span>
+        <h2 style="color:#fff;">Proudly serving all of Florida</h2>
+        <p style="color:rgba(255,255,255,0.7);">From the Panhandle to the Keys, we help Florida drivers get FR44, SR22, and standard auto coverage — entirely online, by phone, or by text.</p>
+      </div>
+      <ul class="city-cloud">
+        {citySample.map((city) => <li>{city}</li>)}
+        <li>&amp; more</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Carriers -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">Who We Work With</span>
+        <h2>Insurance companies we compare</h2>
+        <p>We shop your policy across a network of Florida-licensed carriers to help find competitive FR44 and SR22 rates.</p>
+      </div>
+      <ul class="carrier-grid">
+        {carriers.map((c) => <li class="carrier-chip">{c}</li>)}
+      </ul>
+      <p class="carrier-note">Carrier availability varies by driving history, vehicle, and location. We'll confirm which carriers can quote your specific situation.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="grid grid-2 faq-grid">
+        <div>
+          <span class="eyebrow">Common Questions</span>
+          <h2>Frequently asked questions</h2>
+          <p>Answers to the questions we hear most from Florida drivers shopping for FR44 and SR22 coverage.</p>
+          <a href="/faq/" class="btn btn-outline" style="margin-top: 0.5rem;">View All FAQs</a>
+        </div>
+        <FaqAccordion items={faqs} />
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Blog -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">From the Blog</span>
+        <h2>Latest insights for Florida drivers</h2>
+      </div>
+      <div class="grid grid-3">
+        {latestPosts.map((post) => (
+          <PostCard
+            href={`/blog/${post.slug}/`}
+            title={post.data.title}
+            description={post.data.description}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+            category={post.data.category}
+            date={post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          />
+        ))}
+      </div>
+      <div class="center-btn">
+        <a href="/blog/" class="btn btn-outline">View All Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <CtaBanner />
+</BaseLayout>
+
+<style>
+  .hero { padding-block: clamp(2.5rem, 6vw, 4.5rem) clamp(3rem, 6vw, 5rem); background: linear-gradient(180deg, var(--color-blue-tint) 0%, #fff 65%); }
+  .hero-inner { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 3rem; align-items: center; }
+  .hero-sub { font-size: 1.08rem; max-width: 52ch; }
+  .hero-actions { display: flex; gap: 0.85rem; flex-wrap: wrap; margin: 1.5rem 0 0.9rem; }
+  .hero-note { font-size: 0.85rem; color: var(--color-gray-500); font-weight: 600; }
+  .hero-points { list-style: none; padding: 0; margin: 1.5rem 0 0; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+  .hero-points li { font-size: 0.85rem; font-weight: 600; color: var(--color-gray-700); display: flex; align-items: center; gap: 0.4em; }
+  .hero-points li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--color-accent); display: inline-block; }
+
+  .section-alt { background: var(--color-paper); }
+  .section-navy { background: var(--color-navy); }
+
+  .feature-card { text-align: left; }
+  .icon-badge {
+    width: 46px; height: 46px; border-radius: var(--radius-sm);
+    background: var(--color-blue-tint); color: var(--color-blue);
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .how-grid { align-items: start; }
+  .steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 1.5rem; }
+  .steps li { display: flex; gap: 1rem; align-items: flex-start; }
+  .step-num {
+    flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%;
+    background: var(--color-ink); color: #fff; font-family: var(--font-display); font-weight: 700;
+    display: flex; align-items: center; justify-content: center; font-size: 0.95rem;
+  }
+  .steps h3 { margin-bottom: 0.2em; font-size: 1rem; }
+  .steps p { font-size: 0.92rem; margin: 0; }
+
+  .city-cloud {
+    list-style: none; margin: 0; padding: 0;
+    display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center;
+  }
+  .city-cloud li {
+    font-size: 0.85rem; font-weight: 600; color: rgba(255,255,255,0.85);
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14);
+    padding: 0.5em 1em; border-radius: var(--radius-full);
+  }
+
+  .carrier-grid { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: center; }
+  .carrier-chip {
+    font-weight: 700; font-family: var(--font-display); font-size: 0.92rem;
+    color: var(--color-gray-700); background: var(--color-white);
+    border: 1px solid var(--color-border); padding: 0.7em 1.3em; border-radius: var(--radius-md);
+  }
+  .carrier-note { text-align: center; font-size: 0.85rem; color: var(--color-gray-500); max-width: 60ch; margin-inline: auto; }
+
+  .faq-grid { align-items: start; }
+  .center-btn { text-align: center; margin-top: 2.5rem; }
+
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-visual { order: -1; }
+  }
+</style>

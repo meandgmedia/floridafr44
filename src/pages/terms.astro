@@ -1,0 +1,49 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="Terms of Service"
+  description="Terms of Service for Florida FR44 Auto Insurance — the terms governing use of our website and services."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Terms of Service', href: '/terms/' }]} />
+  </div>
+  <section class="section-tight">
+    <div class="container legal-content">
+      <h1>Terms of Service</h1>
+      <p class="updated">Last updated: January 2026</p>
+
+      <h2>Acceptance of terms</h2>
+      <p>By accessing or using this website, you agree to these Terms of Service. If you do not agree, please do not use this site.</p>
+
+      <h2>Use of our services</h2>
+      <p>This website provides general information about FR44, SR22, and Florida auto insurance, and allows visitors to request quotes. Submitting a quote request does not create an insurance policy or a binding agreement — coverage begins only once a policy is issued by a licensed carrier.</p>
+
+      <h2>No guarantee of rates or approval</h2>
+      <p>Quotes provided through this site are estimates based on the information submitted and are not guaranteed. Final rates, terms, and approval are determined by the issuing insurance carrier.</p>
+
+      <h2>Website content</h2>
+      <p>Content on this site, including guides and blog articles, is provided for general informational purposes and should not be considered legal or professional advice. Insurance requirements can change, and you should confirm your specific requirements with the applicable court or the FLHSMV.</p>
+
+      <h2>Intellectual property</h2>
+      <p>All content, logos, and branding on this website are the property of {site.name} and may not be reproduced without permission.</p>
+
+      <h2>Limitation of liability</h2>
+      <p>{site.name} is not liable for any indirect, incidental, or consequential damages arising from use of this website or reliance on its content.</p>
+
+      <h2>Changes to these terms</h2>
+      <p>We may update these Terms of Service from time to time. Continued use of the site after changes are posted constitutes acceptance of the updated terms.</p>
+
+      <h2>Contact us</h2>
+      <p>Questions about these terms can be directed to <a href={`mailto:${site.email}`}>{site.email}</a>.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-content { max-width: 760px; }
+  .updated { color: var(--color-gray-500); font-size: 0.88rem; margin-bottom: 2rem; }
+  .legal-content h2 { margin-top: 2rem; }
+</style>
