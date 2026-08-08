@@ -1,7 +1,8 @@
 ---
-import { site, navLinks } from '@data/site';
+import { site, navMain, navResources, navEnd, navLinks } from '@data/site';
 
 const currentPath = Astro.url.pathname;
+const isResourceActive = navResources.some((l) => l.href === currentPath);
 ---
 <header class="site-header">
   <div class="container header-inner">
@@ -11,7 +12,25 @@ const currentPath = Astro.url.pathname;
 
     <nav class="main-nav" aria-label="Primary">
       <ul>
-        {navLinks.map((link) => (
+        {navMain.map((link) => (
+          <li>
+            <a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>
+              {link.label}
+            </a>
+          </li>
+        ))}
+        <li class="nav-dropdown">
+          <button type="button" class="dropdown-trigger" aria-current={isResourceActive ? 'page' : undefined}>
+            Resources
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <ul class="dropdown-menu">
+            {navResources.map((link) => (
+              <li><a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>{link.label}</a></li>
+            ))}
+          </ul>
+        </li>
+        {navEnd.map((link) => (
           <li>
             <a href={link.href} aria-current={currentPath === link.href ? 'page' : undefined}>
               {link.label}
@@ -35,7 +54,7 @@ const currentPath = Astro.url.pathname;
   </div>
 
   <div id="mobile-nav" class="mobile-nav" hidden>
-    <ul>
+    <ul class="mobile-nav-list">
       {navLinks.map((link) => (
         <li><a href={link.href}>{link.label}</a></li>
       ))}
@@ -59,30 +78,90 @@ const currentPath = Astro.url.pathname;
   .header-inner {
     display: flex;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
     height: var(--header-h);
   }
   .brand { display: flex; align-items: center; flex-shrink: 0; }
-  .brand-logo { height: 38px; width: auto; }
+  .brand-logo { height: 36px; width: auto; }
 
-  .main-nav { flex: 1; display: flex; justify-content: center; }
+  .main-nav { flex: 1; display: flex; justify-content: center; min-width: 0; }
   .main-nav ul {
     display: flex;
+    align-items: center;
     list-style: none;
-    gap: 1.6rem;
+    gap: 1.15rem;
     margin: 0;
     padding: 0;
   }
+  .main-nav > ul > li { display: flex; align-items: center; }
   .main-nav a {
     color: var(--color-gray-700);
     font-weight: 600;
-    font-size: 0.94rem;
+    font-size: 0.88rem;
     white-space: nowrap;
   }
   .main-nav a:hover { color: var(--color-ink); }
   .main-nav a[aria-current='page'] { color: var(--color-blue); }
 
-  .header-ctas { display: flex; align-items: center; gap: 0.6rem; flex-shrink: 0; }
+  /* Resources dropdown */
+  .nav-dropdown { position: relative; }
+  .dropdown-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--color-gray-700);
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.88rem;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .dropdown-trigger:hover { color: var(--color-ink); }
+  .dropdown-trigger[aria-current='page'] { color: var(--color-blue); }
+  .dropdown-trigger svg { transition: transform 0.15s ease; }
+
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+    min-width: 150px;
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(-4px);
+    transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+  }
+  .dropdown-menu li a {
+    display: block;
+    padding: 0.55rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.88rem;
+    white-space: nowrap;
+  }
+  .dropdown-menu li a:hover { background: var(--color-gray-50); }
+
+  .nav-dropdown:hover .dropdown-menu,
+  .nav-dropdown:focus-within .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+  .nav-dropdown:hover .dropdown-trigger svg,
+  .nav-dropdown:focus-within .dropdown-trigger svg {
+    transform: rotate(180deg);
+  }
+
+  .header-ctas { display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; }
 
   .menu-toggle {
     display: none;
@@ -95,6 +174,15 @@ const currentPath = Astro.url.pathname;
 
   .mobile-nav { display: none; }
 
+  /* Collapse to hamburger a bit earlier than full-bleed overflow, and shrink
+     nav gaps first at a mid-size desktop breakpoint to buy extra room. */
+  @media (max-width: 1180px) and (min-width: 981px) {
+    .main-nav ul { gap: 0.85rem; }
+    .main-nav a, .dropdown-trigger { font-size: 0.82rem; }
+    .header-ctas { gap: 0.4rem; }
+    .header-text-btn { padding-inline: 0.9rem; }
+  }
+
   @media (max-width: 980px) {
     .main-nav, .header-ctas { display: none; }
     .menu-toggle { display: inline-flex; }
@@ -105,7 +193,7 @@ const currentPath = Astro.url.pathname;
       border-bottom: 1px solid var(--color-border);
       padding: 1rem 1.5rem 1.5rem;
     }
-    .mobile-nav ul {
+    .mobile-nav-list {
       list-style: none;
       margin: 0 0 1rem;
       padding: 0;
@@ -113,7 +201,7 @@ const currentPath = Astro.url.pathname;
       flex-direction: column;
       gap: 0.15rem;
     }
-    .mobile-nav a {
+    .mobile-nav-list a {
       display: block;
       padding: 0.6rem 0.2rem;
       font-weight: 600;
@@ -121,6 +209,7 @@ const currentPath = Astro.url.pathname;
       border-bottom: 1px solid var(--color-gray-100);
     }
     .mobile-ctas { display: flex; flex-direction: column; gap: 0.6rem; }
+    .mobile-ctas a { color: #fff; }
   }
 </style>
 

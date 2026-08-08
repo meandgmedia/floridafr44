@@ -3,8 +3,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import CtaBanner from '@components/CtaBanner.astro';
 import FaqAccordion from '@components/FaqAccordion.astro';
 import CompareGraphic from '@components/CompareGraphic.astro';
+import CarrierLogos from '@components/CarrierLogos.astro';
 import PostCard from '@components/PostCard.astro';
-import { site, floridaCities, carriers } from '@data/site';
+import { site, floridaCities } from '@data/site';
 import { organizationSchema, websiteSchema, localBusinessSchema } from '@data/schema';
 import { getCollection } from 'astro:content';
 
@@ -49,7 +50,7 @@ const citySample = floridaCities.slice(0, 14);
         <span class="eyebrow">Florida FR44 &amp; SR22 Specialists</span>
         <h1>Florida FR44 Insurance Quotes Made Easy</h1>
         <p class="hero-sub">
-          Affordable coverage, compared across multiple Florida carriers, delivered fast. Whether you need FR44, SR22, or standard auto coverage, we do the shopping so you don't have to — statewide, from Pensacola to the Keys.
+          We compare rates across Florida's top carriers to find you the best price — fast. Been turned down or dropped by another company? We specialize in coverage for high-risk drivers, DUIs, lapses, and FR44/SR22 filings that other agencies can't touch. Statewide service, from Pensacola to the Keys.
         </p>
         <div class="hero-actions">
           <a href="/quote/" class="btn btn-primary">Get a Free Quote</a>
@@ -57,9 +58,9 @@ const citySample = floridaCities.slice(0, 14);
         </div>
         <p class="hero-note">Text is the fastest way to reach us &middot; {site.phone}</p>
         <ul class="hero-points">
-          <li>Compare multiple carriers</li>
+          <li>Best rates, multiple carriers compared</li>
+          <li>High-risk drivers welcome</li>
           <li>Fast, no-pressure quotes</li>
-          <li>Statewide Florida coverage</li>
         </ul>
       </div>
       <div class="hero-visual">
@@ -88,22 +89,22 @@ const citySample = floridaCities.slice(0, 14);
           <div class="icon-badge">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 20V10M12 20V4M20 20v-7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </div>
-          <h3>Affordable Rates</h3>
-          <p>We shop your policy across multiple carriers to find competitive FR44 and SR22 pricing.</p>
+          <h3>Best Rates</h3>
+          <p>We shop your policy across multiple top carriers to find you the lowest possible FR44 and SR22 rate.</p>
         </div>
         <div class="card feature-card">
           <div class="icon-badge">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="2"/><path d="M3 9h18" stroke="currentColor" stroke-width="2"/></svg>
           </div>
           <h3>Compare Carriers</h3>
-          <p>We check leading Florida-licensed insurers side by side so you don't have to.</p>
+          <p>We check leading Florida-licensed insurers side by side, so you always know you're getting a competitive price — not just a first offer.</p>
         </div>
         <div class="card feature-card">
           <div class="icon-badge">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h16v12H7l-3 3V4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <h3>Texting Preferred</h3>
-          <p>Reach a real person fast. Most customers say texting beats waiting on hold.</p>
+          <h3>High-Risk? No Problem</h3>
+          <p>DUI, a lapse, an SR22, or a canceled policy — we specialize in finding coverage for drivers other companies turn away.</p>
         </div>
       </div>
     </div>
@@ -175,6 +176,7 @@ const citySample = floridaCities.slice(0, 14);
           <p>A pattern of serious offenses can lead a court or the FLHSMV to require FR44 proof of coverage.</p>
         </div>
       </div>
+      <p class="who-needs-note">Whatever brought you here, we specialize in finding affordable coverage for high-risk drivers — no judgment, just a fast path back on the road.</p>
     </div>
   </section>
 
@@ -184,7 +186,7 @@ const citySample = floridaCities.slice(0, 14);
       <div class="section-head center">
         <span class="eyebrow" style="color:#8fb0ff;">Statewide Coverage</span>
         <h2 style="color:#fff;">Proudly serving all of Florida</h2>
-        <p style="color:rgba(255,255,255,0.7);">From the Panhandle to the Keys, we help Florida drivers get FR44, SR22, and standard auto coverage — entirely online, by phone, or by text.</p>
+        <p style="color:rgba(255,255,255,0.7);">From the Panhandle to the Keys, we help Florida drivers get FR44, SR22, and standard auto coverage at the best rate available — even after a DUI, a lapse, or a decline elsewhere — entirely online, by phone, or by text.</p>
       </div>
       <ul class="city-cloud">
         {citySample.map((city) => <li>{city}</li>)}
@@ -194,17 +196,19 @@ const citySample = floridaCities.slice(0, 14);
   </section>
 
   <!-- Carriers -->
-  <section class="section">
+  <section class="section carrier-section">
     <div class="container">
       <div class="section-head center">
         <span class="eyebrow">Who We Work With</span>
         <h2>Insurance companies we compare</h2>
         <p>We shop your policy across a network of Florida-licensed carriers to help find competitive FR44 and SR22 rates.</p>
       </div>
-      <ul class="carrier-grid">
-        {carriers.map((c) => <li class="carrier-chip">{c}</li>)}
-      </ul>
-      <p class="carrier-note">Carrier availability varies by driving history, vehicle, and location. We'll confirm which carriers can quote your specific situation.</p>
+    </div>
+    <CarrierLogos />
+    <div class="container">
+      <p class="carrier-note">
+        Plus other Florida-licensed carriers including State Farm, Bristol West, Direct Auto, Dairyland, Safe Auto, and Kemper. Availability varies by driving history, vehicle, and location — we'll confirm which carriers can quote your specific situation.
+      </p>
     </div>
   </section>
 
@@ -294,27 +298,14 @@ const citySample = floridaCities.slice(0, 14);
     padding: 0.5em 1em; border-radius: var(--radius-full);
   }
 
-  .carrier-grid {
-    list-style: none; margin: 0 0 1.5rem; padding: 0;
-    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem;
+  .carrier-section { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+  .who-needs-note {
+    text-align: center; font-weight: 600; color: var(--color-ink);
+    max-width: 60ch; margin: 2.5rem auto 0; font-size: 1rem;
   }
-  .carrier-chip {
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 700; font-family: var(--font-display); font-size: 1rem;
-    letter-spacing: -0.01em;
-    color: var(--color-gray-700); background: var(--color-white);
-    border: 1px solid var(--color-border); border-radius: var(--radius-md);
-    padding: 1.4em 1em; text-align: center;
-    transition: border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
-  }
-  .carrier-chip:hover { border-color: var(--color-blue); color: var(--color-blue-dark); box-shadow: var(--shadow-sm); }
-  .carrier-note { text-align: center; font-size: 0.85rem; color: var(--color-gray-500); max-width: 60ch; margin-inline: auto; }
-
-  @media (max-width: 900px) {
-    .carrier-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  }
-  @media (max-width: 560px) {
-    .carrier-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .carrier-note {
+    text-align: center; font-size: 0.85rem; color: var(--color-gray-500);
+    max-width: 68ch; margin: 2rem auto 0;
   }
 
   .faq-grid { align-items: start; }

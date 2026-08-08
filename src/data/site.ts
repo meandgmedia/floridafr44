@@ -28,17 +28,26 @@ export const site = {
   ],
 } as const;
 
-export const navLinks = [
+export const navMain = [
   { label: "Home", href: "/" },
-  { label: "Get a Free Quote", href: "/quote/" },
   { label: "FR44 Insurance", href: "/fr44-insurance/" },
   { label: "SR22 Insurance", href: "/sr22-insurance/" },
   { label: "Florida Auto Insurance", href: "/florida-auto-insurance/" },
+] as const;
+
+export const navResources = [
   { label: "Guides", href: "/guides/" },
   { label: "Blog", href: "/blog/" },
+  { label: "FAQ", href: "/faq/" },
+] as const;
+
+export const navEnd = [
   { label: "About", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ] as const;
+
+// Full flat list — used for the mobile menu, which shows everything at once.
+export const navLinks = [...navMain, ...navResources, ...navEnd] as const;
 
 export const footerLinks = {
   company: [
