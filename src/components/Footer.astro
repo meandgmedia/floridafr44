@@ -38,10 +38,6 @@ const year = new Date().getFullYear();
     </nav>
   </div>
 
-  <div class="footer-state" aria-hidden="true">
-    <img src="/images/florida-outline.png" alt="" width="456" height="433" loading="lazy" />
-  </div>
-
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
       <p>&copy; {year} {site.name}. All rights reserved. Proudly serving all of Florida.</p>
@@ -85,14 +81,6 @@ const year = new Date().getFullYear();
   .footer-col a { color: var(--color-accent); font-size: 0.94rem; }
   .footer-col a:hover { color: var(--color-accent-dark); }
 
-  .footer-state {
-    display: flex;
-    justify-content: center;
-    padding: 0.5rem 0 2.5rem;
-  }
-  .footer-state svg,
-  .footer-state img { height: 120px; width: auto; }
-
   .footer-bottom { border-top: 1px solid var(--color-border); padding-block: 1.5rem; }
   .footer-bottom-inner { display: flex; flex-direction: column; gap: 0.4rem; }
   .footer-bottom p { margin: 0; font-size: 0.82rem; color: var(--color-gray-500); }
@@ -102,7 +90,5 @@ const year = new Date().getFullYear();
   }
   @media (max-width: 560px) {
     .footer-grid { grid-template-columns: 1fr; }
-    .footer-state svg,
-    .footer-state img { height: 90px; }
   }
 </style>

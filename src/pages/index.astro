@@ -294,13 +294,28 @@ const citySample = floridaCities.slice(0, 14);
     padding: 0.5em 1em; border-radius: var(--radius-full);
   }
 
-  .carrier-grid { list-style: none; margin: 0 0 1.25rem; padding: 0; display: flex; flex-wrap: wrap; gap: 0.7rem; justify-content: center; }
-  .carrier-chip {
-    font-weight: 700; font-family: var(--font-display); font-size: 0.92rem;
-    color: var(--color-gray-700); background: var(--color-white);
-    border: 1px solid var(--color-border); padding: 0.7em 1.3em; border-radius: var(--radius-md);
+  .carrier-grid {
+    list-style: none; margin: 0 0 1.5rem; padding: 0;
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem;
   }
+  .carrier-chip {
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-family: var(--font-display); font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: var(--color-gray-700); background: var(--color-white);
+    border: 1px solid var(--color-border); border-radius: var(--radius-md);
+    padding: 1.4em 1em; text-align: center;
+    transition: border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .carrier-chip:hover { border-color: var(--color-blue); color: var(--color-blue-dark); box-shadow: var(--shadow-sm); }
   .carrier-note { text-align: center; font-size: 0.85rem; color: var(--color-gray-500); max-width: 60ch; margin-inline: auto; }
+
+  @media (max-width: 900px) {
+    .carrier-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .carrier-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
 
   .faq-grid { align-items: start; }
   .center-btn { text-align: center; margin-top: 2.5rem; }
