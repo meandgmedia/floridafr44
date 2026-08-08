@@ -5,7 +5,7 @@ const year = new Date().getFullYear();
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <img src="/images/logo.png" alt={`${site.name} logo`} width="200" height="55" class="footer-logo" />
+      <img src="/images/logo.png" alt={`${site.name} logo`} width="280" height="77" class="footer-logo" />
       <p class="footer-tagline">{site.description}</p>
       <p class="footer-text-note">
         <strong>Text is the fastest way to reach us.</strong>
@@ -13,17 +13,6 @@ const year = new Date().getFullYear();
       <div class="footer-contact">
         <a href={site.smsHref}>{site.phone} (text)</a>
         <a href={`mailto:${site.email}`}>{site.email}</a>
-      </div>
-      <div class="footer-social" aria-label="Social media links">
-        <a href={site.social.facebook} aria-label="Florida FR44 Auto Insurance on Facebook" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 22v-9h3l.5-3.5H13V7.5c0-1 .3-1.7 1.7-1.7H16.5V2.6C16.2 2.6 15 2.5 13.7 2.5c-2.8 0-4.7 1.7-4.7 4.8V9.5H6v3.5h3v9h4z"/></svg>
-        </a>
-        <a href={site.social.instagram} aria-label="Florida FR44 Auto Insurance on Instagram" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
-        </a>
-        <a href={site.social.twitter} aria-label="Florida FR44 Auto Insurance on X" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.6l-5.2-6.8L5.4 22H2.3l8.1-9.3L1.7 2h6.9l4.7 6.2L18.9 2z"/></svg>
-        </a>
       </div>
     </div>
 
@@ -46,13 +35,21 @@ const year = new Date().getFullYear();
       <ul>
         {footerLinks.legal.map((l) => <li><a href={l.href}>{l.label}</a></li>)}
       </ul>
-      <h2 class="hours-heading">Business Hours</h2>
-      <ul class="hours-list">
-        {site.hours.map((h) => (
-          <li><span>{h.day}</span><span>{h.time}</span></li>
-        ))}
-      </ul>
     </nav>
+  </div>
+
+  <div class="footer-state" aria-hidden="true">
+    <svg viewBox="0 0 250 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Outline of the state of Florida">
+      <path
+        d="M15,58
+           L60,52 L110,50 L160,50 L205,52 L235,55
+           L238,90 L235,125 L240,155 L233,185 L225,215 L216,245 L205,270 L193,290
+           L178,305 L160,302 L145,292
+           L130,275 L120,255 L128,247 L112,228 L100,204 L108,189 L93,173 L104,161 L88,135 L78,105 L72,88
+           L50,82 L25,80 L15,84 Z"
+        fill="#000000"
+      />
+    </svg>
   </div>
 
   <div class="footer-bottom">
@@ -67,8 +64,9 @@ const year = new Date().getFullYear();
 
 <style>
   .site-footer {
-    background: var(--color-navy);
-    color: rgba(255, 255, 255, 0.82);
+    background: var(--color-white);
+    color: var(--color-gray-700);
+    border-top: 1px solid var(--color-border);
     padding-block: clamp(3rem, 6vw, 4.5rem) 0;
   }
   .footer-grid {
@@ -77,42 +75,42 @@ const year = new Date().getFullYear();
     gap: 2.5rem;
     padding-bottom: 3rem;
   }
-  .footer-logo { height: 34px; width: auto; margin-bottom: 1rem; filter: brightness(0) invert(1); }
-  .footer-tagline { color: rgba(255,255,255,0.65); font-size: 0.92rem; max-width: 36ch; }
-  .footer-text-note { color: #fff; font-size: 0.92rem; margin-top: 1rem; }
+  .footer-logo { height: 60px; width: auto; margin-bottom: 1.1rem; }
+  .footer-tagline { color: var(--color-gray-600); font-size: 0.92rem; max-width: 36ch; }
+  .footer-text-note { color: var(--color-ink); font-size: 0.92rem; margin-top: 1rem; }
   .footer-contact { display: flex; flex-direction: column; gap: 0.3rem; margin-top: 0.5rem; }
-  .footer-contact a { color: #fff; font-weight: 600; }
-  .footer-social { display: flex; gap: 0.7rem; margin-top: 1.25rem; }
-  .footer-social a {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 36px; height: 36px; border-radius: 50%;
-    background: rgba(255,255,255,0.08); color: #fff;
-  }
-  .footer-social a:hover { background: var(--color-accent); }
+  .footer-contact a { color: var(--color-accent); font-weight: 600; }
+  .footer-contact a:hover { color: var(--color-accent-dark); }
 
   .footer-col h2 {
     font-family: var(--font-mono);
     font-size: 0.78rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: rgba(255,255,255,0.55);
+    color: var(--color-gray-500);
     margin-bottom: 1rem;
     font-weight: 600;
   }
   .footer-col ul { list-style: none; margin: 0 0 1.5rem; padding: 0; }
-  .footer-col a { color: rgba(255,255,255,0.82); font-size: 0.94rem; }
-  .footer-col a:hover { color: #fff; }
-  .hours-heading { margin-top: 0.5rem; }
-  .hours-list li { display: flex; justify-content: space-between; gap: 0.5rem; font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+  .footer-col a { color: var(--color-accent); font-size: 0.94rem; }
+  .footer-col a:hover { color: var(--color-accent-dark); }
 
-  .footer-bottom { border-top: 1px solid rgba(255,255,255,0.12); padding-block: 1.5rem; }
+  .footer-state {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0 2.5rem;
+  }
+  .footer-state svg { height: 120px; width: auto; }
+
+  .footer-bottom { border-top: 1px solid var(--color-border); padding-block: 1.5rem; }
   .footer-bottom-inner { display: flex; flex-direction: column; gap: 0.4rem; }
-  .footer-bottom p { margin: 0; font-size: 0.82rem; color: rgba(255,255,255,0.55); }
+  .footer-bottom p { margin: 0; font-size: 0.82rem; color: var(--color-gray-500); }
 
   @media (max-width: 900px) {
     .footer-grid { grid-template-columns: 1fr 1fr; }
   }
   @media (max-width: 560px) {
     .footer-grid { grid-template-columns: 1fr; }
+    .footer-state svg { height: 90px; }
   }
 </style>
