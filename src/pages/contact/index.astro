@@ -1,0 +1,196 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="Contact Us"
+  description="Contact Florida FR44 Auto Insurance by phone, text, or email. We serve drivers statewide and typically respond fastest by text."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Contact', href: '/contact/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Contact {site.name}</h1>
+      <p class="lead">We're here to help Florida drivers find fast, affordable coverage. Reach out any way that's convenient — text is usually fastest.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="card info-card">
+          <h2>Contact details</h2>
+          <ul class="info-list">
+            <li>
+              <span class="info-label">Text</span>
+              <a href={site.smsHref}>{site.phone}</a>
+            </li>
+            <li>
+              <span class="info-label">Email</span>
+              <a href={`mailto:${site.email}`}>{site.email}</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card info-card">
+          <h2>Business hours</h2>
+          <ul class="hours-list">
+            {site.hours.map((h) => (
+              <li><span>{h.day}</span><span>{h.time}</span></li>
+            ))}
+          </ul>
+          <p class="hours-note">Text messages are welcome anytime — we respond as soon as we're back online.</p>
+        </div>
+
+        <div class="card info-card map-card">
+          <h2>Service area</h2>
+          <!-- BEGIN GOOGLE MAPS PLACEHOLDER -->
+          <!--
+            Replace this placeholder with an embedded Google Map, e.g.:
+            <iframe
+              src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
+              width="100%" height="280" style="border:0; border-radius: 16px;"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              title="Florida FR44 Auto Insurance service area map">
+            </iframe>
+          -->
+          <div class="map-placeholder" role="img" aria-label="Map placeholder showing statewide Florida service area">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s7-6.7 7-12A7 7 0 105 10c0 5.3 7 12 7 12z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
+            <p>Serving all of Florida &mdash; map embed coming soon</p>
+          </div>
+          <!-- END GOOGLE MAPS PLACEHOLDER -->
+        </div>
+      </div>
+
+      <div class="card contact-form-wrap">
+        <h2>Send us a message</h2>
+        <p class="form-note">Fields marked <span aria-hidden="true">*</span><span class="visually-hidden">required</span> are required.</p>
+
+        <!-- Connected to Web3Forms — https://web3forms.com/ -->
+        <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="9f27f2ab-5c03-4dae-ad6b-0bb1c022b663" />
+          <input type="hidden" name="subject" value="New Contact Form Submission — Florida FR44 Auto Insurance" />
+          <input type="hidden" name="from_name" value="Florida FR44 Auto Insurance — Contact Form" />
+          <input type="hidden" name="redirect" value="https://floridafr44autoinsurance.com/contact/thank-you/" />
+          <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off" />
+
+          <div class="form-row">
+            <label for="c-name">Full name <span aria-hidden="true">*</span></label>
+            <input id="c-name" name="name" type="text" required autocomplete="name" />
+          </div>
+          <div class="form-row-2">
+            <div class="form-row">
+              <label for="c-phone">Phone number <span aria-hidden="true">*</span></label>
+              <input id="c-phone" name="phone" type="tel" required autocomplete="tel" />
+            </div>
+            <div class="form-row">
+              <label for="c-email">Email address <span aria-hidden="true">*</span></label>
+              <input id="c-email" name="email" type="email" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="c-message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="c-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+          <div id="contact-form-status" class="form-status" role="status" aria-live="polite"></div>
+        </form>
+
+        <script>
+          const contactForm = document.getElementById('contact-form') as HTMLFormElement | null;
+          const contactStatus = document.getElementById('contact-form-status') as HTMLElement | null;
+
+          contactForm?.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            if (!contactForm || !contactStatus) return;
+            const submitBtn = contactForm.querySelector('button[type="submit"]') as HTMLButtonElement | null;
+            if (!submitBtn) return;
+            const originalLabel = submitBtn.textContent;
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending…';
+            contactStatus.textContent = '';
+            contactStatus.className = 'form-status';
+
+            try {
+              const formData = new FormData(contactForm);
+              const response = await fetch(contactForm.action, {
+                method: 'POST',
+                headers: { Accept: 'application/json' },
+                body: formData,
+              });
+              const result = await response.json();
+
+              if (result.success) {
+                contactForm.reset();
+                contactForm.hidden = true;
+                contactStatus.className = 'form-status form-status-success';
+                contactStatus.innerHTML =
+                  "Thanks for reaching out — we'll get back to you shortly. Prefer it faster? <a href=\"sms:+17723143639\">Text us</a> anytime.";
+              } else {
+                throw new Error(result.message || 'Something went wrong.');
+              }
+            } catch (err) {
+              contactStatus.className = 'form-status form-status-error';
+              contactStatus.innerHTML =
+                "Something went wrong sending your message. Please try again, or <a href=\"sms:+17723143639\">text us</a> directly at 772-314-3639.";
+            } finally {
+              submitBtn.disabled = false;
+              submitBtn.textContent = originalLabel;
+            }
+          });
+        </script>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .lead { max-width: 640px; font-size: 1.05rem; }
+  .contact-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 2rem; align-items: start; }
+  .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
+  .info-card h2 { font-size: 1.05rem; margin-bottom: 1rem; }
+  .info-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.9rem; }
+  .info-list li { display: flex; flex-direction: column; gap: 0.15rem; }
+  .info-label { font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-gray-500); }
+  .info-list a { font-weight: 700; color: var(--color-ink); font-size: 1.02rem; }
+  .info-list a:hover { color: var(--color-blue); }
+
+  .hours-list { list-style: none; margin: 0 0 0.9rem; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+  .hours-list li { display: flex; justify-content: space-between; font-size: 0.92rem; color: var(--color-gray-700); }
+  .hours-note { font-size: 0.82rem; color: var(--color-gray-500); }
+
+  .map-placeholder {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem;
+    background: var(--color-blue-tint); color: var(--color-blue); border-radius: var(--radius-md);
+    padding: 2.5rem 1rem; text-align: center;
+  }
+  .map-placeholder p { color: var(--color-blue-dark); font-size: 0.85rem; font-weight: 600; margin: 0; }
+
+  .contact-form-wrap { padding: 2rem; }
+  .form-note { font-size: 0.8rem; color: var(--color-gray-500); margin-bottom: 1.25rem; }
+  .contact-form { display: flex; flex-direction: column; gap: 1.1rem; }
+  .form-row { display: flex; flex-direction: column; gap: 0.4rem; }
+  .form-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; }
+  label { font-size: 0.88rem; font-weight: 600; color: var(--color-gray-700); }
+  input, textarea {
+    font-family: var(--font-body); font-size: 0.96rem;
+    padding: 0.7rem 0.85rem; border-radius: var(--radius-sm);
+    border: 1.5px solid var(--color-gray-300); background: #fff; color: var(--color-ink);
+  }
+  input:focus, textarea:focus { border-color: var(--color-blue); outline: none; }
+  .form-status { font-size: 0.92rem; font-weight: 600; text-align: center; }
+  .form-status:empty { display: none; }
+  .form-status-success { color: #1a7a45; background: #e9f7ef; border-radius: var(--radius-sm); padding: 1rem; }
+  .form-status-error { color: var(--color-accent-dark); background: #fdecea; border-radius: var(--radius-sm); padding: 1rem; }
+
+  @media (max-width: 900px) {
+    .contact-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    .form-row-2 { grid-template-columns: 1fr; }
+  }
+</style>

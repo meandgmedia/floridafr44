@@ -1,0 +1,40 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import { site } from '@data/site';
+---
+<BaseLayout
+  title="Thank You — Message Received"
+  description="Thanks for contacting Florida FR44 Auto Insurance. We'll get back to you shortly."
+  noindex={true}
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Contact', href: '/contact/' }, { label: 'Thank You', href: '/contact/thank-you/' }]} />
+  </div>
+
+  <section class="section-tight">
+    <div class="container thanks-hero">
+      <div class="check-badge" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 13l4 4L19 7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h1>Message received!</h1>
+      <p class="lead">Thanks for reaching out to {site.name}. We'll get back to you shortly.</p>
+      <div class="thanks-actions">
+        <a href={site.smsHref} class="btn btn-primary">Text Us Now</a>
+        <a href="/" class="btn btn-outline">Back to Home</a>
+      </div>
+      <p class="thanks-note">Need something faster? Text {site.phone} anytime — it's usually the quickest way to reach us.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .thanks-hero { max-width: 560px; text-align: center; }
+  .check-badge {
+    width: 60px; height: 60px; border-radius: 50%; background: var(--color-accent);
+    display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem;
+  }
+  .lead { font-size: 1.05rem; }
+  .thanks-actions { display: flex; gap: 0.75rem; justify-content: center; margin: 1.75rem 0 1.25rem; flex-wrap: wrap; }
+  .thanks-note { font-size: 0.85rem; color: var(--color-gray-500); }
+</style>
