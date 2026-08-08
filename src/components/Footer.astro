@@ -39,17 +39,7 @@ const year = new Date().getFullYear();
   </div>
 
   <div class="footer-state" aria-hidden="true">
-    <svg viewBox="0 0 250 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Outline of the state of Florida">
-      <path
-        d="M15,58
-           L60,52 L110,50 L160,50 L205,52 L235,55
-           L238,90 L235,125 L240,155 L233,185 L225,215 L216,245 L205,270 L193,290
-           L178,305 L160,302 L145,292
-           L130,275 L120,255 L128,247 L112,228 L100,204 L108,189 L93,173 L104,161 L88,135 L78,105 L72,88
-           L50,82 L25,80 L15,84 Z"
-        fill="#000000"
-      />
-    </svg>
+    <img src="/images/florida-outline.png" alt="" width="456" height="433" loading="lazy" />
   </div>
 
   <div class="footer-bottom">
@@ -100,7 +90,8 @@ const year = new Date().getFullYear();
     justify-content: center;
     padding: 0.5rem 0 2.5rem;
   }
-  .footer-state svg { height: 120px; width: auto; }
+  .footer-state svg,
+  .footer-state img { height: 120px; width: auto; }
 
   .footer-bottom { border-top: 1px solid var(--color-border); padding-block: 1.5rem; }
   .footer-bottom-inner { display: flex; flex-direction: column; gap: 0.4rem; }
@@ -111,6 +102,7 @@ const year = new Date().getFullYear();
   }
   @media (max-width: 560px) {
     .footer-grid { grid-template-columns: 1fr; }
-    .footer-state svg { height: 90px; }
+    .footer-state svg,
+    .footer-state img { height: 90px; }
   }
 </style>
