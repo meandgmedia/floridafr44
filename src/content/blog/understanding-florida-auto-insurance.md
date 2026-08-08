@@ -3,8 +3,8 @@ title: "Understanding Florida Auto Insurance"
 description: "A beginner-friendly breakdown of how Florida auto insurance works, from required coverage to optional add-ons."
 pubDate: 2025-11-04
 category: "Florida Auto Insurance"
-image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "White SUV parked indoors"
+image: "https://images.unsplash.com/photo-1646174972811-78f3a8b26b1e?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Palm tree on the side of a Florida road"
 tags: ["auto insurance", "basics"]
 ---
 

@@ -22,6 +22,16 @@ import { site } from '@data/site';
   <section class="section-tight">
     <div class="container contact-grid">
       <div class="contact-info">
+        <div class="card agent-card">
+          <div class="agent-avatar" aria-hidden="true">MS</div>
+          <div class="agent-details">
+            <span class="info-label">Meet Your Agent</span>
+            <h2>Matt Saffian</h2>
+            <p class="agent-license">Florida Resident License #G273626</p>
+            <p class="agent-note">Have a question about your quote or filing? Text me directly — I personally handle every FR44 and SR22 case that comes through.</p>
+          </div>
+        </div>
+
         <div class="card info-card">
           <h2>Contact details</h2>
           <ul class="info-list">
@@ -36,21 +46,11 @@ import { site } from '@data/site';
           </ul>
         </div>
 
-        <div class="card info-card">
-          <h2>Business hours</h2>
-          <ul class="hours-list">
-            {site.hours.map((h) => (
-              <li><span>{h.day}</span><span>{h.time}</span></li>
-            ))}
-          </ul>
-          <p class="hours-note">Text messages are welcome anytime — we respond as soon as we're back online.</p>
-        </div>
-
         <div class="card info-card map-card">
           <h2>Service area</h2>
           <!-- BEGIN GOOGLE MAPS PLACEHOLDER -->
           <!--
-            Replace this placeholder with an embedded Google Map, e.g.:
+            To swap the Florida outline below for an embedded Google Map instead:
             <iframe
               src="https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE"
               width="100%" height="280" style="border:0; border-radius: 16px;"
@@ -58,9 +58,9 @@ import { site } from '@data/site';
               title="Florida FR44 Auto Insurance service area map">
             </iframe>
           -->
-          <div class="map-placeholder" role="img" aria-label="Map placeholder showing statewide Florida service area">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s7-6.7 7-12A7 7 0 105 10c0 5.3 7 12 7 12z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg>
-            <p>Serving all of Florida &mdash; map embed coming soon</p>
+          <div class="service-area">
+            <img src="/images/florida-outline.png" alt="" width="220" height="209" />
+            <p>Serving all of Florida</p>
           </div>
           <!-- END GOOGLE MAPS PLACEHOLDER -->
         </div>
@@ -159,16 +159,24 @@ import { site } from '@data/site';
   .info-list a { font-weight: 700; color: var(--color-ink); font-size: 1.02rem; }
   .info-list a:hover { color: var(--color-blue); }
 
-  .hours-list { list-style: none; margin: 0 0 0.9rem; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
-  .hours-list li { display: flex; justify-content: space-between; font-size: 0.92rem; color: var(--color-gray-700); }
-  .hours-note { font-size: 0.82rem; color: var(--color-gray-500); }
-
-  .map-placeholder {
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.75rem;
-    background: var(--color-blue-tint); color: var(--color-blue); border-radius: var(--radius-md);
-    padding: 2.5rem 1rem; text-align: center;
+  .agent-card { display: flex; gap: 1.1rem; align-items: flex-start; }
+  .agent-avatar {
+    flex-shrink: 0; width: 56px; height: 56px; border-radius: 50%;
+    background: var(--color-ink); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 1.1rem;
   }
-  .map-placeholder p { color: var(--color-blue-dark); font-size: 0.85rem; font-weight: 600; margin: 0; }
+  .agent-details h2 { font-size: 1.15rem; margin: 0.2rem 0 0.1rem; }
+  .agent-license { font-family: var(--font-mono); font-size: 0.78rem; color: var(--color-gray-500); margin-bottom: 0.6rem; }
+  .agent-note { font-size: 0.88rem; margin: 0; }
+
+  .service-area {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem;
+    background: var(--color-paper); border-radius: var(--radius-md);
+    padding: 1.5rem 1rem;
+  }
+  .service-area img { width: 140px; height: auto; }
+  .service-area p { color: var(--color-ink); font-size: 0.92rem; font-weight: 700; margin: 0; }
 
   .contact-form-wrap { padding: 2rem; }
   .form-note { font-size: 0.8rem; color: var(--color-gray-500); margin-bottom: 1.25rem; }
