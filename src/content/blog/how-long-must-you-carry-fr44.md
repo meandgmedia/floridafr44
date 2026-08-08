@@ -3,8 +3,8 @@ title: "How Long Must You Carry FR44?"
 description: "How long Florida drivers are typically required to maintain FR44 coverage, and what happens if that period is interrupted."
 pubDate: 2025-09-30
 category: "FR44 Basics"
-image: "/images/blog/cover-5.svg"
-imageAlt: "Illustration representing an FR44 filing timeline"
+image: "https://images.unsplash.com/photo-1486673748761-a8d18475c757?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Long straight road lined with trees"
 tags: ["FR44", "timeline"]
 ---
 

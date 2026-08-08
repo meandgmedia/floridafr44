@@ -3,8 +3,8 @@ title: "How to Compare Insurance Quotes the Right Way"
 description: "A practical framework for comparing Florida auto insurance quotes so you're comparing apples to apples, not just the bottom-line price."
 pubDate: 2025-11-18
 category: "Cost & Rates"
-image: "/images/blog/cover-12.svg"
-imageAlt: "Illustration representing comparing insurance quotes"
+image: "https://images.unsplash.com/photo-1711344397160-b23d5deaa012?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Calculator sitting on a table"
 tags: ["quotes", "comparison"]
 ---
 

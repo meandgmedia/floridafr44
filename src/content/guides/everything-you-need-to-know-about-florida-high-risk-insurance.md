@@ -3,8 +3,8 @@ title: "Everything You Need to Know About Florida High-Risk Insurance"
 description: "A complete overview of high-risk auto insurance in Florida, including what makes a driver 'high-risk,' FR44/SR22 requirements, and how to find affordable coverage."
 pubDate: 2025-10-07
 readTime: "10 min read"
-image: "/images/guides/cover-10.svg"
-imageAlt: "Illustration for Florida high-risk insurance guide"
+image: "https://images.unsplash.com/photo-1646519369905-922613727db3?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "City street lined with palm trees and parked cars"
 ---
 
 "High-risk" is an insurance industry term, not a permanent label — and it's more common than most drivers assume. Here's what it means in Florida and how to navigate it.

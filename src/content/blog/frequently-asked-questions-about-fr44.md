@@ -3,8 +3,8 @@ title: "Frequently Asked Questions About FR44"
 description: "Quick answers to the most common FR44 insurance questions Florida drivers ask us."
 pubDate: 2025-12-09
 category: "FR44 Basics"
-image: "/images/blog/cover-3.svg"
-imageAlt: "Illustration representing frequently asked FR44 questions"
+image: "https://images.unsplash.com/photo-1529369623266-f5264b696110?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Man standing beside an SUV on a sunny road"
 tags: ["FR44", "FAQ"]
 ---
 

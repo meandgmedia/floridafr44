@@ -3,8 +3,8 @@ title: "The FR44 Filing Process, Step by Step"
 description: "What actually happens when your insurance company files an FR44 certificate with the State of Florida — from quote to confirmation."
 pubDate: 2025-10-28
 category: "FR44 Basics"
-image: "/images/blog/cover-9.svg"
-imageAlt: "Illustration representing the FR44 filing process"
+image: "https://images.unsplash.com/photo-1664463760781-f159dfe3af30?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Couple signing a document together at a desk"
 tags: ["FR44", "filing"]
 ---
 

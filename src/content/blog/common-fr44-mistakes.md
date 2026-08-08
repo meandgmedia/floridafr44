@@ -3,8 +3,8 @@ title: "Common FR44 Mistakes"
 description: "The most common mistakes Florida drivers make with FR44 insurance — and how to avoid them."
 pubDate: 2025-10-14
 category: "FR44 Basics"
-image: "/images/blog/cover-7.svg"
-imageAlt: "Illustration representing common FR44 insurance mistakes"
+image: "https://images.unsplash.com/photo-1637763723578-79a4ca9225f7?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Magnifying glass resting on a document"
 tags: ["FR44", "mistakes"]
 ---
 

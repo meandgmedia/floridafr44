@@ -3,8 +3,8 @@ title: "Florida Insurance Discounts You Might Be Missing"
 description: "Common auto insurance discounts available to Florida drivers, including options that still apply under FR44 or SR22 coverage."
 pubDate: 2025-11-25
 category: "Cost & Rates"
-image: "/images/blog/cover-1.svg"
-imageAlt: "Illustration representing Florida insurance discounts"
+image: "https://images.unsplash.com/photo-1631511258193-252ab3da6b8b?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Calculator, pen, and cash on a table"
 tags: ["discounts", "savings"]
 ---
 

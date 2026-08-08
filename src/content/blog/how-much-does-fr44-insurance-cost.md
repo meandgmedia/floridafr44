@@ -3,8 +3,8 @@ title: "How Much Does FR44 Insurance Cost?"
 description: "What actually drives the cost of FR44 insurance in Florida, and realistic ways to keep your rate as low as possible."
 pubDate: 2025-09-09
 category: "Cost & Rates"
-image: "/images/blog/cover-2.svg"
-imageAlt: "Illustration representing FR44 insurance cost factors"
+image: "https://images.unsplash.com/photo-1642043175009-5997b3a078d8?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Calculator sitting on top of a pile of paperwork"
 tags: ["FR44", "cost"]
 ---
 

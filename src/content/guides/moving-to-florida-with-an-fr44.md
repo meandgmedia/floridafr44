@@ -3,8 +3,8 @@ title: "Moving to Florida With an FR44 Requirement"
 description: "What to know if you're moving to Florida — or moving within the state — while carrying an existing FR44 or SR22 insurance requirement."
 pubDate: 2025-09-23
 readTime: "7 min read"
-image: "/images/guides/cover-8.svg"
-imageAlt: "Illustration for moving to Florida with an FR44 requirement"
+image: "https://images.unsplash.com/photo-1642212436181-bcc5960f7cd4?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Street lined with palm trees and parked cars"
 ---
 
 Moving with an active FR44 or SR22 requirement adds a layer of planning most relocation checklists don't cover. Here's what to keep in mind.

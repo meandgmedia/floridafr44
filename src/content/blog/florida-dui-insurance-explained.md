@@ -3,8 +3,8 @@ title: "Florida DUI Insurance Explained"
 description: "How a DUI conviction affects your insurance in Florida, including FR44 requirements, rate impact, and what to expect."
 pubDate: 2025-09-23
 category: "FR44 Basics"
-image: "/images/blog/cover-4.svg"
-imageAlt: "Illustration representing Florida DUI insurance requirements"
+image: "https://images.unsplash.com/photo-1593115057322-e94b77572f20?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Wooden gavel on a white surface"
 tags: ["DUI", "FR44"]
 ---
 

@@ -3,8 +3,8 @@ title: "What Is FR44 Insurance?"
 description: "A clear, simple explanation of FR44 insurance in Florida: what it covers, who needs it, and how it differs from a standard auto policy."
 pubDate: 2025-09-02
 category: "FR44 Basics"
-image: "/images/blog/cover-1.svg"
-imageAlt: "Illustration representing FR44 insurance basics"
+image: "https://images.unsplash.com/photo-1603796846097-bee99e4a601f?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Person filling out an insurance document by hand"
 tags: ["FR44", "basics"]
 ---
 

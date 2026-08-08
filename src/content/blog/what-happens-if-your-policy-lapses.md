@@ -3,8 +3,8 @@ title: "What Happens If Your Policy Lapses?"
 description: "The real consequences of an insurance lapse in Florida, especially under an FR44 or SR22 requirement, and how to avoid one."
 pubDate: 2025-11-11
 category: "Policies"
-image: "/images/blog/cover-11.svg"
-imageAlt: "Illustration representing an insurance policy lapse"
+image: "https://images.unsplash.com/photo-1564668836804-05a2de350bb6?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Highway at night with light trails"
 tags: ["lapses", "compliance"]
 ---
 

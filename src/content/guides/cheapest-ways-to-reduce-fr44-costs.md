@@ -3,8 +3,8 @@ title: "Cheapest Ways to Reduce FR44 Costs"
 description: "Realistic, practical strategies for lowering the cost of FR44 insurance in Florida, ranked by impact."
 pubDate: 2025-08-26
 readTime: "9 min read"
-image: "/images/guides/cover-4.svg"
-imageAlt: "Illustration for reducing FR44 insurance costs"
+image: "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "White calculator on a desk"
 ---
 
 FR44 coverage costs more than a standard policy, but the amount more varies a lot depending on how you shop for it. Here are the strategies that make the biggest difference, in order of impact.

@@ -3,8 +3,8 @@ title: "The Complete Guide to Florida FR44 Insurance"
 description: "Everything Florida drivers need to know about FR44 insurance in one comprehensive guide — what it is, who needs it, costs, timelines, and how to save money."
 pubDate: 2025-08-05
 readTime: "12 min read"
-image: "/images/guides/cover-1.svg"
-imageAlt: "Illustration for the complete guide to Florida FR44 insurance"
+image: "https://images.unsplash.com/photo-1563242152-568e5de6f2b8?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Wide open road under a blue sky"
 ---
 
 FR44 insurance confuses a lot of Florida drivers, mostly because it's unique to just two states and rarely explained clearly. This guide covers everything in one place.

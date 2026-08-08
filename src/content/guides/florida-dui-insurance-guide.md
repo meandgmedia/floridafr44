@@ -3,8 +3,8 @@ title: "Florida DUI Insurance Guide"
 description: "A comprehensive guide to how a DUI conviction affects Florida drivers' insurance, from FR44 requirements to long-term rate impact."
 pubDate: 2025-09-09
 readTime: "10 min read"
-image: "/images/guides/cover-6.svg"
-imageAlt: "Illustration for the Florida DUI insurance guide"
+image: "https://images.unsplash.com/photo-1676181739678-47d76dc38a87?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Wooden judge's hammer on a table"
 ---
 
 A DUI conviction changes your insurance situation in Florida in several specific ways. This guide walks through each of them.

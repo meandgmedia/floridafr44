@@ -3,8 +3,8 @@ title: "How Long Does FR44 Stay on Your Record?"
 description: "How long an FR44 filing and the underlying conviction stay on your Florida driving record, and how each affects your insurance over time."
 pubDate: 2025-09-02
 readTime: "7 min read"
-image: "/images/guides/cover-5.svg"
-imageAlt: "Illustration representing an FR44 record timeline"
+image: "https://images.unsplash.com/photo-1589391886645-d51941baf7fb?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Wooden gavel and block on marble"
 ---
 
 There are actually two separate timelines to understand here: how long you must carry FR44 insurance, and how long the underlying conviction stays on your driving record. They're related but not identical.

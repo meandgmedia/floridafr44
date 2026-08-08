@@ -3,8 +3,8 @@ title: "Florida Driving Laws Every Driver Should Know"
 description: "A practical overview of Florida driving laws that affect your insurance requirements, from no-fault rules to financial responsibility."
 pubDate: 2025-10-21
 category: "Florida Auto Insurance"
-image: "/images/blog/cover-8.svg"
-imageAlt: "Illustration representing Florida driving laws"
+image: "https://images.unsplash.com/photo-1639805855046-818d9159387b?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Road lined with palm trees on a sunny day"
 tags: ["Florida law", "auto insurance"]
 ---
 

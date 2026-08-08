@@ -3,8 +3,8 @@ title: "FR44 vs. SR22: A Full Comparison"
 description: "A detailed, side-by-side comparison of FR44 and SR22 insurance requirements in Florida — what triggers each, coverage limits, and cost differences."
 pubDate: 2025-08-19
 readTime: "8 min read"
-image: "/images/guides/cover-3.svg"
-imageAlt: "Illustration comparing FR44 and SR22 insurance"
+image: "https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Person writing on a paper document"
 ---
 
 FR44 and SR22 are both certificates of financial responsibility, but they aren't the same requirement — and filing the wrong one won't satisfy a court or FLHSMV order. Here's a full comparison.
