@@ -70,4 +70,4 @@ FR44 policies typically cost more than standard auto insurance for two reasons: 
 
 ## Next steps
 
-If you have an FR44 requirement, the most important thing is getting compliant coverage in place before any deadline — and comparing carriers to make sure you're not overpaying along the way. [Get a free quote](/quote/) and we'll compare multiple Florida-licensed carriers for you, or [text us](sms:+17722260875) if you'd rather skip the form.
+If you have an FR44 requirement, the most important thing is getting compliant coverage in place before any deadline — and comparing carriers to make sure you're not overpaying along the way. [Get a free quote](/quote/) and we'll compare multiple Florida-licensed carriers for you, or [text us](sms:+17723143639) if you'd rather skip the form.

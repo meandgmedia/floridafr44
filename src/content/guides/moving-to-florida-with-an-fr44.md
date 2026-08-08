@@ -34,4 +34,4 @@ Because FR44 is specific to Florida (and Virginia), drivers moving from a state 
 
 ## Getting set up quickly
 
-We help drivers relocating to Florida, or moving within the state, get compliant FR44 or SR22 coverage in place without a lapse. [Get a free quote](/quote/) or [text us](sms:+17722260875) with your situation and current filing details.
+We help drivers relocating to Florida, or moving within the state, get compliant FR44 or SR22 coverage in place without a lapse. [Get a free quote](/quote/) or [text us](sms:+17723143639) with your situation and current filing details.

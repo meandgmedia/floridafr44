@@ -41,4 +41,4 @@ Repeat convictions can extend suspension periods, increase fines, and sometimes 
 
 A DUI conviction doesn't mean you're stuck with high rates indefinitely. Shopping carefully now, and maintaining a clean, continuous record going forward, puts you on the fastest path back to standard insurance pricing.
 
-[Get a free quote](/quote/) to compare FR44 coverage from multiple Florida carriers, or [text us](sms:+17722260875) if you have questions about your specific situation.
+[Get a free quote](/quote/) to compare FR44 coverage from multiple Florida carriers, or [text us](sms:+17723143639) if you have questions about your specific situation.

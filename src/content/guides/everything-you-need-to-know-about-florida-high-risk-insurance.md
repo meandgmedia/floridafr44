@@ -42,4 +42,4 @@ Once your required filing period ends and your record stays clean, you'll typica
 
 ## Where to start
 
-If you've been told you're high-risk, or you've received an FR44 or SR22 notice, the fastest path forward is comparing real quotes rather than guessing at what you'll pay. [Get a free quote](/quote/) and we'll shop multiple Florida carriers for you, or [text us](sms:+17722260875) with your situation.
+If you've been told you're high-risk, or you've received an FR44 or SR22 notice, the fastest path forward is comparing real quotes rather than guessing at what you'll pay. [Get a free quote](/quote/) and we'll shop multiple Florida carriers for you, or [text us](sms:+17723143639) with your situation.

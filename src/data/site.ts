@@ -6,9 +6,9 @@ export const site = {
   shortName: "Florida FR44",
   domain: "floridafr44autoinsurance.com",
   url: "https://floridafr44autoinsurance.com",
-  phone: "772-226-0875",
-  phoneHref: "tel:+17722260875",
-  smsHref: "sms:+17722260875",
+  phone: "772-314-3639",
+  phoneHref: "tel:+17723143639",
+  smsHref: "sms:+17723143639",
   email: "hi@floridafr44autoinsurance.com",
   tagline: "Florida FR44 & SR22 insurance quotes made easy.",
   description:
