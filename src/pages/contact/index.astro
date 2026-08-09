@@ -23,7 +23,7 @@ import { site } from '@data/site';
     <div class="container contact-grid">
       <div class="contact-info">
         <div class="card agent-card">
-          <div class="agent-avatar" aria-hidden="true">MS</div>
+          <img src="/images/agent/allstate-badge.png" alt="Allstate agent badge" class="agent-avatar" width="56" height="56" />
           <div class="agent-details">
             <span class="info-label">Meet Your Agent</span>
             <h2>Matt Saffian</h2>
@@ -162,9 +162,7 @@ import { site } from '@data/site';
   .agent-card { display: flex; gap: 1.1rem; align-items: flex-start; }
   .agent-avatar {
     flex-shrink: 0; width: 56px; height: 56px; border-radius: 50%;
-    background: var(--color-ink); color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-family: var(--font-display); font-weight: 700; font-size: 1.1rem;
+    object-fit: cover; box-shadow: var(--shadow-sm);
   }
   .agent-details h2 { font-size: 1.15rem; margin: 0.2rem 0 0.1rem; }
   .agent-license { font-family: var(--font-mono); font-size: 0.78rem; color: var(--color-gray-500); margin-bottom: 0.6rem; }

@@ -49,7 +49,7 @@ import { site } from '@data/site';
         </ul>
 
         <div class="card agent-card">
-          <div class="agent-avatar" aria-hidden="true">MS</div>
+          <img src="/images/agent/allstate-badge.png" alt="Allstate agent badge" class="agent-avatar" width="56" height="56" />
           <div class="agent-details">
             <span class="info-label">Meet Your Agent</span>
             <h3>Matt Saffian</h3>
@@ -197,9 +197,7 @@ import { site } from '@data/site';
   }
   .agent-avatar {
     flex-shrink: 0; width: 56px; height: 56px; border-radius: 50%;
-    background: var(--color-ink); color: #fff;
-    display: flex; align-items: center; justify-content: center;
-    font-family: var(--font-display); font-weight: 700; font-size: 1.1rem;
+    object-fit: cover; box-shadow: var(--shadow-sm);
   }
   .agent-details .info-label {
     font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;
