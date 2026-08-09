@@ -8,10 +8,12 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+const categories = ['All', ...Array.from(new Set(posts.map((p) => p.data.category))).sort()];
 ---
 <BaseLayout
   title="Blog"
-  description="Practical articles on FR44 insurance, SR22 insurance, and Florida auto coverage — written for drivers, not adjusters."
+  description="Practical articles on FR44 insurance, SR22 insurance, DUI insurance, and Florida auto coverage — written for drivers, not adjusters."
 >
   <div class="container">
     <Breadcrumbs items={[{ label: 'Blog', href: '/blog/' }]} />
@@ -21,23 +23,51 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
     <div class="container">
       <span class="eyebrow">Insights</span>
       <h1>The Florida FR44 blog</h1>
-      <p class="lead">Straightforward articles on FR44, SR22, and Florida auto insurance — no jargon, just answers.</p>
+      <p class="lead">Straightforward articles on FR44, SR22, DUI insurance, and Florida auto coverage — no jargon, just answers.</p>
+    </div>
+  </section>
+
+  <section class="section-tight blog-toolbar-section">
+    <div class="container">
+      <div class="blog-toolbar">
+        <div class="search-wrap">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input
+            type="search"
+            id="blog-search"
+            placeholder="Search articles…"
+            aria-label="Search blog articles"
+          />
+        </div>
+        <div class="category-pills" id="category-pills" role="group" aria-label="Filter by category">
+          {categories.map((cat, i) => (
+            <button type="button" class="pill" data-cat={cat} aria-pressed={i === 0 ? 'true' : 'false'}>{cat}</button>
+          ))}
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="section-tight">
     <div class="container">
-      <div class="grid grid-3">
+      <p id="blog-empty-state" class="blog-empty" hidden>No articles match your search. Try a different term or category.</p>
+      <div class="grid grid-3" id="blog-grid">
         {posts.map((post) => (
-          <PostCard
-            href={`/blog/${post.slug}/`}
-            title={post.data.title}
-            description={post.data.description}
-            image={post.data.image}
-            imageAlt={post.data.imageAlt}
-            category={post.data.category}
-            date={post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
-          />
+          <div
+            class="blog-card-wrap"
+            data-category={post.data.category}
+            data-search={`${post.data.title} ${post.data.description}`.toLowerCase()}
+          >
+            <PostCard
+              href={`/blog/${post.slug}/`}
+              title={post.data.title}
+              description={post.data.description}
+              image={post.data.image}
+              imageAlt={post.data.imageAlt}
+              category={post.data.category}
+              date={post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+            />
+          </div>
         ))}
       </div>
     </div>
@@ -48,4 +78,87 @@ const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
 
 <style>
   .lead { max-width: 620px; font-size: 1.05rem; }
+
+  .blog-toolbar-section { padding-top: 0; padding-bottom: 1.5rem; }
+  .blog-toolbar { display: flex; flex-direction: column; gap: 1.1rem; }
+
+  .search-wrap {
+    position: relative;
+    max-width: 420px;
+  }
+  .search-wrap svg { position: absolute; left: 0.9rem; top: 50%; transform: translateY(-50%); color: var(--color-gray-500); pointer-events: none; }
+  .search-wrap input {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    padding: 0.7rem 0.9rem 0.7rem 2.6rem;
+    border-radius: var(--radius-full);
+    border: 1.5px solid var(--color-gray-300);
+    background: var(--color-white);
+    color: var(--color-ink);
+  }
+  .search-wrap input:focus { border-color: var(--color-blue); outline: none; }
+  .search-wrap input::-webkit-search-cancel-button { cursor: pointer; }
+
+  .category-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .pill {
+    font-family: var(--font-body);
+    font-size: 0.84rem;
+    font-weight: 600;
+    padding: 0.45em 1em;
+    border-radius: var(--radius-full);
+    border: 1.5px solid var(--color-gray-300);
+    background: var(--color-white);
+    color: var(--color-gray-700);
+    cursor: pointer;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+  }
+  .pill:hover { border-color: var(--color-blue); color: var(--color-blue-dark); }
+  .pill[aria-pressed='true'] { background: var(--color-ink); border-color: var(--color-ink); color: #fff; }
+
+  .blog-empty {
+    text-align: center;
+    color: var(--color-gray-500);
+    padding: 2.5rem 0;
+    font-size: 0.95rem;
+  }
+
+  .blog-card-wrap { display: contents; }
 </style>
+
+<script>
+  const searchInput = document.getElementById('blog-search') as HTMLInputElement | null;
+  const pillsContainer = document.getElementById('category-pills');
+  const cards = Array.from(document.querySelectorAll<HTMLElement>('.blog-card-wrap'));
+  const emptyState = document.getElementById('blog-empty-state');
+
+  let activeCategory = 'All';
+  let searchTerm = '';
+
+  function applyFilters() {
+    let visibleCount = 0;
+    for (const card of cards) {
+      const matchesCategory = activeCategory === 'All' || card.dataset.category === activeCategory;
+      const matchesSearch = !searchTerm || (card.dataset.search || '').includes(searchTerm);
+      const visible = matchesCategory && matchesSearch;
+      card.style.display = visible ? '' : 'none';
+      if (visible) visibleCount++;
+    }
+    if (emptyState) emptyState.hidden = visibleCount !== 0;
+  }
+
+  searchInput?.addEventListener('input', () => {
+    searchTerm = searchInput.value.trim().toLowerCase();
+    applyFilters();
+  });
+
+  pillsContainer?.addEventListener('click', (e) => {
+    const target = (e.target as HTMLElement).closest('.pill') as HTMLElement | null;
+    if (!target) return;
+    activeCategory = target.dataset.cat || 'All';
+    pillsContainer.querySelectorAll('.pill').forEach((p) => p.setAttribute('aria-pressed', 'false'));
+    target.setAttribute('aria-pressed', 'true');
+    applyFilters();
+  });
+</script>
