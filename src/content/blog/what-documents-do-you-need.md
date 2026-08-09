@@ -3,8 +3,8 @@ title: "What Documents Do You Need to Get Insured?"
 description: "The documents Florida drivers typically need to get an auto insurance quote and policy, including for FR44 and SR22 filings."
 pubDate: 2025-12-02
 category: "Policies"
-image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Person writing on a paper document"
+image: "https://images.unsplash.com/photo-1480365443306-930b898cb434?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "High waves along the Florida coast"
 tags: ["documents", "getting started"]
 ---
 

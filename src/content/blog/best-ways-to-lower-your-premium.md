@@ -3,8 +3,8 @@ title: "Best Ways to Lower Your Premium"
 description: "Practical, realistic strategies Florida drivers can use to lower an FR44, SR22, or standard auto insurance premium."
 pubDate: 2025-09-16
 category: "Cost & Rates"
-image: "https://images.unsplash.com/photo-1725258080098-727051947997?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Calculator sitting on top of a pile of money"
+image: "https://images.unsplash.com/photo-1494477920939-88c59ba76428?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Waves rolling onto a Florida seashore"
 tags: ["savings", "rates"]
 ---
 

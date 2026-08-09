@@ -3,8 +3,8 @@ title: "Can You Switch Insurance Companies?"
 description: "Yes — here's how to safely switch insurance companies while carrying an FR44 or SR22 requirement in Florida, without risking a lapse."
 pubDate: 2025-10-07
 category: "Policies"
-image: "https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Person signing a printed document"
+image: "https://images.unsplash.com/photo-1512936702668-1ab037aced2a?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Pathway leading to a lifeguard house on a Florida beach"
 tags: ["policies", "switching"]
 ---
 

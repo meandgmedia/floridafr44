@@ -3,8 +3,8 @@ title: "How to Reinstate Your Florida Driver License"
 description: "A step-by-step overview of reinstating a suspended Florida driver license, including how FR44 and SR22 insurance fit into the process."
 pubDate: 2025-08-12
 readTime: "9 min read"
-image: "https://images.unsplash.com/photo-1676181739859-08330dea8999?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Wooden judge's gavel on a table"
+image: "https://images.unsplash.com/photo-1654206855819-e639d7f0cb67?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "View of a Florida beach from the dunes"
 ---
 
 License suspensions in Florida happen for a range of reasons, and reinstatement steps vary depending on the cause. This guide covers the general process, with a focus on where insurance requirements fit in.

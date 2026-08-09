@@ -48,6 +48,16 @@ import { site } from '@data/site';
           </li>
         </ul>
 
+        <div class="card agent-card">
+          <div class="agent-avatar" aria-hidden="true">MS</div>
+          <div class="agent-details">
+            <span class="info-label">Meet Your Agent</span>
+            <h3>Matt Saffian</h3>
+            <p class="agent-license">Florida Resident License #G273626</p>
+            <p class="agent-note">I personally handle every FR44 and SR22 case that comes through — text me directly with any questions about your quote.</p>
+          </div>
+        </div>
+
         <div class="quote-text-cta">
           <h3>Prefer to skip the form?</h3>
           <p>Text your name and city to <a href={site.smsHref}>{site.phone}</a> and we'll get started right away. Texting is the fastest way to reach us.</p>
@@ -180,6 +190,24 @@ import { site } from '@data/site';
   .benefit-list li { display: flex; flex-direction: column; gap: 0.15rem; }
   .benefit-list strong { color: var(--color-ink); font-family: var(--font-display); }
   .benefit-list span { color: var(--color-gray-600); font-size: 0.92rem; }
+
+  .agent-card {
+    display: flex; gap: 1.1rem; align-items: flex-start;
+    margin-top: 1.5rem;
+  }
+  .agent-avatar {
+    flex-shrink: 0; width: 56px; height: 56px; border-radius: 50%;
+    background: var(--color-ink); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 700; font-size: 1.1rem;
+  }
+  .agent-details .info-label {
+    font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--color-gray-500);
+  }
+  .agent-details h3 { font-size: 1.05rem; margin: 0.2rem 0 0.1rem; }
+  .agent-license { font-family: var(--font-mono); font-size: 0.78rem; color: var(--color-gray-500); margin-bottom: 0.6rem; }
+  .agent-note { font-size: 0.88rem; margin: 0; }
 
   .quote-text-cta {
     background: var(--color-blue-tint); border-radius: var(--radius-md);
