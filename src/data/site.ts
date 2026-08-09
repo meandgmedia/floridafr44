@@ -20,6 +20,7 @@ export const site = {
     facebook: "https://facebook.com/",
     instagram: "https://instagram.com/",
     twitter: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/matt-saffian-134b1593/",
   },
   hours: [
     { day: "Monday – Friday", time: "9:00 AM – 6:00 PM" },

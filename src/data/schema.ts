@@ -21,7 +21,7 @@ export function organizationSchema() {
       addressRegion: site.addressRegion,
       addressCountry: site.addressCountry,
     },
-    sameAs: [site.social.facebook, site.social.instagram, site.social.twitter],
+    sameAs: [site.social.linkedin],
   };
 }
 
