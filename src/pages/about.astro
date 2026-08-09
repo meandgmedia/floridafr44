@@ -22,6 +22,28 @@ import { site } from '@data/site';
     </div>
   </section>
 
+  <section class="section-tight">
+    <div class="container">
+      <div class="agent-feature card">
+        <div class="agent-feature-top">
+          <img src="/images/agent/allstate-badge.png" alt="Allstate agent badge" class="agent-feature-avatar" width="64" height="64" />
+          <div>
+            <span class="eyebrow" style="margin-bottom:0.3rem;">Meet Your Agent</span>
+            <h2>Matt Saffian</h2>
+            <p class="agent-license">Florida Resident License #G273626</p>
+          </div>
+        </div>
+        <p class="agent-feature-note">
+          As a licensed Allstate agent, I personally write both Allstate and National General (an Allstate company) policies — two well-established, trusted carriers — alongside the other Florida-licensed insurers we compare, to help find you strong coverage at a competitive price. Every FR44 and SR22 case that comes through this site goes through me directly.
+        </p>
+        <div class="agent-logos">
+          <img src="/images/carriers/allstate.svg" alt="Allstate" style="height:24px;" />
+          <img src="/images/carriers/natgen-allstate.png" alt="National General, an Allstate company" style="height:44px;" />
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section">
     <div class="container grid grid-2 about-content">
       <div>
@@ -79,4 +101,16 @@ import { site } from '@data/site';
   .about-hero { max-width: 760px; }
   .lead { font-size: 1.08rem; }
   .about-content { align-items: start; }
+
+  .agent-feature { max-width: 780px; margin-inline: auto; padding: 2rem; }
+  .agent-feature-top { display: flex; align-items: center; gap: 1.1rem; margin-bottom: 1.25rem; }
+  .agent-feature-avatar { flex-shrink: 0; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; box-shadow: var(--shadow-sm); }
+  .agent-feature-top h2 { font-size: 1.3rem; margin: 0.1rem 0 0.1rem; }
+  .agent-license { font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-gray-500); margin: 0; }
+  .agent-feature-note { font-size: 0.98rem; }
+  .agent-logos {
+    display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;
+    margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--color-border);
+  }
+  .agent-logos img { width: auto; }
 </style>
