@@ -1,7 +1,7 @@
 ---
 title: "How SR-22 Insurance Works in Florida"
 description: "A clear, step-by-step explanation of how SR-22 insurance actually works in Florida — what it proves, how it's filed, and how long you need it."
-pubDate: 2027-01-18
+pubDate: 2026-01-19
 category: "SR22 Basics"
 image: "https://images.unsplash.com/photo-1597355495449-a35be801476c?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Palm tree silhouette under a cloudy Florida sunset"

@@ -1,7 +1,7 @@
 ---
 title: "Do You Need an SR-22 After Driving Without Insurance?"
 description: "Got cited for driving without insurance in Florida? Here's whether SR-22 applies to you, what it means, and how to get back in compliance."
-pubDate: 2027-02-22
+pubDate: 2026-02-23
 category: "SR22 Basics"
 image: "https://images.unsplash.com/photo-1615941634977-e895245bafa7?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "River winding between trees in a Florida landscape"

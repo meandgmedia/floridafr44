@@ -1,7 +1,7 @@
 ---
 title: "How to Get an SR-22 in Florida"
 description: "A clear, step-by-step walkthrough of how to get SR-22 insurance in Florida — what to gather, who to call, and what happens next."
-pubDate: 2027-02-15
+pubDate: 2026-02-16
 category: "SR22 Basics"
 image: "https://images.unsplash.com/photo-1608737147786-a0cf730c4c77?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Orange and blue sunset sky over Florida water"

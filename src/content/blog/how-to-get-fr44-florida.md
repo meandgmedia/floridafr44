@@ -1,7 +1,7 @@
 ---
 title: "How to Get an FR-44 in Florida"
 description: "A clear, no-nonsense walkthrough of how to actually get FR-44 insurance in Florida, from your first phone call to your first proof of filing."
-pubDate: 2027-01-11
+pubDate: 2026-01-12
 category: "FR44 Basics"
 image: "https://images.unsplash.com/photo-1622386607412-a40faba6e346?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Body of water under a colorful Florida sunset"

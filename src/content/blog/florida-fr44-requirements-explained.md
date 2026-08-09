@@ -1,7 +1,7 @@
 ---
 title: "Florida FR-44 Requirements Explained"
 description: "The exact FR-44 requirements Florida drivers need to know — coverage limits, filing periods, and what happens if you miss the details."
-pubDate: 2027-01-04
+pubDate: 2026-01-05
 category: "FR44 Basics"
 image: "https://images.unsplash.com/photo-1578142879523-b2f092e4a188?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Colorful sunset sky over Florida"

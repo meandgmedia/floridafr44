@@ -1,7 +1,7 @@
 ---
 title: "SR-22 Insurance After a Suspended License in Florida"
 description: "If a suspended license is standing between you and the road, here's how SR-22 insurance fits into getting your Florida license back."
-pubDate: 2027-03-01
+pubDate: 2026-03-02
 category: "SR22 Basics"
 image: "https://images.unsplash.com/photo-1705543980078-1bcdd36684c9?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Dirt road cutting through a Florida field"

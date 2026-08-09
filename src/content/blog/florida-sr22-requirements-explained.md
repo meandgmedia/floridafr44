@@ -1,7 +1,7 @@
 ---
 title: "Florida SR-22 Requirements Explained"
 description: "Everything Florida drivers need to know about SR-22 requirements — coverage limits, filing periods, and what to double-check before you shop."
-pubDate: 2027-02-08
+pubDate: 2026-02-09
 category: "SR22 Basics"
 image: "https://images.unsplash.com/photo-1606938483749-c4b9eaaffbe5?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Body of water under a cloudy Florida sunset sky"
