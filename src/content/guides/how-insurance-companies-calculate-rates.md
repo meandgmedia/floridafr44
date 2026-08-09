@@ -3,8 +3,8 @@ title: "How Insurance Companies Calculate Rates"
 description: "An inside look at the factors Florida auto insurers use to calculate your premium, including how FR44 and SR22 risk is priced differently."
 pubDate: 2025-09-30
 readTime: "8 min read"
-image: "https://images.unsplash.com/photo-1493238792000-8113da705763?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Car parked beside a road"
+image: "https://images.unsplash.com/photo-1620062068446-c388a850cc98?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Car on the road near palm-lined buildings"
 ---
 
 Insurance pricing can feel like a black box, but insurers generally weigh a consistent set of factors — they just weigh them differently from one company to the next, which is exactly why comparing quotes matters.

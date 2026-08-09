@@ -3,8 +3,8 @@ title: "Florida Insurance Requirements Explained"
 description: "A clear explanation of Florida's minimum auto insurance requirements, no-fault rules, and when higher coverage like FR44 or SR22 applies."
 pubDate: 2025-09-16
 readTime: "9 min read"
-image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&h=630&q=80"
-imageAlt: "Car parked on an asphalt road"
+image: "https://images.unsplash.com/photo-1659861371003-425a67695417?auto=format&fit=crop&w=1200&h=630&q=80"
+imageAlt: "Street lined with palm trees and buildings"
 ---
 
 Florida's insurance requirements differ from many other states, which trips up both new residents and drivers who haven't shopped for a policy in a while. Here's a clear breakdown.
