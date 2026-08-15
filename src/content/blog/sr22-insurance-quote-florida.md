@@ -2,10 +2,10 @@
 title: "Get an SR-22 Insurance Quote in Florida"
 description: "Need an SR-22 insurance quote in Florida? Here's what to have ready, what to expect, and how to make sure you're not overpaying."
 pubDate: 2026-01-26
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1704740587025-fd9bcfbb7441?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Sun setting over the water on a Florida beach"
-tags: ["SR22", "quote"]
+tags: ["SR-22", "quote"]
 ---
 
 Getting an SR-22 quote in Florida is a lot less complicated than the situation that likely led you here. Whether it's a lapse, a suspended license, or a specific court order, the quote process itself follows a predictable, fast pattern once you know what to expect.
@@ -34,7 +34,7 @@ Even for identical drivers, SR-22 quotes can land in different places from diffe
 
 ## How fast can you get a quote?
 
-Usually within minutes during business hours. If you'd rather skip the online form, [Florida FR44 Auto Insurance](/quote/) also takes quote requests by text, which most people find faster and easier.
+Usually within minutes during business hours. If you'd rather skip the online form, [Florida FR-44 Auto Insurance](/quote/) also takes quote requests by text, which most people find faster and easier.
 
 ## SR-22 quote request steps
 

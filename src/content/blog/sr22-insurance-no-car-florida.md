@@ -2,10 +2,10 @@
 title: "Can You Get SR-22 Insurance Without a Car?"
 description: "Yes — non-owner SR-22 insurance exists exactly for this situation. Here's how it works in Florida and how to get started."
 pubDate: 2026-06-08
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1622789094987-d75a22f934c4?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Boat docked next to calm Florida water"
-tags: ["SR22", "no car"]
+tags: ["SR-22", "no car"]
 ---
 
 Yes, you can get SR-22 insurance without owning a car — this trips up a surprising number of people who assume the requirement only makes sense if you have a vehicle to insure. Here's how it actually works.
@@ -71,7 +71,7 @@ Once your SR-22 filing period concludes, whether or not you've purchased a car b
 
 ## We help drivers in exactly this situation
 
-[Florida FR44 Auto Insurance](/quote/) works with drivers who need SR-22 coverage without a vehicle, every day.
+[Florida FR-44 Auto Insurance](/quote/) works with drivers who need SR-22 coverage without a vehicle, every day.
 
 <div class="mid-cta">
   <p>Get your non-owner SR-22 quote today.</p>

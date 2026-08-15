@@ -2,10 +2,10 @@
 title: "Does Every Florida DUI Require an FR-44?"
 description: "Wondering if your Florida DUI actually requires FR-44 insurance? Here's how to know for sure, and what to do if you're still unsure."
 pubDate: 2026-05-11
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1644685127243-ff740286cf0c?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Boats resting on the water in Florida"
-tags: ["DUI", "FR44"]
+tags: ["DUI", "FR-44"]
 ---
 
 It's a fair question, and one that comes up constantly: does every single DUI in Florida trigger an FR-44 requirement, or are there exceptions? Here's the honest, detailed answer.
@@ -64,7 +64,7 @@ Getting FR-44 versus SR-22 wrong isn't just a paperwork technicality — filing 
 
 ## Getting a straight answer
 
-If you're still not sure what your DUI actually requires, we can help you figure it out fast. [Florida FR44 Auto Insurance](/quote/) confirms your requirement and gets you compliant coverage in place.
+If you're still not sure what your DUI actually requires, we can help you figure it out fast. [Florida FR-44 Auto Insurance](/quote/) confirms your requirement and gets you compliant coverage in place.
 
 <div class="mid-cta">
   <p>Let's confirm your exact requirement today.</p>

@@ -5,7 +5,7 @@ pubDate: 2025-12-24
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1520520731457-9283dd14aa66?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "White canoe resting near a palm tree in Florida"
-tags: ["SR22", "cost"]
+tags: ["SR-22", "cost"]
 ---
 
 Ask five drivers what their SR-22 insurance costs and you'll get five different answers — and that's completely normal. There's no single sticker price here. What follows is a real, honest breakdown of what actually moves the number.

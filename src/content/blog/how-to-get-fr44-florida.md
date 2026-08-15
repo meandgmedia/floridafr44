@@ -2,10 +2,10 @@
 title: "How to Get an FR-44 in Florida"
 description: "A clear, no-nonsense walkthrough of how to actually get FR-44 insurance in Florida, from your first phone call to your first proof of filing."
 pubDate: 2026-01-12
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1622386607412-a40faba6e346?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Body of water under a colorful Florida sunset"
-tags: ["FR44", "how to"]
+tags: ["FR-44", "how to"]
 ---
 
 If you've been told to "go get an FR-44," that's a fairly vague instruction for something with real deadlines attached. So let's make it concrete: here's exactly how to get one, in order, without wasting a week figuring out where to start.
@@ -23,7 +23,7 @@ Before anything else, find your court paperwork or FLHSMV notice. It should say 
 
 ## Shop carriers that actually offer FR-44
 
-This is the step people skip, and it costs them. Not every insurance company writes FR-44 policies, so before you fall in love with a quote, confirm the carrier actually supports the filing. Working with [Florida FR44 Auto Insurance](/quote/) means every carrier we compare already checks that box.
+This is the step people skip, and it costs them. Not every insurance company writes FR-44 policies, so before you fall in love with a quote, confirm the carrier actually supports the filing. Working with [Florida FR-44 Auto Insurance](/quote/) means every carrier we compare already checks that box.
 
 <div class="mid-cta">
   <p>Skip the guesswork — get quotes from FR-44-eligible carriers now.</p>

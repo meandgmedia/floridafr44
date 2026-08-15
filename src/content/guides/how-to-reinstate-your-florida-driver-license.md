@@ -1,6 +1,6 @@
 ---
 title: "How to Reinstate Your Florida Driver License"
-description: "A step-by-step overview of reinstating a suspended Florida driver license, including how FR44 and SR22 insurance fit into the process."
+description: "A step-by-step overview of reinstating a suspended Florida driver license, including how FR-44 and SR-22 insurance fit into the process."
 pubDate: 2025-08-12
 readTime: "9 min read"
 image: "https://images.unsplash.com/photo-1654206855819-e639d7f0cb67?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -19,11 +19,11 @@ Depending on the cause, this might include completing a required course (such as
 
 ## Step 3: Get compliant insurance in place
 
-Many suspensions — especially DUI-related ones — require proof of FR44 insurance before reinstatement. Others, such as driving-without-insurance violations, typically require an SR22 filing instead. Confirm which applies to your case, since filing the wrong one won't satisfy the requirement. Our [FR44 vs. SR22 guide](/guides/fr44-vs-sr22/) explains the difference in detail.
+Many suspensions — especially DUI-related ones — require proof of FR-44 insurance before reinstatement. Others, such as driving-without-insurance violations, typically require an SR-22 filing instead. Confirm which applies to your case, since filing the wrong one won't satisfy the requirement. Our [FR-44 vs. SR-22 guide](/guides/fr44-vs-sr22/) explains the difference in detail.
 
 ## Step 4: Your insurer files electronically
 
-Once your policy is active with the correct coverage limits, your insurance company files the FR44 or SR22 certificate directly with the FLHSMV. This step is typically automatic — you don't need to submit anything yourself once your policy is active.
+Once your policy is active with the correct coverage limits, your insurance company files the FR-44 or SR-22 certificate directly with the FLHSMV. This step is typically automatic — you don't need to submit anything yourself once your policy is active.
 
 ## Step 5: Pay the reinstatement fee
 
@@ -35,8 +35,8 @@ Once all requirements are met — course completion, fees, and insurance filing 
 
 ## Staying reinstated
 
-If your reinstatement involved an FR44 or SR22 filing, remember that maintaining continuous coverage for your full required period (often three years) is essential. A lapse can trigger another suspension and reset your filing period.
+If your reinstatement involved an FR-44 or SR-22 filing, remember that maintaining continuous coverage for your full required period (often three years) is essential. A lapse can trigger another suspension and reset your filing period.
 
 ## Where to start
 
-If insurance is the piece you're missing, that's where we can help directly. [Get a free quote](/quote/) for FR44 or SR22 coverage, or [text us](sms:+17723143639) with your situation and we'll point you in the right direction.
+If insurance is the piece you're missing, that's where we can help directly. [Get a free quote](/quote/) for FR-44 or SR-22 coverage, or [text us](sms:+17723143639) with your situation and we'll point you in the right direction.

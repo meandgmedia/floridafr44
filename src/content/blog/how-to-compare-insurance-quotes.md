@@ -8,11 +8,11 @@ imageAlt: "Aerial view of Florida buildings near the water"
 tags: ["quotes", "comparison"]
 ---
 
-Comparing insurance quotes sounds simple — get the lowest number — but doing it well takes a bit more care, especially with FR44 or SR22 coverage where required limits are non-negotiable.
+Comparing insurance quotes sounds simple — get the lowest number — but doing it well takes a bit more care, especially with FR-44 or SR-22 coverage where required limits are non-negotiable.
 
 ## Match coverage limits first
 
-Before comparing prices, confirm every quote uses the same coverage limits. A cheaper quote with lower liability limits than you're required to carry (under FR44 or SR22) isn't actually a valid option, even if the number looks appealing.
+Before comparing prices, confirm every quote uses the same coverage limits. A cheaper quote with lower liability limits than you're required to carry (under FR-44 or SR-22) isn't actually a valid option, even if the number looks appealing.
 
 ## Compare deductibles too
 
@@ -24,7 +24,7 @@ Some quotes include extras like roadside assistance or rental reimbursement; oth
 
 ## Confirm the carrier can file what you need
 
-If you're shopping under an FR44 or SR22 requirement, confirm upfront that the carrier actually offers that specific filing. Not all insurers do, and finding out after committing to a quote wastes time.
+If you're shopping under an FR-44 or SR-22 requirement, confirm upfront that the carrier actually offers that specific filing. Not all insurers do, and finding out after committing to a quote wastes time.
 
 ## Look at more than one number
 

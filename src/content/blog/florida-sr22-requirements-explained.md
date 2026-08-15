@@ -2,10 +2,10 @@
 title: "Florida SR-22 Requirements Explained"
 description: "Everything Florida drivers need to know about SR-22 requirements — coverage limits, filing periods, and what to double-check before you shop."
 pubDate: 2026-02-09
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1606938483749-c4b9eaaffbe5?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Body of water under a cloudy Florida sunset sky"
-tags: ["SR22", "requirements"]
+tags: ["SR-22", "requirements"]
 ---
 
 SR-22 requirements sound bureaucratic, but they boil down to a short list of things you need to get right. Here's the complete picture, without the legal jargon.
@@ -72,7 +72,7 @@ This happens more than you'd think. Court paperwork can be dense, and it's easy 
 
 ## Getting it right
 
-SR-22 requirements are specific but manageable once you know exactly what's expected. [Florida FR44 Auto Insurance](/quote/) makes sure your coverage, carrier, and filing all line up correctly the first time.
+SR-22 requirements are specific but manageable once you know exactly what's expected. [Florida FR-44 Auto Insurance](/quote/) makes sure your coverage, carrier, and filing all line up correctly the first time.
 
 <div class="mid-cta">
   <p>Get matched with SR-22-eligible coverage today.</p>

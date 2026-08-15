@@ -61,7 +61,7 @@ It can feel frustrating to pay more simply because you haven't had years to prov
 
 ## We'll help you find your footing
 
-[Florida FR44 Auto Insurance](/quote/) helps new and inexperienced drivers find real, workable coverage without the runaround.
+[Florida FR-44 Auto Insurance](/quote/) helps new and inexperienced drivers find real, workable coverage without the runaround.
 
 <div class="mid-cta">
   <p>Get your quote as a new driver today.</p>

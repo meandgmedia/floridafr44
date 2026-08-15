@@ -5,7 +5,7 @@ pubDate: 2027-04-12
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1585844677322-46c771c2860f?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Pelican resting on a wooden post during sunset in Florida"
-tags: ["FR44", "SR22", "credit score"]
+tags: ["FR-44", "SR-22", "credit score"]
 ---
 
 Between the higher premium, the unfamiliar terminology, and the general stress of the situation, it's completely reasonable to wonder whether an FR-44 or SR-22 requirement is quietly doing damage to your credit score too. Here's the honest, complete answer.
@@ -71,7 +71,7 @@ It's worth remembering that your FR-44 or SR-22 period is temporary, typically a
 
 ## Let's keep both your compliance and your finances on track
 
-Understanding exactly what does and doesn't affect your credit helps you focus on what matters. [Florida FR44 Auto Insurance](/quote/) helps you find affordable coverage that fits your budget.
+Understanding exactly what does and doesn't affect your credit helps you focus on what matters. [Florida FR-44 Auto Insurance](/quote/) helps you find affordable coverage that fits your budget.
 
 <div class="mid-cta">
   <p>Get a quote that fits your actual budget.</p>

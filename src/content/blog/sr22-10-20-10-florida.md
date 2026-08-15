@@ -2,10 +2,10 @@
 title: "What Does 10/20/10 Mean for SR-22 Insurance?"
 description: "A plain-English breakdown of what the 10/20/10 coverage limits mean for SR-22 insurance in Florida."
 pubDate: 2027-02-08
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1556767395-24448f02fe64?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Silhouette photography of a bridge in Florida"
-tags: ["SR22", "coverage limits"]
+tags: ["SR-22", "coverage limits"]
 ---
 
 Numbers like "10/20/10" show up constantly in insurance conversations without ever getting properly explained. Here's exactly what they mean for SR-22 coverage in Florida.
@@ -61,7 +61,7 @@ While 10/20/10 satisfies Florida's SR-22 requirement, it's worth having an hones
 
 ## Let's make sure your coverage is correct
 
-[Florida FR44 Auto Insurance](/quote/) confirms your exact required limits and finds a policy that satisfies them.
+[Florida FR-44 Auto Insurance](/quote/) confirms your exact required limits and finds a policy that satisfies them.
 
 <div class="mid-cta">
   <p>Get your SR-22 policy set up with the right limits.</p>

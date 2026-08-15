@@ -62,7 +62,7 @@ A suspension often means a stretch of higher expenses at exactly the moment fina
 
 ## Let's get your coverage sorted
 
-[Florida FR44 Auto Insurance](/quote/) helps Florida drivers navigate insurance during a suspension, so reinstatement isn't held up by paperwork.
+[Florida FR-44 Auto Insurance](/quote/) helps Florida drivers navigate insurance during a suspension, so reinstatement isn't held up by paperwork.
 
 <div class="mid-cta">
   <p>Get your suspended-license insurance question answered today.</p>

@@ -57,7 +57,7 @@ Underwriting guidelines for new, inexperienced drivers vary significantly betwee
 
 ## Let's find your path to coverage
 
-A denial here almost always has a specific, fixable cause. [Florida FR44 Auto Insurance](/quote/) compares carriers to find the right fit for new and inexperienced drivers.
+A denial here almost always has a specific, fixable cause. [Florida FR-44 Auto Insurance](/quote/) compares carriers to find the right fit for new and inexperienced drivers.
 
 <div class="mid-cta">
   <p>Get your quote from a carrier that works with new drivers.</p>

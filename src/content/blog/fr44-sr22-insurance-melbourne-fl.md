@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Melbourne, FL"
 description: "Melbourne, FL drivers can get fast, compared FR-44 and SR-22 insurance quotes. Here's what to know before you shop."
 pubDate: 2026-11-23
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1685407265992-730ec1392323?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Palm tree with a blue sky in the background"
-tags: ["Melbourne", "FR44", "SR22"]
+tags: ["Melbourne", "FR-44", "SR-22"]
 ---
 
 Melbourne drivers facing an FR-44 or SR-22 requirement are working within the same statewide Florida framework as drivers anywhere else in the state — the key is understanding your specific situation and finding a carrier that actually writes these filings quickly.
@@ -53,7 +53,7 @@ Melbourne sits near Patrick Space Force Base and a cluster of aerospace and tech
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) serves Melbourne and the Space Coast with fast, comparison-based FR-44 and SR-22 quotes.
+[Florida FR-44 Auto Insurance](/quote/) serves Melbourne and the Space Coast with fast, comparison-based FR-44 and SR-22 quotes.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

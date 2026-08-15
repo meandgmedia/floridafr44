@@ -2,10 +2,10 @@
 title: "Do You Need an SR-22 After Driving Without Insurance?"
 description: "Got cited for driving without insurance in Florida? Here's whether SR-22 applies to you, what it means, and how to get back in compliance."
 pubDate: 2026-02-23
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1615941634977-e895245bafa7?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "River winding between trees in a Florida landscape"
-tags: ["SR22", "no insurance"]
+tags: ["SR-22", "no insurance"]
 ---
 
 Getting cited for driving without insurance is stressful enough without wondering what comes next. If you're asking whether SR-22 applies to your situation, here's the direct answer, plus what to actually do about it.
@@ -70,7 +70,7 @@ There's a real incentive to move fast here beyond just avoiding further penaltie
 
 ## Moving forward
 
-A no-insurance citation feels bigger than it has to. [Florida FR44 Auto Insurance](/quote/) can confirm exactly what your situation requires and get you back in compliance fast.
+A no-insurance citation feels bigger than it has to. [Florida FR-44 Auto Insurance](/quote/) can confirm exactly what your situation requires and get you back in compliance fast.
 
 <div class="mid-cta">
   <p>Get compliant coverage in place today.</p>

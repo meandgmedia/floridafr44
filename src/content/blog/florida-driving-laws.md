@@ -16,15 +16,15 @@ Florida requires all drivers to carry Personal Injury Protection (PIP), which co
 
 ## Minimum required coverage
 
-At minimum, Florida requires PIP and Property Damage Liability (PDL) coverage. Bodily injury liability isn't universally mandatory for all drivers, but it becomes required after certain violations — including FR44 and SR22 cases — and is widely recommended regardless.
+At minimum, Florida requires PIP and Property Damage Liability (PDL) coverage. Bodily injury liability isn't universally mandatory for all drivers, but it becomes required after certain violations — including FR-44 and SR-22 cases — and is widely recommended regardless.
 
 ## Financial responsibility law
 
-Florida's financial responsibility law is the legal basis behind FR44 and SR22 filings. After certain convictions, the state requires proof that you can financially cover damages you might cause, which is what these certificates verify to the FLHSMV.
+Florida's financial responsibility law is the legal basis behind FR-44 and SR-22 filings. After certain convictions, the state requires proof that you can financially cover damages you might cause, which is what these certificates verify to the FLHSMV.
 
 ## License suspension triggers
 
-Common triggers for license suspension in Florida include DUI convictions, driving without insurance, accumulating too many points, and failing to maintain required FR44 or SR22 coverage. Reinstatement typically requires proof of compliant insurance.
+Common triggers for license suspension in Florida include DUI convictions, driving without insurance, accumulating too many points, and failing to maintain required FR-44 or SR-22 coverage. Reinstatement typically requires proof of compliant insurance.
 
 ## Uninsured motorist coverage
 

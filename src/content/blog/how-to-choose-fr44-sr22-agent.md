@@ -5,7 +5,7 @@ pubDate: 2027-04-05
 category: "Policies"
 image: "https://images.unsplash.com/photo-1656261737405-2e8cd9513964?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Couple standing in a body of water in Florida"
-tags: ["FR44", "SR22", "choosing an agent"]
+tags: ["FR-44", "SR-22", "choosing an agent"]
 ---
 
 Picking an insurance agent might feel like a small decision compared to everything else going on if you're navigating an FR-44 or SR-22 requirement — but it's actually one of the decisions that affects how smoothly the rest of the process goes. Here's exactly what separates an agent who handles this well from one who doesn't.
@@ -69,7 +69,7 @@ A good agent makes the whole process feel considerably less overwhelming. You'll
 
 ## We specialize in exactly this
 
-[Florida FR44 Auto Insurance](/quote/) handles FR-44 and SR-22 cases daily, with the depth of experience that makes this process actually smooth.
+[Florida FR-44 Auto Insurance](/quote/) handles FR-44 and SR-22 cases daily, with the depth of experience that makes this process actually smooth.
 
 <div class="mid-cta">
   <p>Work with an agent who knows FR-44 and SR-22 inside and out.</p>

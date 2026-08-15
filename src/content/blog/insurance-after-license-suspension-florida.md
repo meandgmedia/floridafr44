@@ -68,7 +68,7 @@ Every suspension case has its own particular details, but the overall pattern â€
 
 ## Moving forward
 
-A suspension doesn't have to define your insurance experience going forward. [Florida FR44 Auto Insurance](/quote/) helps Florida drivers get back to standard coverage as smoothly as possible.
+A suspension doesn't have to define your insurance experience going forward. [Florida FR-44 Auto Insurance](/quote/) helps Florida drivers get back to standard coverage as smoothly as possible.
 
 <div class="mid-cta">
   <p>Get your post-suspension coverage sorted today.</p>

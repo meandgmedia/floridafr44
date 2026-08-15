@@ -2,10 +2,10 @@
 title: "Non-Owner SR-22 Insurance in Florida"
 description: "Need SR-22 coverage but don't own a car? Here's how non-owner SR-22 insurance works in Florida, what it costs, and when it makes sense."
 pubDate: 2026-05-25
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1547205725-2a24bf99d0b8?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Boats docked in a Florida marina"
-tags: ["SR22", "non-owner"]
+tags: ["SR-22", "non-owner"]
 ---
 
 If you've been told you need SR-22 coverage but you don't currently own a car, you might assume the requirement doesn't apply to you. It does — and non-owner SR-22 insurance is built exactly for this situation.
@@ -66,7 +66,7 @@ Life circumstances shift, and it's common for someone on a non-owner policy to e
 
 ## We can help
 
-[Florida FR44 Auto Insurance](/quote/) helps drivers without a vehicle get compliant, affordable SR-22 coverage in place quickly.
+[Florida FR-44 Auto Insurance](/quote/) helps drivers without a vehicle get compliant, affordable SR-22 coverage in place quickly.
 
 <div class="mid-cta">
   <p>Get your non-owner SR-22 quote today.</p>

@@ -62,7 +62,7 @@ Part of the confusion here comes from insurance and licensing being handled by d
 
 ## Let's sort out your coverage
 
-Whatever your license status, [Florida FR44 Auto Insurance](/quote/) can help you understand your insurance options clearly.
+Whatever your license status, [Florida FR-44 Auto Insurance](/quote/) can help you understand your insurance options clearly.
 
 <div class="mid-cta">
   <p>Get clarity on your coverage options today.</p>

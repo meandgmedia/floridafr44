@@ -62,7 +62,7 @@ It's worth naming this directly: a record with a few incidents on it doesn't def
 
 ## Let's find your best option
 
-A bad record doesn't mean bad options. [Florida FR44 Auto Insurance](/quote/) compares carriers to find competitive pricing for your specific situation.
+A bad record doesn't mean bad options. [Florida FR-44 Auto Insurance](/quote/) compares carriers to find competitive pricing for your specific situation.
 
 <div class="mid-cta">
   <p>Get your quote despite a less-than-perfect record.</p>

@@ -2,10 +2,10 @@
 title: "How FR-44 Insurance Works in Florida"
 description: "A step-by-step look at how FR-44 insurance actually works in Florida, from the moment you're notified to the day your filing period ends."
 pubDate: 2025-12-29
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1561009226-7a820d647a40?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Sunset over the ocean off the Florida coast"
-tags: ["FR44", "how it works"]
+tags: ["FR-44", "how it works"]
 ---
 
 You've heard the term. Maybe a court clerk said it, maybe a letter from the FLHSMV did. Either way, "FR-44" is now a word you need to understand, and fast. Here's how the whole mechanism actually works, start to finish.
@@ -64,7 +64,7 @@ None of these mistakes are catastrophic if you catch them early. They're mostly 
 
 **What happens after my three years are up?** Assuming no lapses, the FR-44 requirement generally falls away and you can shop for a standard policy again — often at a noticeably better rate than you started with.
 
-## Where [Florida FR44 Auto Insurance](/quote/) fits in
+## Where [Florida FR-44 Auto Insurance](/quote/) fits in
 
 This entire process gets a lot smoother with someone who does it daily instead of once a decade. We compare carriers that actually write FR-44 policies, explain your specific requirement in plain language, and make sure the filing gets submitted correctly the first time.
 

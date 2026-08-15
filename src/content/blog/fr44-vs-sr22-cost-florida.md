@@ -5,7 +5,7 @@ pubDate: 2026-12-21
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1545410693-ab537dd00b7c?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Aerial view of houses and buildings facing the ocean in Florida"
-tags: ["FR44", "SR22", "cost comparison"]
+tags: ["FR-44", "SR-22", "cost comparison"]
 ---
 
 If you're trying to figure out why one friend pays more for their state-required coverage than another, the answer often comes down to which certificate they're carrying. Here's a direct, practical comparison of FR-44 and SR-22 costs and coverage in Florida.
@@ -59,7 +59,7 @@ Picture two drivers with similar records: one needs SR-22 after a lapse in cover
 
 ## Get your real numbers
 
-Rather than guessing based on averages, [Florida FR44 Auto Insurance](/quote/) gets you an actual quote for your specific requirement.
+Rather than guessing based on averages, [Florida FR-44 Auto Insurance](/quote/) gets you an actual quote for your specific requirement.
 
 <div class="mid-cta">
   <p>Compare your real FR-44 or SR-22 costs today.</p>

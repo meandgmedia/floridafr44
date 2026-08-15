@@ -62,7 +62,7 @@ Every experienced driver on the road today started with zero history at some poi
 
 ## Starting your driving history the right way
 
-[Florida FR44 Auto Insurance](/quote/) helps new drivers find their first policy without unnecessary complications.
+[Florida FR-44 Auto Insurance](/quote/) helps new drivers find their first policy without unnecessary complications.
 
 <div class="mid-cta">
   <p>Get your first quote as a new driver today.</p>

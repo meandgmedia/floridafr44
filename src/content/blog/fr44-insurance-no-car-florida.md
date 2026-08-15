@@ -2,10 +2,10 @@
 title: "Can You Get FR-44 Insurance Without Owning a Car?"
 description: "Yes — here's exactly how FR-44 insurance works if you don't own a car in Florida, including cost, coverage, and how to get started."
 pubDate: 2026-06-01
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1517696522815-46a004b80a2d?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Aerial view of yachts docked in a Florida marina"
-tags: ["FR44", "no car"]
+tags: ["FR-44", "no car"]
 ---
 
 Short answer: yes, absolutely. A lot of people assume FR-44 requires you to already own a car, and that assumption causes more stress than it needs to. Let's clear it up properly.
@@ -67,7 +67,7 @@ When you apply for a non-owner FR-44 policy, expect questions about how often yo
 
 ## Let's get you compliant
 
-Not owning a car is not a barrier. [Florida FR44 Auto Insurance](/quote/) helps drivers without vehicles get FR-44-compliant coverage in place quickly.
+Not owning a car is not a barrier. [Florida FR-44 Auto Insurance](/quote/) helps drivers without vehicles get FR-44-compliant coverage in place quickly.
 
 <div class="mid-cta">
   <p>Get your non-owner FR-44 quote now.</p>

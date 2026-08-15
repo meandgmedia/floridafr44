@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Vero Beach, FL"
 description: "Fast, straightforward FR-44 and SR-22 insurance help for Vero Beach drivers — compare carriers and get compliant coverage quickly."
 pubDate: 2026-11-09
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1647871777058-1b5e5ca56eb5?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Street lined with palm trees and parked cars"
-tags: ["Vero Beach", "FR44", "SR22"]
+tags: ["Vero Beach", "FR-44", "SR-22"]
 ---
 
 Vero Beach drivers navigating an FR-44 or SR-22 requirement follow the same statewide rules as every other Florida driver, but getting it right quickly still depends on understanding your specific situation and finding a carrier that actually writes these filings.
@@ -53,7 +53,7 @@ Vero Beach's barrier island and mainland split means many residents cross causew
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Vero Beach and Indian River County drivers find fast, competitively priced FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Vero Beach and Indian River County drivers find fast, competitively priced FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

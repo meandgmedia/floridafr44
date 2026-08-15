@@ -73,7 +73,7 @@ If you're a parent working through this for a teenager rather than for yourself,
 
 ## Let's get your first policy right
 
-[Florida FR44 Auto Insurance](/quote/) helps new drivers understand their options and find real savings from day one.
+[Florida FR-44 Auto Insurance](/quote/) helps new drivers understand their options and find real savings from day one.
 
 <div class="mid-cta">
   <p>Get your first-time driver quote today.</p>

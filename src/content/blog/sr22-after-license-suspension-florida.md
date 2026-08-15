@@ -2,10 +2,10 @@
 title: "SR-22 Insurance After a Suspended License in Florida"
 description: "If a suspended license is standing between you and the road, here's how SR-22 insurance fits into getting your Florida license back."
 pubDate: 2026-03-02
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1705543980078-1bcdd36684c9?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Dirt road cutting through a Florida field"
-tags: ["SR22", "license suspension"]
+tags: ["SR-22", "license suspension"]
 ---
 
 A suspended license has a way of making everything else in life harder — getting to work, picking up your kids, just living normally. If SR-22 insurance is part of what's standing between you and reinstatement, here's exactly how that piece fits together.
@@ -73,7 +73,7 @@ Reinstatement can feel like it's dragging even when everything is moving correct
 
 ## Getting back on the road
 
-A suspended license feels like it puts your whole life on pause. [Florida FR44 Auto Insurance](/quote/) can get your SR-22 coverage sorted quickly so insurance isn't what's holding up your reinstatement.
+A suspended license feels like it puts your whole life on pause. [Florida FR-44 Auto Insurance](/quote/) can get your SR-22 coverage sorted quickly so insurance isn't what's holding up your reinstatement.
 
 <div class="mid-cta">
   <p>Get your SR-22 policy started today.</p>

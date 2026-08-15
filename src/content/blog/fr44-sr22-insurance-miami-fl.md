@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Miami, FL"
 description: "Miami drivers need fast FR-44 and SR-22 insurance answers. Here's how the process works and how to compare carriers efficiently."
 pubDate: 2026-11-30
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1519782455847-ebb81b032de8?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Brown wooden house with palm trees in Florida"
-tags: ["Miami", "FR44", "SR22"]
+tags: ["Miami", "FR-44", "SR-22"]
 ---
 
 Miami's size and pace make it easy to feel like everything moves faster there, including deadlines tied to an FR-44 or SR-22 requirement. The good news: the underlying process is the same statewide Florida framework as anywhere else, and it moves quickly once you know what you're doing.
@@ -53,7 +53,7 @@ Miami's dense traffic, from I-95 to the Palmetto Expressway to local surface str
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Miami-Dade drivers find fast, competitively priced FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Miami-Dade drivers find fast, competitively priced FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

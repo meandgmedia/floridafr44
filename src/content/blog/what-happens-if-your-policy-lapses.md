@@ -1,6 +1,6 @@
 ---
 title: "What Happens If Your Policy Lapses?"
-description: "The real consequences of an insurance lapse in Florida, especially under an FR44 or SR22 requirement, and how to avoid one."
+description: "The real consequences of an insurance lapse in Florida, especially under an FR-44 or SR-22 requirement, and how to avoid one."
 pubDate: 2025-11-11
 category: "Policies"
 image: "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -18,9 +18,9 @@ Any gap between when one policy ends and another begins counts as a lapse, even 
 
 For a standard auto policy, a lapse can lead to registration and license suspension, higher future premiums, and in some cases an insurance verification fine. Florida actively monitors continuous coverage through electronic reporting.
 
-## FR44 and SR22 consequences are more serious
+## FR-44 and SR-22 consequences are more serious
 
-If you're carrying an FR44 or SR22 requirement, your insurer must report any lapse to the FLHSMV. This typically triggers an immediate license suspension and, in many cases, restarts your required filing period — meaning a three-year requirement could effectively become longer.
+If you're carrying an FR-44 or SR-22 requirement, your insurer must report any lapse to the FLHSMV. This typically triggers an immediate license suspension and, in many cases, restarts your required filing period — meaning a three-year requirement could effectively become longer.
 
 ## How to avoid a lapse
 
@@ -31,6 +31,6 @@ If you're carrying an FR44 or SR22 requirement, your insurer must report any lap
 
 ## If a lapse already happened
 
-Don't wait to address it. Get compliant coverage back in place as quickly as possible and confirm with your carrier (or the FLHSMV, for FR44/SR22 cases) what it means for your specific filing period.
+Don't wait to address it. Get compliant coverage back in place as quickly as possible and confirm with your carrier (or the FLHSMV, for FR-44/SR-22 cases) what it means for your specific filing period.
 
 Need to get back on track? [Get a free quote](/quote/) and we'll help you find coverage fast.

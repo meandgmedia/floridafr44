@@ -2,10 +2,10 @@
 title: "What Is an SR-22 Certificate in Florida?"
 description: "A clear, simple explanation of the SR-22 certificate in Florida — what it proves, who files it, and how it fits into your insurance policy."
 pubDate: 2027-01-25
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1602725159577-73d77e7583b0?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Bridge over a river near city buildings in Florida"
-tags: ["SR22", "certificate"]
+tags: ["SR-22", "certificate"]
 ---
 
 If you've been told you need an "SR-22 certificate" and pictured something like a diploma you'd frame on the wall, here's the far less dramatic reality — and why that's actually good news.
@@ -59,7 +59,7 @@ Once it clicks that the SR-22 certificate is just an automatic byproduct of havi
 
 ## Let's get your certificate filed correctly
 
-[Florida FR44 Auto Insurance](/quote/) makes sure your policy meets SR-22 requirements and your certificate is filed promptly.
+[Florida FR-44 Auto Insurance](/quote/) makes sure your policy meets SR-22 requirements and your certificate is filed promptly.
 
 <div class="mid-cta">
   <p>Get your SR-22-compliant policy today.</p>

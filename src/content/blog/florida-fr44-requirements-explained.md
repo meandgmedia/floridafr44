@@ -2,10 +2,10 @@
 title: "Florida FR-44 Requirements Explained"
 description: "The exact FR-44 requirements Florida drivers need to know — coverage limits, filing periods, and what happens if you miss the details."
 pubDate: 2026-01-05
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1578142879523-b2f092e4a188?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Colorful sunset sky over Florida"
-tags: ["FR44", "requirements"]
+tags: ["FR-44", "requirements"]
 ---
 
 Requirements aren't exactly thrilling reading, but with FR-44, the details are the whole ballgame. Miss one, and you could be looking at a longer suspension or a restarted filing period. Let's go through exactly what Florida expects of you.
@@ -71,7 +71,7 @@ It's also worth knowing that Florida's specific coverage limits for FR-44 can be
 
 ## Getting it right the first time
 
-FR-44 requirements are unforgiving of small mistakes, which is exactly why it pays to work with someone who handles them constantly. [Florida FR44 Auto Insurance](/quote/) makes sure your coverage limits, carrier, and filing all line up correctly from day one.
+FR-44 requirements are unforgiving of small mistakes, which is exactly why it pays to work with someone who handles them constantly. [Florida FR-44 Auto Insurance](/quote/) makes sure your coverage limits, carrier, and filing all line up correctly from day one.
 
 <div class="mid-cta">
   <p>Get matched with the right FR-44 coverage today.</p>

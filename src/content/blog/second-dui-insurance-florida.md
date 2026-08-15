@@ -63,7 +63,7 @@ A second DUI often comes with a longer suspension period than a first. It's wort
 
 ## We specialize in exactly this
 
-[Florida FR44 Auto Insurance](/quote/) works with drivers facing repeat convictions regularly — we know which carriers say yes.
+[Florida FR-44 Auto Insurance](/quote/) works with drivers facing repeat convictions regularly — we know which carriers say yes.
 
 <div class="mid-cta">
   <p>Let's find coverage that works for your situation.</p>

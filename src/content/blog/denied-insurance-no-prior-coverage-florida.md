@@ -56,7 +56,7 @@ Since carriers vary significantly in how they handle applicants with no prior in
 
 ## Let's get this sorted out
 
-A denial is a signal to adjust your approach, not a dead end. [Florida FR44 Auto Insurance](/quote/) compares carriers to find the right fit for first-time policyholders.
+A denial is a signal to adjust your approach, not a dead end. [Florida FR-44 Auto Insurance](/quote/) compares carriers to find the right fit for first-time policyholders.
 
 <div class="mid-cta">
   <p>Get your quote from a carrier that works with your situation.</p>

@@ -2,10 +2,10 @@
 title: "What Is an FR-44 Certificate in Florida?"
 description: "A plain-English explanation of the FR-44 certificate — what it actually is, who files it, and what it proves to the state of Florida."
 pubDate: 2027-01-18
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1595539724264-07da84f94c4e?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "White and blue building near a body of water in Florida"
-tags: ["FR44", "certificate"]
+tags: ["FR-44", "certificate"]
 ---
 
 The word "certificate" makes the FR-44 sound more like a diploma than an insurance document, which honestly adds to the confusion. Here's exactly what it is, stripped of the jargon.
@@ -59,7 +59,7 @@ A lot of the stress around FR-44 comes from not knowing what's actually happenin
 
 ## Let's get your certificate filed correctly
 
-[Florida FR44 Auto Insurance](/quote/) makes sure your policy meets FR-44 requirements and your certificate gets filed without delay.
+[Florida FR-44 Auto Insurance](/quote/) makes sure your policy meets FR-44 requirements and your certificate gets filed without delay.
 
 <div class="mid-cta">
   <p>Get your FR-44-compliant policy today.</p>

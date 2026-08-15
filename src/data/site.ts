@@ -2,17 +2,17 @@
 // Update here once and it propagates everywhere (nav, footer, schema, CTAs).
 
 export const site = {
-  name: "Florida FR44 Auto Insurance",
-  shortName: "Florida FR44",
+  name: "Florida FR-44 Auto Insurance",
+  shortName: "Florida FR-44",
   domain: "floridafr44autoinsurance.com",
   url: "https://floridafr44autoinsurance.com",
   phone: "772-314-3639",
   phoneHref: "tel:+17723143639",
   smsHref: "sms:+17723143639",
   email: "hi@floridafr44autoinsurance.com",
-  tagline: "Florida FR44 & SR22 insurance quotes made easy.",
+  tagline: "Florida FR-44 & SR-22 insurance quotes made easy.",
   description:
-    "Fast, affordable FR44 and SR22 insurance quotes for Florida drivers. We compare multiple carriers to find you the best rate — statewide coverage, friendly service, and texting preferred.",
+    "Fast, affordable FR-44 and SR-22 insurance quotes for Florida drivers. We compare multiple carriers to find you the best rate — statewide coverage, friendly service, and texting preferred.",
   addressRegion: "FL",
   addressCountry: "US",
   areaServed: "Florida",
@@ -31,8 +31,8 @@ export const site = {
 
 export const navMain = [
   { label: "Home", href: "/" },
-  { label: "FR44 Insurance", href: "/fr44-insurance/" },
-  { label: "SR22 Insurance", href: "/sr22-insurance/" },
+  { label: "FR-44 Insurance", href: "/fr44-insurance/" },
+  { label: "SR-22 Insurance", href: "/sr22-insurance/" },
   { label: "Florida Auto Insurance", href: "/florida-auto-insurance/" },
 ] as const;
 
@@ -59,8 +59,8 @@ export const footerLinks = {
     { label: "FAQ", href: "/faq/" },
   ],
   coverage: [
-    { label: "FR44 Insurance", href: "/fr44-insurance/" },
-    { label: "SR22 Insurance", href: "/sr22-insurance/" },
+    { label: "FR-44 Insurance", href: "/fr44-insurance/" },
+    { label: "SR-22 Insurance", href: "/sr22-insurance/" },
     { label: "Florida Auto Insurance", href: "/florida-auto-insurance/" },
     { label: "Get a Free Quote", href: "/quote/" },
   ],

@@ -2,10 +2,10 @@
 title: "Non-Owner FR-44 Insurance in Florida"
 description: "Don't own a car but still need FR-44 coverage in Florida? Here's how non-owner FR-44 insurance works, what it costs, and how to get it fast."
 pubDate: 2026-05-18
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1595973641416-35ae8a6eb1d3?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Boats resting on the sea near a Florida marina"
-tags: ["FR44", "non-owner"]
+tags: ["FR-44", "non-owner"]
 ---
 
 Not owning a car doesn't get you out of an FR-44 requirement — a lot of people are surprised to learn this the hard way. If you're in this exact situation, here's the good news: non-owner FR-44 insurance exists specifically for you, and it's more straightforward than it sounds.
@@ -66,7 +66,7 @@ Since there's no vehicle attached to a non-owner policy, insurers generally see 
 
 ## Let's get you covered
 
-Whether you own a car or not, an FR-44 requirement still needs to be met. [Florida FR44 Auto Insurance](/quote/) helps drivers in exactly this situation get compliant, affordable coverage in place fast.
+Whether you own a car or not, an FR-44 requirement still needs to be met. [Florida FR-44 Auto Insurance](/quote/) helps drivers in exactly this situation get compliant, affordable coverage in place fast.
 
 <div class="mid-cta">
   <p>Get your non-owner FR-44 quote today.</p>

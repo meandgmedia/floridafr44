@@ -75,7 +75,7 @@ It's worth setting honest expectations from the outset: none of these strategies
 
 ## Let's find your real savings
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers and applies every discount you qualify for.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers and applies every discount you qualify for.
 
 <div class="mid-cta">
   <p>Start saving on your high-risk coverage today.</p>

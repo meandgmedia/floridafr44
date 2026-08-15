@@ -2,10 +2,10 @@
 title: "How SR-22 Insurance Works in Florida"
 description: "A clear, step-by-step explanation of how SR-22 insurance actually works in Florida — what it proves, how it's filed, and how long you need it."
 pubDate: 2026-01-19
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1597355495449-a35be801476c?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Palm tree silhouette under a cloudy Florida sunset"
-tags: ["SR22", "how it works"]
+tags: ["SR-22", "how it works"]
 ---
 
 SR-22 sounds official and a little intimidating, but the mechanics behind it are refreshingly simple once someone actually walks you through it. So here's that walkthrough.
@@ -73,7 +73,7 @@ Before an insurer agrees to file your SR-22, they'll typically verify your drivi
 
 ## Getting started
 
-Once you understand that SR-22 is just proof attached to a normal policy, the whole process stops feeling mysterious. [Florida FR44 Auto Insurance](/quote/) handles the shopping and the filing so you don't have to untangle it alone.
+Once you understand that SR-22 is just proof attached to a normal policy, the whole process stops feeling mysterious. [Florida FR-44 Auto Insurance](/quote/) handles the shopping and the filing so you don't have to untangle it alone.
 
 <div class="mid-cta">
   <p>Get your SR-22 policy set up correctly, the first time.</p>

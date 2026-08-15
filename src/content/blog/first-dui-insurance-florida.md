@@ -63,7 +63,7 @@ A jump in your insurance premium sometimes needs an explanation, whether it's a 
 
 ## Moving forward with confidence
 
-A first DUI feels overwhelming, but the insurance side of it is manageable once you know what to expect. [Florida FR44 Auto Insurance](/quote/) walks first-time filers through the entire process.
+A first DUI feels overwhelming, but the insurance side of it is manageable once you know what to expect. [Florida FR-44 Auto Insurance](/quote/) walks first-time filers through the entire process.
 
 <div class="mid-cta">
   <p>Get your first FR-44 quote without the guesswork.</p>

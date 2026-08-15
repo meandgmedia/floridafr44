@@ -2,10 +2,10 @@
 title: "Denied FR-44 Coverage Because You Don't Own a Car? Here's What to Do"
 description: "Got denied FR-44 coverage because you don't own a vehicle? Here's exactly why that happens and how to actually get covered."
 pubDate: 2027-02-22
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1735593070456-cb12973a0b70?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Bridge over water with a Florida city in the background"
-tags: ["FR44", "denied", "non-owner"]
+tags: ["FR-44", "denied", "non-owner"]
 ---
 
 Getting denied coverage is frustrating on a normal day. Getting denied because you don't happen to own a car right now, when you're already dealing with an FR-44 requirement, feels especially unfair. Here's what's actually going on and how to fix it.
@@ -57,7 +57,7 @@ The fastest way past this kind of denial is working with an agency that already 
 
 ## Let's get this resolved
 
-A denial isn't the end of the road — it's usually a sign you need the right product from the right carrier. [Florida FR44 Auto Insurance](/quote/) specializes in exactly this kind of situation.
+A denial isn't the end of the road — it's usually a sign you need the right product from the right carrier. [Florida FR-44 Auto Insurance](/quote/) specializes in exactly this kind of situation.
 
 <div class="mid-cta">
   <p>Get your non-owner FR-44 quote today.</p>

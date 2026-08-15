@@ -66,7 +66,7 @@ Be straightforward. Whether you're new to Florida, just got licensed, or simply 
 
 ## Getting your first policy right
 
-Starting fresh doesn't have to mean overpaying. [Florida FR44 Auto Insurance](/quote/) compares carriers to find first-time policyholders competitive coverage.
+Starting fresh doesn't have to mean overpaying. [Florida FR-44 Auto Insurance](/quote/) compares carriers to find first-time policyholders competitive coverage.
 
 <div class="mid-cta">
   <p>Get your first insurance quote today.</p>

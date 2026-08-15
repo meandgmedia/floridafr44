@@ -1,6 +1,6 @@
 ---
 title: "Florida Insurance Requirements Explained"
-description: "A clear explanation of Florida's minimum auto insurance requirements, no-fault rules, and when higher coverage like FR44 or SR22 applies."
+description: "A clear explanation of Florida's minimum auto insurance requirements, no-fault rules, and when higher coverage like FR-44 or SR-22 applies."
 pubDate: 2025-09-16
 readTime: "9 min read"
 image: "https://images.unsplash.com/photo-1659861371003-425a67695417?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -15,16 +15,16 @@ Every Florida driver is required to carry Personal Injury Protection (PIP), whic
 
 ## Minimum required coverage
 
-At minimum, Florida requires PIP and Property Damage Liability (PDL) coverage. Bodily injury liability isn't universally required for every driver by default, but becomes mandatory after certain violations — including FR44 and SR22 requirements — and is broadly recommended for all drivers regardless.
+At minimum, Florida requires PIP and Property Damage Liability (PDL) coverage. Bodily injury liability isn't universally required for every driver by default, but becomes mandatory after certain violations — including FR-44 and SR-22 requirements — and is broadly recommended for all drivers regardless.
 
 ## When higher limits are required
 
 Certain convictions and violations trigger a requirement for coverage above the standard minimums:
 
-- **DUI/DWI convictions** typically require an FR44 filing, with higher liability limits than standard policies
-- **Driving without insurance, or certain other violations** typically require an SR22 filing, generally at standard minimum limits
+- **DUI/DWI convictions** typically require an FR-44 filing, with higher liability limits than standard policies
+- **Driving without insurance, or certain other violations** typically require an SR-22 filing, generally at standard minimum limits
 
-See our [FR44 vs. SR22 comparison](/guides/fr44-vs-sr22/) for a full side-by-side breakdown.
+See our [FR-44 vs. SR-22 comparison](/guides/fr44-vs-sr22/) for a full side-by-side breakdown.
 
 ## Optional but recommended coverage
 
@@ -32,11 +32,11 @@ Comprehensive and collision coverage protect your own vehicle, and uninsured/und
 
 ## Proof of insurance
 
-Florida drivers must be able to show proof of insurance electronically or on paper when requested by law enforcement. Insurance companies also report coverage electronically to the state, which is how lapses and FR44/SR22 compliance are tracked.
+Florida drivers must be able to show proof of insurance electronically or on paper when requested by law enforcement. Insurance companies also report coverage electronically to the state, which is how lapses and FR-44/SR-22 compliance are tracked.
 
 ## What happens if you don't meet requirements
 
-Driving without meeting Florida's minimum insurance requirements can result in fines, license and registration suspension, and — if it leads to a citation — can itself trigger an SR22 or, in more serious cases, an FR44 requirement.
+Driving without meeting Florida's minimum insurance requirements can result in fines, license and registration suspension, and — if it leads to a citation — can itself trigger an SR-22 or, in more serious cases, an FR-44 requirement.
 
 ## Staying compliant
 

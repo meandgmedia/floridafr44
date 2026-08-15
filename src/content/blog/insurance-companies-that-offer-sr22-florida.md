@@ -2,10 +2,10 @@
 title: "Florida Insurance Companies Offering SR-22 Filings"
 description: "Not every insurer writes SR-22 policies in Florida. Here's how to identify carriers that actually offer this filing and compare them effectively."
 pubDate: 2027-02-15
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1709606704009-417ea8d06a5a?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Large body of water with a Florida city in the background"
-tags: ["SR22", "carriers"]
+tags: ["SR-22", "carriers"]
 ---
 
 Finding out mid-quote that your preferred insurer doesn't actually offer SR-22 filings is one of the more common frustrations drivers run into. Here's how to identify carriers that genuinely work with SR-22 cases, and what to look for once you have.
@@ -16,7 +16,7 @@ SR-22 filings require insurers to take on specific reporting obligations to the 
 
 ## The efficient way to find the right carrier
 
-Rather than contacting insurers one by one and getting declined, work with an agency that already knows which carriers offer SR-22 filings. [Florida FR44 Auto Insurance](/quote/) only compares carriers we already know work with SR-22 cases, which saves significant time.
+Rather than contacting insurers one by one and getting declined, work with an agency that already knows which carriers offer SR-22 filings. [Florida FR-44 Auto Insurance](/quote/) only compares carriers we already know work with SR-22 cases, which saves significant time.
 
 <div class="mid-cta">
   <p>Skip the guesswork — compare SR-22-eligible carriers now.</p>
@@ -60,7 +60,7 @@ Which carriers actively offer SR-22 filings isn't permanent — companies adjust
 
 ## We already know who says yes
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers we know offer SR-22 filings, so you skip the frustration of dead-end quotes.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers we know offer SR-22 filings, so you skip the frustration of dead-end quotes.
 
 <div class="mid-cta">
   <p>Get matched with the right SR-22 carrier today.</p>

@@ -74,7 +74,7 @@ It's worth naming directly: this process is stressful, and that stress is a norm
 
 ## Let's help you get back on the road
 
-A DUI doesn't have to mean months of confusion. [Florida FR44 Auto Insurance](/quote/) specializes in exactly this situation.
+A DUI doesn't have to mean months of confusion. [Florida FR-44 Auto Insurance](/quote/) specializes in exactly this situation.
 
 <div class="mid-cta">
   <p>Get your FR-44 quote and start moving forward today.</p>

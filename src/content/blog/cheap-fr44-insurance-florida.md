@@ -5,7 +5,7 @@ pubDate: 2025-12-17
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1601136939973-5b5dc52a16cb?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Wooden dock stretching over calm Florida water"
-tags: ["FR44", "cheap insurance"]
+tags: ["FR-44", "cheap insurance"]
 ---
 
 "Cheap" and "FR-44 insurance" don't usually show up in the same sentence. Required coverage limits are higher than standard, and the conviction behind your filing pushes the price up too. But here's the thing — cheap is relative, and there's a real, meaningful gap between what you *could* pay and what you might end up paying if you shop lazily.

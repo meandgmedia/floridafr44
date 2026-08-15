@@ -32,7 +32,7 @@ This is where people often get frustrated — three quotes, three very different
 
 ## How fast you can actually get a quote
 
-Usually within minutes during business hours. If you'd rather not fill out an online form, [Florida FR44 Auto Insurance](/quote/) also takes quote requests by text — many people find this faster, especially if they're managing this alongside a lot of other stress.
+Usually within minutes during business hours. If you'd rather not fill out an online form, [Florida FR-44 Auto Insurance](/quote/) also takes quote requests by text — many people find this faster, especially if they're managing this alongside a lot of other stress.
 
 ## Quote comparison checklist
 
@@ -66,7 +66,7 @@ Court deadlines can create real time pressure, but that doesn't mean you have to
 
 ## Ready when you are
 
-A DUI insurance quote doesn't have to be complicated. [Florida FR44 Auto Insurance](/quote/) compares real carriers so you get real numbers, fast.
+A DUI insurance quote doesn't have to be complicated. [Florida FR-44 Auto Insurance](/quote/) compares real carriers so you get real numbers, fast.
 
 <div class="mid-cta">
   <p>Request your free DUI insurance quote today.</p>

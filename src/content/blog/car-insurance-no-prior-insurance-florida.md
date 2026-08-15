@@ -72,7 +72,7 @@ It's easy to feel like there's too much to learn all at once — coverage types,
 
 ## We'll walk you through it
 
-Getting your first policy shouldn't feel overwhelming. [Florida FR44 Auto Insurance](/quote/) helps first-time policyholders understand their options and find competitive rates.
+Getting your first policy shouldn't feel overwhelming. [Florida FR-44 Auto Insurance](/quote/) helps first-time policyholders understand their options and find competitive rates.
 
 <div class="mid-cta">
   <p>Get your first quote, explained simply.</p>

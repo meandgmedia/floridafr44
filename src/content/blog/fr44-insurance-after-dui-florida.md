@@ -5,7 +5,7 @@ pubDate: 2025-12-19
 category: "DUI Insurance"
 image: "https://images.unsplash.com/photo-1617371603397-c093612c88a5?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Building along a quiet Florida beach"
-tags: ["DUI", "FR44"]
+tags: ["DUI", "FR-44"]
 ---
 
 A DUI conviction changes a lot of things in a hurry, and your insurance is usually near the top of that list. If you're staring at an FR-44 requirement for the first time, here's what's actually going on and what to do next — no lectures, just the facts.
@@ -53,7 +53,7 @@ Repeat convictions usually mean longer suspension periods and sometimes stricter
 
 ## Moving forward
 
-A DUI doesn't have to mean months of confusion about insurance. [Florida FR44 Auto Insurance](/quote/) specializes in exactly this situation — comparing carriers, explaining the requirement in plain English, and getting your filing submitted correctly the first time.
+A DUI doesn't have to mean months of confusion about insurance. [Florida FR-44 Auto Insurance](/quote/) specializes in exactly this situation — comparing carriers, explaining the requirement in plain English, and getting your filing submitted correctly the first time.
 
 <div class="mid-cta">
   <p>Let's get your FR-44 coverage sorted out today.</p>

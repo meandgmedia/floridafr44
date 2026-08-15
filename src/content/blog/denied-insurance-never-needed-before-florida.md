@@ -56,7 +56,7 @@ Be upfront and clear about your situation from the start: explain that you didn'
 
 ## Let's get you covered
 
-This is a common, well-understood situation — you just need the right carrier. [Florida FR44 Auto Insurance](/quote/) compares options to find coverage that fits.
+This is a common, well-understood situation — you just need the right carrier. [Florida FR-44 Auto Insurance](/quote/) compares options to find coverage that fits.
 
 <div class="mid-cta">
   <p>Get your quote today, no matter your history.</p>

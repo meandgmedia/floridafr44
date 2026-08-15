@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Orlando, FL"
 description: "Orlando drivers can get fast, compared FR-44 and SR-22 insurance quotes. Here's what to know about the process."
 pubDate: 2026-12-07
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1628354973088-ded60ff905bb?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Green palm tree during daytime in Florida"
-tags: ["Orlando", "FR44", "SR22"]
+tags: ["Orlando", "FR-44", "SR-22"]
 ---
 
 Orlando drivers dealing with an FR-44 or SR-22 requirement follow the same statewide Florida rules as everyone else, but getting compliant quickly still comes down to understanding your specific situation and finding the right carrier.
@@ -53,7 +53,7 @@ Orlando's role as a major tourism destination means local roads carry both every
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Orlando and Orange County drivers find fast, competitive FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Orlando and Orange County drivers find fast, competitive FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

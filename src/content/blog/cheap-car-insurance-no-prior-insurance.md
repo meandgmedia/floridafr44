@@ -67,7 +67,7 @@ The cheapest possible policy sometimes means the bare legal minimum, which can l
 
 ## Let's find your affordable starting point
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers to help first-time policyholders find real, meaningful savings.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers to help first-time policyholders find real, meaningful savings.
 
 <div class="mid-cta">
   <p>Get your affordable first-policy quote today.</p>

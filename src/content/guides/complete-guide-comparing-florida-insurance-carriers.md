@@ -71,7 +71,7 @@ It's tempting to treat carrier comparison as a box to check quickly so you can m
 
 ## Let's compare the real options for you
 
-[Florida FR44 Auto Insurance](/quote/) does this comparison work for you, across carriers we already know are eligible and competitive.
+[Florida FR-44 Auto Insurance](/quote/) does this comparison work for you, across carriers we already know are eligible and competitive.
 
 <div class="mid-cta">
   <p>Get a real comparison, not just a single quote.</p>

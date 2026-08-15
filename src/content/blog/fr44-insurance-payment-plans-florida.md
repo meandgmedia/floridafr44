@@ -5,7 +5,7 @@ pubDate: 2027-01-04
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1613231365618-5ebf85a8209e?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Green metal bridge over a river in Florida"
-tags: ["FR44", "payment plans"]
+tags: ["FR-44", "payment plans"]
 ---
 
 Between an elevated premium and everything else going on, the last thing you need is a rigid payment schedule that doesn't fit your budget. Good news: most FR-44 policies in Florida offer monthly payment options, and understanding how they work helps you choose wisely.
@@ -60,7 +60,7 @@ Since FR-44 premiums run higher than standard policies, it's worth building your
 
 ## Let's find a payment plan that works for you
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers and payment options to fit your specific budget.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers and payment options to fit your specific budget.
 
 <div class="mid-cta">
   <p>Get your FR-44 quote with payment options included.</p>

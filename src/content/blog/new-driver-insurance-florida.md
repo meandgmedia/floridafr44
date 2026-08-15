@@ -67,7 +67,7 @@ Whatever your rate looks like as a brand-new driver, it's genuinely a starting p
 
 ## We help new drivers get started right
 
-[Florida FR44 Auto Insurance](/quote/) helps new drivers — teens and adults alike — find coverage that fits their situation.
+[Florida FR-44 Auto Insurance](/quote/) helps new drivers — teens and adults alike — find coverage that fits their situation.
 
 <div class="mid-cta">
   <p>Get your new driver quote today.</p>

@@ -1,6 +1,6 @@
 ---
 title: "Florida Insurance Discounts You Might Be Missing"
-description: "Common auto insurance discounts available to Florida drivers, including options that still apply under FR44 or SR22 coverage."
+description: "Common auto insurance discounts available to Florida drivers, including options that still apply under FR-44 or SR-22 coverage."
 pubDate: 2025-11-25
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1599163174538-8a5ad89299c3?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -8,7 +8,7 @@ imageAlt: "People relaxing on a Florida beach during the day"
 tags: ["discounts", "savings"]
 ---
 
-Even with a higher-risk filing like FR44 or SR22, there are usually discounts available that can help offset the cost. Here are the ones worth asking about.
+Even with a higher-risk filing like FR-44 or SR-22, there are usually discounts available that can help offset the cost. Here are the ones worth asking about.
 
 ## Multi-policy (bundling) discount
 
@@ -24,7 +24,7 @@ Completing a state-approved defensive driving course can lower your premium and,
 
 ## Good driver / claims-free discount
 
-A clean record without recent claims or violations (aside from the one that triggered your FR44 or SR22, if applicable) can qualify you for a better rate over time.
+A clean record without recent claims or violations (aside from the one that triggered your FR-44 or SR-22, if applicable) can qualify you for a better rate over time.
 
 ## Low-mileage discount
 

@@ -2,10 +2,10 @@
 title: "Florida SR-22 Insurance: Complete Guide"
 description: "Everything Florida drivers need to know about SR-22 insurance — what it is, who needs it, how much it costs, and how to get one fast."
 pubDate: 2025-12-22
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1740989973080-95c282ab1b16?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Aerial view of a road running through the Florida ocean"
-tags: ["SR22", "guide"]
+tags: ["SR-22", "guide"]
 ---
 
 If a court, the FLHSMV, or your insurance company just used the term "SR-22" and you're not totally sure what it means, you're not alone. Here's the plain-English version — what it is, why you need it, and how to actually get one without losing a week to confusion.
@@ -67,7 +67,7 @@ SR-22 itself doesn't have a "filing fee" that dominates the cost — the bigger 
 
 ## Getting started
 
-Whether this is your first time hearing "SR-22" or you're already deep into the paperwork, [Florida FR44 Auto Insurance](/quote/) can get you a fast quote and file your certificate correctly the first time.
+Whether this is your first time hearing "SR-22" or you're already deep into the paperwork, [Florida FR-44 Auto Insurance](/quote/) can get you a fast quote and file your certificate correctly the first time.
 
 <div class="mid-cta">
   <p>Get your free SR-22 quote in minutes.</p>

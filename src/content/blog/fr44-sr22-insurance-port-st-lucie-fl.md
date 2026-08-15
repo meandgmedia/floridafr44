@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Port St. Lucie, FL"
 description: "Local FR-44 and SR-22 insurance help for Port St. Lucie drivers — fast quotes, carrier comparison, and straightforward answers."
 pubDate: 2026-11-02
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1647871776269-ad988071cbfa?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Palm tree with a blue sky in the background"
-tags: ["Port St. Lucie", "FR44", "SR22"]
+tags: ["Port St. Lucie", "FR-44", "SR-22"]
 ---
 
 Port St. Lucie drivers dealing with an FR-44 or SR-22 requirement have the same statewide rules as anyone else in Florida — but knowing exactly what applies to your situation, and finding a carrier that actually writes these policies, is where local guidance actually helps.
@@ -53,7 +53,7 @@ Port St. Lucie is one of Florida's larger cities by land area, which means most 
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) serves drivers throughout Port St. Lucie and the Treasure Coast with fast, comparison-based FR-44 and SR-22 quotes.
+[Florida FR-44 Auto Insurance](/quote/) serves drivers throughout Port St. Lucie and the Treasure Coast with fast, comparison-based FR-44 and SR-22 quotes.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

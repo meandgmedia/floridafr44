@@ -63,7 +63,7 @@ Insurers don't evaluate a DUI in a vacuum. A driver with an otherwise spotless r
 
 ## Moving forward
 
-A DUI doesn't have to mean months of confusion about insurance. [Florida FR44 Auto Insurance](/quote/) specializes in exactly this situation, comparing carriers and handling your filing correctly the first time.
+A DUI doesn't have to mean months of confusion about insurance. [Florida FR-44 Auto Insurance](/quote/) specializes in exactly this situation, comparing carriers and handling your filing correctly the first time.
 
 <div class="mid-cta">
   <p>Get your DUI insurance sorted out today.</p>

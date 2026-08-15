@@ -67,7 +67,7 @@ Applying for high-risk coverage typically involves more detailed questions than 
 
 ## Let's find your path forward
 
-[Florida FR44 Auto Insurance](/quote/) specializes in high-risk coverage and knows exactly which carriers to approach for your situation.
+[Florida FR-44 Auto Insurance](/quote/) specializes in high-risk coverage and knows exactly which carriers to approach for your situation.
 
 <div class="mid-cta">
   <p>Get your high-risk quote today.</p>

@@ -62,7 +62,7 @@ Insurers pull official driving records, but keeping your own notes on dates, vio
 
 ## Let's find your best rate
 
-Whatever's on your record, [Florida FR44 Auto Insurance](/quote/) compares carriers to find the most competitive option for your situation.
+Whatever's on your record, [Florida FR-44 Auto Insurance](/quote/) compares carriers to find the most competitive option for your situation.
 
 <div class="mid-cta">
   <p>Get your quote today, violations and all.</p>

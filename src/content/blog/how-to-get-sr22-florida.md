@@ -2,10 +2,10 @@
 title: "How to Get an SR-22 in Florida"
 description: "A clear, step-by-step walkthrough of how to get SR-22 insurance in Florida — what to gather, who to call, and what happens next."
 pubDate: 2026-02-16
-category: "SR22 Basics"
+category: "SR-22 Basics"
 image: "https://images.unsplash.com/photo-1608737147786-a0cf730c4c77?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Orange and blue sunset sky over Florida water"
-tags: ["SR22", "how to"]
+tags: ["SR-22", "how to"]
 ---
 
 Getting an SR-22 in Florida is more straightforward than the paperwork makes it look. Here's the whole process, laid out step by step, so you know exactly what's coming next.
@@ -23,7 +23,7 @@ Check your court or FLHSMV notice — it should specifically say "SR-22." If it 
 
 ## Step 3: Shop carriers that actually file SR-22
 
-Not every insurer does. Working with [Florida FR44 Auto Insurance](/quote/) means you're only comparing carriers we already know support SR-22 filings, so you won't waste time on a quote that falls apart later.
+Not every insurer does. Working with [Florida FR-44 Auto Insurance](/quote/) means you're only comparing carriers we already know support SR-22 filings, so you won't waste time on a quote that falls apart later.
 
 <div class="mid-cta">
   <p>Compare SR-22-eligible carriers in minutes.</p>
@@ -80,7 +80,7 @@ Sometimes there's a court date or a reinstatement deadline bearing down, and "ge
 
 ## Let's get started
 
-Getting an SR-22 doesn't have to eat up your week. [Florida FR44 Auto Insurance](/quote/) handles the comparison shopping and the filing, so you can focus on everything else on your plate.
+Getting an SR-22 doesn't have to eat up your week. [Florida FR-44 Auto Insurance](/quote/) handles the comparison shopping and the filing, so you can focus on everything else on your plate.
 
 <div class="mid-cta">
   <p>Start your SR-22 quote today.</p>

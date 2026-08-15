@@ -2,10 +2,10 @@
 title: "Moving Out of Florida With an FR-44 Requirement"
 description: "Relocating out of Florida while you still have an active FR-44 requirement? Here's exactly how that transition works, state by state considerations included."
 pubDate: 2027-03-29
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1704043732496-31ce55b2e85e?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Person standing on a surfboard under a bridge in Florida"
-tags: ["FR44", "moving", "relocation"]
+tags: ["FR-44", "moving", "relocation"]
 ---
 
 Life doesn't pause an FR-44 requirement just because you're moving out of state. If you're relocating away from Florida while still in the middle of your filing period, here's exactly how that transition actually works â€” and what to get right before you go.
@@ -71,7 +71,7 @@ Interestingly, your filing period itself doesn't reset just because you moved â€
 
 ## Let's plan your transition carefully
 
-Moving is stressful enough without insurance complications on top of it. [Florida FR44 Auto Insurance](/quote/) can help you plan this transition so nothing falls through the cracks.
+Moving is stressful enough without insurance complications on top of it. [Florida FR-44 Auto Insurance](/quote/) can help you plan this transition so nothing falls through the cracks.
 
 <div class="mid-cta">
   <p>Let's make sure your move doesn't create a lapse.</p>

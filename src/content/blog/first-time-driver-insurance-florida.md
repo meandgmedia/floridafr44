@@ -66,7 +66,7 @@ If this is genuinely your first time navigating car insurance on your own, know 
 
 ## Let's get your first policy right
 
-[Florida FR44 Auto Insurance](/quote/) helps first-time drivers navigate their options and find real savings from day one.
+[Florida FR-44 Auto Insurance](/quote/) helps first-time drivers navigate their options and find real savings from day one.
 
 <div class="mid-cta">
   <p>Get your first-time driver quote today.</p>

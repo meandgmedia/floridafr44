@@ -1,6 +1,6 @@
 ---
 title: "How Insurance Companies Calculate Rates"
-description: "An inside look at the factors Florida auto insurers use to calculate your premium, including how FR44 and SR22 risk is priced differently."
+description: "An inside look at the factors Florida auto insurers use to calculate your premium, including how FR-44 and SR-22 risk is priced differently."
 pubDate: 2025-09-30
 readTime: "8 min read"
 image: "https://images.unsplash.com/photo-1620062068446-c388a850cc98?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -11,11 +11,11 @@ Insurance pricing can feel like a black box, but insurers generally weigh a cons
 
 ## Driving record
 
-Accidents, violations, and convictions are the most heavily weighted factor for most carriers. A DUI conviction, in particular, significantly affects pricing and is the trigger behind most FR44 requirements in Florida.
+Accidents, violations, and convictions are the most heavily weighted factor for most carriers. A DUI conviction, in particular, significantly affects pricing and is the trigger behind most FR-44 requirements in Florida.
 
 ## Coverage limits
 
-Higher liability limits mean more potential payout exposure for the insurer, which increases your premium. This is a core reason FR44 policies (which require higher-than-standard limits) cost more than typical policies, independent of the driver's history.
+Higher liability limits mean more potential payout exposure for the insurer, which increases your premium. This is a core reason FR-44 policies (which require higher-than-standard limits) cost more than typical policies, independent of the driver's history.
 
 ## Vehicle details
 
@@ -27,7 +27,7 @@ Insurers use location-based claims data — accident frequency, theft rates, and
 
 ## Policy history
 
-Continuous coverage without lapses is generally viewed favorably. A gap in coverage, especially one reported due to an FR44 or SR22 violation, can increase pricing even after the gap is resolved.
+Continuous coverage without lapses is generally viewed favorably. A gap in coverage, especially one reported due to an FR-44 or SR-22 violation, can increase pricing even after the gap is resolved.
 
 ## Credit-based insurance score (where permitted)
 
@@ -35,7 +35,7 @@ In states where it's allowed, insurers may use a credit-based score as one facto
 
 ## Why the same driver gets different quotes
 
-Because each carrier weighs these factors with its own proprietary formula, two insurers can look at the exact same driver and arrive at meaningfully different prices — especially for higher-risk categories like FR44. Some carriers specialize in high-risk coverage and price it more competitively than general insurers who treat it as an exception case.
+Because each carrier weighs these factors with its own proprietary formula, two insurers can look at the exact same driver and arrive at meaningfully different prices — especially for higher-risk categories like FR-44. Some carriers specialize in high-risk coverage and price it more competitively than general insurers who treat it as an exception case.
 
 ## What this means for you
 

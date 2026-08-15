@@ -69,7 +69,7 @@ A recent lapse can sometimes complicate other parts of life you might not immedi
 
 ## Let's fix this quickly
 
-A lapse is fixable, and the sooner you act, the smaller the impact. [Florida FR44 Auto Insurance](/quote/) helps Florida drivers get back into compliant coverage fast.
+A lapse is fixable, and the sooner you act, the smaller the impact. [Florida FR-44 Auto Insurance](/quote/) helps Florida drivers get back into compliant coverage fast.
 
 <div class="mid-cta">
   <p>Get compliant coverage back in place today.</p>

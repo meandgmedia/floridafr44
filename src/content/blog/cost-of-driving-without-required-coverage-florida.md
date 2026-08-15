@@ -5,7 +5,7 @@ pubDate: 2027-04-19
 category: "Policies"
 image: "https://images.unsplash.com/photo-1714735023792-5d38ecab2112?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Small stream running through a lush green Florida forest"
-tags: ["FR44", "SR22", "consequences"]
+tags: ["FR-44", "SR-22", "consequences"]
 ---
 
 When money is tight, skipping required FR-44 or SR-22 coverage can feel like a reasonable short-term fix. It rarely is. Here's an honest, complete look at what's actually at stake, so you can make this decision with full information rather than hoping for the best.
@@ -67,7 +67,7 @@ If the premium itself is what's stopping you, that's a solvable problem, not a r
 
 ## Let's find you a real, affordable option
 
-The cost of going without coverage is almost always higher than the cost of getting covered. [Florida FR44 Auto Insurance](/quote/) compares carriers to find you the most affordable compliant option.
+The cost of going without coverage is almost always higher than the cost of getting covered. [Florida FR-44 Auto Insurance](/quote/) compares carriers to find you the most affordable compliant option.
 
 <div class="mid-cta">
   <p>Get compliant coverage before it costs you more.</p>

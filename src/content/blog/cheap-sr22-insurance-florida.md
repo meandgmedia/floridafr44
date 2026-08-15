@@ -5,7 +5,7 @@ pubDate: 2026-02-02
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1645765963725-f1b73a8bd039?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Sun setting over the ocean on a Florida beach"
-tags: ["SR22", "cheap insurance"]
+tags: ["SR-22", "cheap insurance"]
 ---
 
 SR-22 doesn't have to mean an expensive policy. Since it uses Florida's standard minimum coverage limits (unlike FR-44, which requires more), there's usually more room to bring the cost down than people expect.

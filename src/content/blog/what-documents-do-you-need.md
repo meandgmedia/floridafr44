@@ -1,6 +1,6 @@
 ---
 title: "What Documents Do You Need to Get Insured?"
-description: "The documents Florida drivers typically need to get an auto insurance quote and policy, including for FR44 and SR22 filings."
+description: "The documents Florida drivers typically need to get an auto insurance quote and policy, including for FR-44 and SR-22 filings."
 pubDate: 2025-12-02
 category: "Policies"
 image: "https://images.unsplash.com/photo-1480365443306-930b898cb434?auto=format&fit=crop&w=1200&h=630&q=80"
@@ -17,9 +17,9 @@ Getting a quote is usually faster than people expect, especially if you have a f
 - **Current insurance information**, if you're switching from another carrier
 - **Driving history details**, including any accidents or violations in the past few years
 
-## If you need FR44 or SR22 coverage
+## If you need FR-44 or SR-22 coverage
 
-- **The court or FLHSMV notice** specifying your requirement — this confirms whether you need FR44 or SR22, and often includes your specific filing period
+- **The court or FLHSMV notice** specifying your requirement — this confirms whether you need FR-44 or SR-22, and often includes your specific filing period
 - **Case or citation number**, if available, which can help confirm details with the state
 - **Any prior insurance lapse information**, since this can affect your filing dates
 

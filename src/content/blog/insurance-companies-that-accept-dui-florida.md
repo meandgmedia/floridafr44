@@ -16,7 +16,7 @@ Not every insurance company writes FR-44 policies. Some simply don't participate
 
 ## How to identify FR-44-eligible carriers
 
-The most efficient approach is working with an agency that already knows which carriers write FR-44 policies, rather than contacting insurers one by one and getting declined. [Florida FR44 Auto Insurance](/quote/) only compares carriers we already know accept FR-44 cases, which saves you from wasted applications.
+The most efficient approach is working with an agency that already knows which carriers write FR-44 policies, rather than contacting insurers one by one and getting declined. [Florida FR-44 Auto Insurance](/quote/) only compares carriers we already know accept FR-44 cases, which saves you from wasted applications.
 
 <div class="mid-cta">
   <p>Skip the trial and error — compare FR-44-eligible carriers now.</p>
@@ -60,7 +60,7 @@ Which carriers actively write FR-44 policies isn't fixed forever — companies a
 
 ## We already know who says yes
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers we know accept FR-44 filings, so you skip the frustration of dead-end quotes.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers we know accept FR-44 filings, so you skip the frustration of dead-end quotes.
 
 <div class="mid-cta">
   <p>Get matched with the right carrier today.</p>

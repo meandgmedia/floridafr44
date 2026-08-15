@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Tampa, FL"
 description: "Tampa drivers can get fast FR-44 and SR-22 insurance quotes, compared across carriers. Here's what you need to know."
 pubDate: 2026-12-14
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1577679742489-39b106a7e515?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "People on a Florida seashore during daytime"
-tags: ["Tampa", "FR44", "SR22"]
+tags: ["Tampa", "FR-44", "SR-22"]
 ---
 
 Tampa drivers facing an FR-44 or SR-22 requirement are working within the same statewide Florida process as drivers anywhere else — knowing your specific situation and finding a carrier that actually writes these policies is what actually speeds things up.
@@ -53,7 +53,7 @@ Tampa's geography means many residents cross the Howard Frankland or Gandy bridg
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Tampa Bay drivers find fast, competitively priced FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Tampa Bay drivers find fast, competitively priced FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

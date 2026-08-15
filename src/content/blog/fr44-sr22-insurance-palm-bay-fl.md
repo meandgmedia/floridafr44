@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Palm Bay, FL"
 description: "Palm Bay drivers can get fast FR-44 and SR-22 insurance quotes with carriers compared side by side. Here's what to know."
 pubDate: 2026-11-16
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1623946089116-1fda4f93727e?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Person near a green palm tree during daytime in Florida"
-tags: ["Palm Bay", "FR44", "SR22"]
+tags: ["Palm Bay", "FR-44", "SR-22"]
 ---
 
 Palm Bay drivers dealing with an FR-44 or SR-22 requirement are working within the same statewide Florida rules as everyone else, but knowing your specific situation and finding the right carrier still takes some navigating.
@@ -53,7 +53,7 @@ Palm Bay is one of the largest cities in Brevard County, and its continued growt
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Palm Bay and Brevard County drivers find fast, competitive FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Palm Bay and Brevard County drivers find fast, competitive FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

@@ -5,7 +5,7 @@ pubDate: 2027-01-11
 category: "Cost & Rates"
 image: "https://images.unsplash.com/photo-1553567559-dc9e78245b21?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Landscape photography of a Florida cityscape"
-tags: ["SR22", "payment plans"]
+tags: ["SR-22", "payment plans"]
 ---
 
 Managing a required SR-22 policy is easier when the payment structure actually fits your budget. Here's what Florida drivers need to know about paying for SR-22 coverage monthly.
@@ -60,7 +60,7 @@ Whether your monthly SR-22 payment is large or modest, what matters most for com
 
 ## Let's find the right payment plan for you
 
-[Florida FR44 Auto Insurance](/quote/) compares carriers and payment structures to fit your specific situation.
+[Florida FR-44 Auto Insurance](/quote/) compares carriers and payment structures to fit your specific situation.
 
 <div class="mid-cta">
   <p>Get your SR-22 quote with payment options included.</p>

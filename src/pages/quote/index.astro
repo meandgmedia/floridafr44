@@ -4,8 +4,8 @@ import Breadcrumbs from '@components/Breadcrumbs.astro';
 import { site } from '@data/site';
 ---
 <BaseLayout
-  title="Get a Free FR44 &amp; Auto Insurance Quote"
-  description="Request a free Florida FR44, SR22, or auto insurance quote. Fast answers, multiple carriers compared, and friendly service. Texting preferred."
+  title="Get a Free FR-44 &amp; Auto Insurance Quote"
+  description="Request a free Florida FR-44, SR-22, or auto insurance quote. Fast answers, multiple carriers compared, and friendly service. Texting preferred."
 >
   <div class="container">
     <Breadcrumbs items={[{ label: 'Get a Free Quote', href: '/quote/' }]} />
@@ -16,7 +16,7 @@ import { site } from '@data/site';
       <span class="eyebrow">Free, No-Obligation Quote</span>
       <h1>Get your free Florida insurance quote</h1>
       <p class="lead">
-        Tell us a little about yourself and your vehicle, and we'll compare rates across multiple Florida-licensed carriers to find coverage that fits — FR44, SR22, or standard auto insurance.
+        Tell us a little about yourself and your vehicle, and we'll compare rates across multiple Florida-licensed carriers to find coverage that fits — FR-44, SR-22, or standard auto insurance.
       </p>
     </div>
   </section>
@@ -39,7 +39,7 @@ import { site } from '@data/site';
             <span>We'll walk you through your options in plain English — you decide what's next.</span>
           </li>
           <li>
-            <strong>FR44 and SR22 experience.</strong>
+            <strong>FR-44 and SR-22 experience.</strong>
             <span>We specialize in high-risk filings and know Florida's requirements inside and out.</span>
           </li>
           <li>
@@ -54,7 +54,7 @@ import { site } from '@data/site';
             <span class="info-label">Meet Your Agent</span>
             <h3>Matt Saffian</h3>
             <p class="agent-license">Florida Resident License #G273626</p>
-            <p class="agent-note">I personally handle every FR44 and SR22 case that comes through — text me directly with any questions about your quote.</p>
+            <p class="agent-note">I personally handle every FR-44 and SR-22 case that comes through — text me directly with any questions about your quote.</p>
           </div>
         </div>
 
@@ -72,8 +72,8 @@ import { site } from '@data/site';
         <!-- Connected to Web3Forms — https://web3forms.com/ -->
         <form class="quote-form" id="quote-form" action="https://api.web3forms.com/submit" method="POST">
           <input type="hidden" name="access_key" value="f73cd747-af2e-4e36-ab53-f38ab1c97ccc" />
-          <input type="hidden" name="subject" value="New Quote Request — Florida FR44 Auto Insurance" />
-          <input type="hidden" name="from_name" value="Florida FR44 Auto Insurance — Quote Form" />
+          <input type="hidden" name="subject" value="New Quote Request — Florida FR-44 Auto Insurance" />
+          <input type="hidden" name="from_name" value="Florida FR-44 Auto Insurance — Quote Form" />
           <input type="hidden" name="redirect" value="https://floridafr44autoinsurance.com/quote/thank-you/" />
           <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off" />
 
@@ -102,8 +102,8 @@ import { site } from '@data/site';
             <label for="q-coverage">Coverage needed <span aria-hidden="true">*</span></label>
             <select id="q-coverage" name="coverage_type" required>
               <option value="">Select an option</option>
-              <option value="FR44">FR44 Insurance</option>
-              <option value="SR22">SR22 Insurance</option>
+              <option value="FR-44">FR-44 Insurance</option>
+              <option value="SR-22">SR-22 Insurance</option>
               <option value="Standard Auto">Standard Auto Insurance</option>
               <option value="Not Sure">Not sure — need guidance</option>
             </select>

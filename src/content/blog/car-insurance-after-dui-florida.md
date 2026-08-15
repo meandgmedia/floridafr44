@@ -67,7 +67,7 @@ Some drivers worry their proof of insurance will visibly flag them as "FR-44" ev
 
 ## Getting back on track
 
-[Florida FR44 Auto Insurance](/quote/) helps Florida drivers navigate exactly this transition, comparing carriers and getting compliant coverage active fast.
+[Florida FR-44 Auto Insurance](/quote/) helps Florida drivers navigate exactly this transition, comparing carriers and getting compliant coverage active fast.
 
 <div class="mid-cta">
   <p>Start comparing your post-DUI insurance options now.</p>

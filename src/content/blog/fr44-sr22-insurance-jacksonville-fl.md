@@ -2,10 +2,10 @@
 title: "FR-44 & SR-22 Insurance in Jacksonville, FL"
 description: "Jacksonville drivers can get fast, compared FR-44 and SR-22 insurance quotes. Here's what to know before you shop."
 pubDate: 2026-12-28
-category: "FR44 Basics"
+category: "FR-44 Basics"
 image: "https://images.unsplash.com/photo-1613231365704-22aa7ad7cffc?auto=format&fit=crop&w=1200&h=630&q=80"
 imageAlt: "Jacksonville, Florida city skyline under a blue sky"
-tags: ["Jacksonville", "FR44", "SR22"]
+tags: ["Jacksonville", "FR-44", "SR-22"]
 ---
 
 Jacksonville drivers dealing with an FR-44 or SR-22 requirement are working within the same statewide Florida process as anyone else, but knowing your specific situation and finding the right carrier still takes some navigating in a city this size.
@@ -53,7 +53,7 @@ Jacksonville's size means many residents commute significant distances daily, wh
 
 ## Let's get you covered
 
-[Florida FR44 Auto Insurance](/quote/) helps Jacksonville and Duval County drivers find fast, competitively priced FR-44 and SR-22 coverage.
+[Florida FR-44 Auto Insurance](/quote/) helps Jacksonville and Duval County drivers find fast, competitively priced FR-44 and SR-22 coverage.
 
 <div class="mid-cta">
   <p>Get your free quote today.</p>

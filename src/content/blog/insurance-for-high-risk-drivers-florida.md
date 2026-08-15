@@ -62,7 +62,7 @@ Before committing to a quote, it's reasonable to ask directly: How long have you
 
 ## Let's find the right fit for you
 
-[Florida FR44 Auto Insurance](/quote/) compares all of these options so you land on the one that actually fits your situation.
+[Florida FR-44 Auto Insurance](/quote/) compares all of these options so you land on the one that actually fits your situation.
 
 <div class="mid-cta">
   <p>Explore your real options today.</p>
