@@ -82,7 +82,7 @@ const isResourceActive = navResources.some((l) => l.href === currentPath);
     height: var(--header-h);
   }
   .brand { display: flex; align-items: center; flex-shrink: 0; }
-  .brand-logo { height: 30px; width: auto; }
+  .brand-logo { height: 40px; width: auto; }
 
   .main-nav { flex: 1; display: flex; justify-content: center; min-width: 0; overflow: hidden; }
   .main-nav ul {
@@ -177,7 +177,7 @@ const isResourceActive = navResources.some((l) => l.href === currentPath);
   /* Collapse to hamburger well before overflow risk, and shrink
      nav gaps first at a mid-size desktop breakpoint to buy extra room. */
   @media (max-width: 1320px) and (min-width: 1101px) {
-    .brand-logo { height: 26px; }
+    .brand-logo { height: 28px; }
     .main-nav ul { gap: 0.7rem; }
     .main-nav a, .dropdown-trigger { font-size: 0.8rem; }
     .header-ctas { gap: 0.4rem; }
