@@ -34,21 +34,24 @@ export const navMain = [
   { label: "FR-44 Insurance", href: "/fr44-insurance/" },
   { label: "SR-22 Insurance", href: "/sr22-insurance/" },
   { label: "Florida Auto Insurance", href: "/florida-auto-insurance/" },
-] as const;
-
-export const navResources = [
-  { label: "Guides", href: "/guides/" },
   { label: "Blog", href: "/blog/" },
-  { label: "FAQ", href: "/faq/" },
 ] as const;
 
-export const navEnd = [
+// "Contact" is a real top-level link; "About" lives in a small dropdown
+// attached to it to save horizontal space in the header.
+export const navContact = { label: "Contact", href: "/contact/" } as const;
+export const navContactDropdown = [
   { label: "About", href: "/about/" },
-  { label: "Contact", href: "/contact/" },
 ] as const;
 
 // Full flat list — used for the mobile menu, which shows everything at once.
-export const navLinks = [...navMain, ...navResources, ...navEnd] as const;
+export const navLinks = [
+  ...navMain,
+  { label: "Guides", href: "/guides/" },
+  { label: "FAQ", href: "/faq/" },
+  ...navContactDropdown,
+  navContact,
+] as const;
 
 export const footerLinks = {
   company: [
